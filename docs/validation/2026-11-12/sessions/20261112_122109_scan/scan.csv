@@ -1,0 +1,3 @@
+﻿Позиція;Частота, МГц;Пол.;SR;Стандарт;Модуляція;FEC;ПЧ, МГц;Рівень, дБмкВ;C/N;MER;CBER;VBER;Статус приладу;Код *?ST;Захоплення за, с;Поріг C/N;Запас;Підсумок;Канали
+19.2E;11376.5;V;22000;DVB-S2;8PSK;2/3;1626.5;66.8;3.3;5.0;CB>+10E-2;VB>+10E-4;немає захоплення (код 0);0;;7.6;-4.3;немає захоплення;CGTN HD, CGTN Documentary, CGTN Français HD, Euronews German, CNBC Europe HD, Daystar TV Español, Telesur English, NAIZ irratia
+19.2E;11670.75;H;22000;DVB-S2;8PSK;2/3;1920.75;66.5;4.6;6.6;CB +81E-3;VB<+10E-9;MPEG-2 TS DVB-S2;8;3.6;7.6;-3.0;на межі;Sat 1 HD Austria, ProSieben HD Austria, Puls 4 HD Austria, Puls 24 HD, 4mediathek, Sixx Austria, SAT.1 Gold Österreich, ProSieben MAXX Austria

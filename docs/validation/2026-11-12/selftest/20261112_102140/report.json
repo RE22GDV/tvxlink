@@ -1,0 +1,403 @@
+{
+ "verdict": "НЕ МОЖНА",
+ "why": "немає зв’язку з приладом — див. стадії 0–2 (драйвер, порт, живлення приладу)",
+ "args": {
+  "port": "auto",
+  "listen": 3.0,
+  "dl": false,
+  "tune": false,
+  "caught": null,
+  "rf": null,
+  "lo": 9750,
+  "sr": null,
+  "fec": null,
+  "lnb": "13V",
+  "std": "DVB-S",
+  "mod": "QPSK",
+  "sat": null,
+  "pol": "V",
+  "samples": 10,
+  "dwell": 2.0,
+  "skip_unittests": false
+ },
+ "checks": [
+  {
+   "stage": "0 оточення",
+   "name": "Python",
+   "status": "PASS",
+   "detail": "3.13.17"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет serial",
+   "status": "PASS",
+   "detail": "3.5"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет usb",
+   "status": "PASS",
+   "detail": "1.3.1"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет libusb_package",
+   "status": "PASS",
+   "detail": "1.0.30.1"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "COM-порт приладу",
+   "status": "PASS",
+   "detail": "COM3 (TUSB3410 Device (COM3), USB VID:PID=0451:3410 SER=TUSB3410________ LOCATION=1-2)"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "юніт-тести програми",
+   "status": "PASS",
+   "detail": "OK"
+  },
+  {
+   "stage": "1 зв’язок",
+   "name": "відкрити порт",
+   "status": "PASS",
+   "detail": "Знайдено COM-порт приладу COM3, 115200 бод"
+  },
+  {
+   "stage": "1 зв’язок",
+   "name": "XON від приладу",
+   "status": "PASS",
+   "detail": "2 шт за 3.0 с (0.67/с)"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?NA",
+   "status": "PASS",
+   "detail": "'TV EXPLORER II+'"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?VE",
+   "status": "PASS",
+   "detail": "'1.30.1090.280'"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?ID",
+   "status": "FAIL",
+   "detail": "None"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?FR",
+   "status": "PASS",
+   "detail": "'FR1198995' → {'value': 1198.995} (192 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?LV",
+   "status": "FAIL",
+   "detail": "NAK — прилад не знає команду"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?CN",
+   "status": "FAIL",
+   "detail": "NAK — прилад не знає команду"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?SA",
+   "status": "PASS",
+   "detail": "'SA7' →  (538 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?ST",
+   "status": "PASS",
+   "detail": "'ST0' →  (671 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?ME",
+   "status": "WARN",
+   "detail": "NAK"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?CB",
+   "status": "WARN",
+   "detail": "NAK"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?VB",
+   "status": "WARN",
+   "detail": "NAK"
+  },
+  {
+   "stage": "3 запити",
+   "name": "інші запити",
+   "status": "INFO",
+   "detail": "ACK: *?NA, *?NAM, *?VE, *?VER, *?SY; NAK: *?ID, *?IDA, *?IDEXT"
+  },
+  {
+   "stage": "3 запити",
+   "name": "затримка відповіді",
+   "status": "WARN",
+   "detail": "медіана 530 мс, макс 853 мс"
+  },
+  {
+   "stage": "4 даталогер",
+   "name": "список (*?FI0A)",
+   "status": "WARN",
+   "detail": "прилад не надіслав XON (не готовий або не підключений)"
+  },
+  {
+   "stage": "5 налаштування",
+   "name": "—",
+   "status": "SKIP",
+   "detail": "без --tune (прилад не перестроювали)"
+  },
+  {
+   "stage": "6 вимірювання",
+   "name": "—",
+   "status": "SKIP",
+   "detail": "без --tune (прилад не перестроювали)"
+  },
+  {
+   "stage": "7 витримка",
+   "name": "—",
+   "status": "SKIP",
+   "detail": "без --tune (прилад не перестроювали)"
+  },
+  {
+   "stage": "8 спектр",
+   "name": "—",
+   "status": "SKIP",
+   "detail": "без --tune (прилад не перестроювали)"
+  },
+  {
+   "stage": "9 прогін",
+   "name": "—",
+   "status": "SKIP",
+   "detail": "без --tune (прилад не перестроювали)"
+  }
+ ],
+ "data": {
+  "ports": [
+   {
+    "device": "COM3",
+    "description": "TUSB3410 Device (COM3)",
+    "hwid": "USB VID:PID=0451:3410 SER=TUSB3410________ LOCATION=1-2",
+    "vid": "0451",
+    "pid": "3410",
+    "promax": true
+   }
+  ],
+  "listen": {
+   "seconds": 3.0,
+   "bytes": 2,
+   "xon": 2,
+   "hex": "11 11"
+  },
+  "info": {
+   "model": "TV EXPLORER II+",
+   "firmware": "1.30.1090.280",
+   "id": null
+  },
+  "queries": [
+   {
+    "cmd": "*?NA",
+    "ack": true,
+    "reply": "NATV EXPLORER II+",
+    "raw_hex": "2a 4e 41 54 56 20 45 58 50 4c 4f 52 45 52 20 49 49 2b",
+    "ms": 259,
+    "what": "ім’я моделі",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?NAM",
+    "ack": true,
+    "reply": "NATV EXPLORER II+",
+    "raw_hex": "2a 4e 41 54 56 20 45 58 50 4c 4f 52 45 52 20 49 49 2b",
+    "ms": 500,
+    "what": "ім’я (NetUpdate)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?VE",
+    "ack": true,
+    "reply": "VE1.30.1090.280",
+    "raw_hex": "2a 56 45 31 2e 33 30 2e 31 30 39 30 2e 32 38 30",
+    "ms": 532,
+    "what": "версія прошивки",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?VER",
+    "ack": true,
+    "reply": "VE1.30.1090.280",
+    "raw_hex": "2a 56 45 31 2e 33 30 2e 31 30 39 30 2e 32 38 30",
+    "ms": 529,
+    "what": "версія (RANGER)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?ID",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 511,
+    "what": "ідентифікатор"
+   },
+   {
+    "cmd": "*?IDA",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 523,
+    "what": "ID розш."
+   },
+   {
+    "cmd": "*?IDEXT",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 572,
+    "what": "ID розш."
+   },
+   {
+    "cmd": "*?SA",
+    "ack": true,
+    "reply": "SA7",
+    "raw_hex": "2a 53 41 37",
+    "ms": 538,
+    "what": "режим/стандарт (hex)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?ST",
+    "ack": true,
+    "reply": "ST0",
+    "raw_hex": "2a 53 54 30",
+    "ms": 671,
+    "what": "стан демодулятора (6 = MPEG-2 TS DVB-S, 8 = DVB-S2)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?SY",
+    "ack": true,
+    "reply": "SY00",
+    "raw_hex": "2a 53 59 30 30",
+    "ms": 853,
+    "what": "аналогова система"
+   },
+   {
+    "cmd": "*?FR",
+    "ack": true,
+    "reply": "FR1198995",
+    "raw_hex": "2a 46 52 31 31 39 38 39 39 35",
+    "ms": 192,
+    "what": "частота, кГц",
+    "format_ok": true,
+    "parsed": {
+     "value": 1198.995
+    }
+   },
+   {
+    "cmd": "*?LV",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 781,
+    "what": "рівень ×10"
+   },
+   {
+    "cmd": "*?CN",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 771,
+    "what": "C/N ×10"
+   },
+   {
+    "cmd": "*?ME",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 791,
+    "what": "MER ×10"
+   },
+   {
+    "cmd": "*?CB",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 804,
+    "what": "CBER"
+   },
+   {
+    "cmd": "*?VB",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 588,
+    "what": "VBER"
+   },
+   {
+    "cmd": "*?SE",
+    "error": "немає ACK/NAK на команду '*?SE'",
+    "ms": 3196,
+    "what": "SER / стан"
+   },
+   {
+    "cmd": "*?VA",
+    "error": "немає XOFF на команду '*?VA'",
+    "ms": 3824,
+    "what": "V/A (аналог)"
+   },
+   {
+    "cmd": "*?FM",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2571,
+    "what": "девіація FM"
+   },
+   {
+    "cmd": "*?T",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2540,
+    "what": "?"
+   },
+   {
+    "cmd": "*?FI0A",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2532,
+    "what": "даталогери: кількість"
+   },
+   {
+    "cmd": "*?FI14",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2523,
+    "what": "спектри: кількість"
+   },
+   {
+    "cmd": "*?FI01",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2577,
+    "what": "плани каналів (ефір.)"
+   },
+   {
+    "cmd": "*?FI04",
+    "error": "прилад не надіслав XON (не готовий або не підключений)",
+    "ms": 2722,
+    "what": "плани каналів (супутн.)"
+   }
+  ]
+ },
+ "notes": [],
+ "recommendations": [
+  "Формат BER (*?CB, *?VB) у програмі не підтверджено: порівняти відповіді вище з екраном приладу й за потреби виправити гілку CB/VB у parse_measure()."
+ ],
+ "time": "2026-11-12T10:23:01"
+}

@@ -1,0 +1,6444 @@
+{
+ "position": "28.2E",
+ "name": "Astra 2E/2F/2G · 28,2°E",
+ "source": "kingofsat.net",
+ "built": "2026-11-08",
+ "transponders": [
+  {
+   "freq_mhz": 10714.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 964.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10728.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 978.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10744.0,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 994.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10758.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1008.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10773.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1023.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "BBC Parliament HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One North East and Cumbria HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Two Northern Ireland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One North West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Two NI HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One Yorkshire & Lincolnhire HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC R5SX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R1X",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R Cymru 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R London",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10788.0,
+   "pol": "V",
+   "sr": 22999,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1038.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 9,
+   "channels": [
+    {
+     "name": "BBC One Channel Islands HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Red Button HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One Wst HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Scotland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One South West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC R Cymru",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R6 Music",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R4 Extra",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC World Sv",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10817.5,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1067.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "BBC One Lon HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Two Wales HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Four HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CBeebies HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One East Midlands HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Four HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CBeebies HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC R Ulster",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R Foyle",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10832.0,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1082.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10847.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1097.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "BBC One Yorkshire & Lincolnhire HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One South East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Two HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One North Ireland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ETV4",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC Three HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CBBC HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One NI HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Three HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CBBC HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC R Scot",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC RnGàid",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R Wales",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10862.0,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1112.0,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10891.0,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1141.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10935.5,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1185.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "E4 +1",
+    "Channel 4 London +1",
+    "Channel 4 South & East +1",
+    "Channel 4 North +1",
+    "More 4 +1",
+    "E4 Extra",
+    "4Seven",
+    "Channel 4 Scotland +1",
+    "E4 UK",
+    "Film4 +1",
+    "Film4",
+    "More 4"
+   ],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "Channel 4 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "E4 +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 4 London +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 4 South & East +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 4 North +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "More 4 +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "E4 Extra",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4Seven",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 4 Scotland +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "E4 UK",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Film4 +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Film4",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "More 4",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10994.0,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1244.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11023.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1273.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 11,
+   "channels": [
+    {
+     "name": "BBC One Scotland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One Wales HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC News HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC Alba HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC One West Midlands HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BBC R1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC R5L",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC Asian Net",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11023.3,
+   "pol": "V",
+   "sr": 22999,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1273.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11045.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1295.5,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11068.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1318.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11082.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1332.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Zee Cinema",
+    "Rewind TV",
+    "Sikh Channel",
+    "Zee TV",
+    "Zee Punjabi UK",
+    "Faith Channel"
+   ],
+   "fta_count": 17,
+   "channels": [
+    {
+     "name": "Now 80´s",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Zee Cinema",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Now 70's",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Rewind TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sikh Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Blaze",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Clubland TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Now Rock",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Now 90s & 00s",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Zee TV",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Zee Punjabi UK",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Q TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky History",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Mystery X",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Crime & Investigation Network",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Crime & Investigation +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Faith Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Aaj Tak UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ary Digital UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ary One World",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Jewellery Maker",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Geo TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Geo News",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Noor TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11082.3,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1332.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11097.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1347.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11111.75,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1361.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Bloomberg UK HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "GB News HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Sky History HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Crime & Investigation HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Racing HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp Racing HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Zee TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11116.4,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1366.3999999999996,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11141.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1391.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "MTV Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Sponge Bob",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central +1 UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central Extra",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Junior",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr Peppa",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11161.8,
+   "pol": "H",
+   "sr": 7500,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1411.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11182.0,
+   "pol": "V",
+   "sr": 18000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1432.0,
+   "lnb": "13V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11225.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1475.0,
+   "lnb": "18V",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Arise News",
+    "PTC Punjabi",
+    "Star Bharat",
+    "Adult Channel",
+    "XXX Girl Girl",
+    "Colors Rishtey Asia",
+    "Rishtey Cineplex",
+    "NTV (National TV)",
+    "TVX 40+",
+    "Sanskar TV",
+    "Euronews English",
+    "TV One UK",
+    "Cruise First TV",
+    "Aastha TV International"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "Arise News",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PTC Punjabi",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Star Bharat",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Adult Channel",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "XXX Girl Girl",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Colors Rishtey Asia",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Rishtey Cineplex",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NTV (National TV)",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVX 40+",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sanskar TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Euronews English",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV One UK",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cruise First TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Aastha TV International",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11225.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1475.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Takbeer TV"
+   ],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "NHK World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Takbeer TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Eman Channel",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanshi TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "iON TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ATN Bangla",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sangat TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11265.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1515.0,
+   "lnb": "18V",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11265.1,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1515.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Islam Channel",
+    "TBN UK",
+    "Dunamis TV",
+    "Islam Channel",
+    "EWTN Europe",
+    "Akaal Channel"
+   ],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "Islam Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TBN UK",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dunamis TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Islam Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EWTN Europe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Akaal Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EWTN Catholic",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11305.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1555.0,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "5 USA",
+    "5 USA +1",
+    "5*",
+    "5* +1",
+    "Channel 5 +1",
+    "5 Action",
+    "Nickelodeon Europe"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "5 USA",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5 USA +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5*",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5 Drama (UK)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5* +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 5 +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channel 5 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "5 Action",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr Peppa Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Europe",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Sponge Bob Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Junior",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central Extra",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MTV Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr. HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MTV HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Comedy Central HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11306.5,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1556.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Great! Mystery",
+    "GREAT! TV",
+    "GREAT! Action",
+    "Great! Mystery Ireland",
+    "Great! Christmas",
+    "Great! Xmas+1",
+    "Great! Mystery +1",
+    "GREAT! Action",
+    "GREAT! Action +1",
+    "GREAT! TV",
+    "GREAT! TV +1"
+   ],
+   "fta_count": 14,
+   "channels": [
+    {
+     "name": "Great! Mystery",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GREAT! TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GREAT! Action",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Great! Mystery Ireland",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Great! Christmas",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Great! Xmas+1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Great! Mystery +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GREAT! Action",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GREAT! Action +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Movies Premier HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "GREAT! TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GREAT! TV +1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ideal World",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Must Have Ideas TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HobbyMaker",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11343.5,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1593.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "PBS America",
+    "Talking Pictures TV",
+    "Babenation"
+   ],
+   "fta_count": 22,
+   "channels": [
+    {
+     "name": "True Crime X",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Legend Xtra",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "True Crime X Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Legend",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PBS America",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "True Crime",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "True Crime Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "True Crime +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Legend Xtra +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Talking Pictures TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Babenation",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "High Street TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Legend",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "STV North",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "STV East",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 1 Granada +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 1 Central West +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 1 London +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 1 Meridian East +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 2 +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 3 +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV 4 +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11344.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1594.0,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "ITV 1 Meridian East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Meridian Thames Valley HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Meridian South HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Yorkshire West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 3 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Border Scotland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Anglia West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Central East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11386.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1636.5,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "ITV 1 Central West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV Channel TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ITV Wales HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Granada HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Tyne Tees HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 West Country West HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 West Country East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11386.5,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1636.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "STV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "UTV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Yorkshire East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 4 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 London HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV Quiz HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Anglia East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ITV 1 Border UK HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11426.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1676.5,
+   "lnb": "18V",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 9,
+   "channels": [
+    {
+     "name": "TRP 1 (The Racing Partnership)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "D1 Scotland",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "talkSPORT Dist",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FreesatHome",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FreesatCommonC",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FreesatSSU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FreesatInformation",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBC NDRA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "D1 DAB",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SDL nATL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11426.5,
+   "pol": "V",
+   "sr": 29500,
+   "fec": "8/9",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1676.5,
+   "lnb": "13V",
+   "required_cn_db": 7.2,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Sky Sports Racing HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNTSports1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "S4C HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "The Jewellery Channel HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "France 24 HD (in English)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "SkySp Racing HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11464.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1714.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11493.8,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1743.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "QVC Christmas",
+    "QVC Beauty",
+    "Travelxp"
+   ],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "QVC Christmas",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "QVC Beauty",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "QVC HD UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "QVC Style HD UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Travelxp",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11508.5,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1758.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "Iqra TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Iqra Bangla",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Islam Channel",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PCNE HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "GTC Punjabi",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LoveWorldSat HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Arirang TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "MTA World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "GOD U.K. & Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Revelation TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11523.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1773.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Ahlebait TV",
+    "Politics Punjab TV",
+    "Xpanded TV",
+    "Pitaara",
+    "Channels 24",
+    "DM News English"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "Ahlebait TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Politics Punjab TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Xpanded TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pitaara",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Panjab TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Channels 24",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DM News English",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Star Plus HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Gold HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Colors Gujarati Cinema",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "WRN Europe",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11538.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1788.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11552.8,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1802.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Sony Channel UK",
+    "High Street TV 2",
+    "Sony Max 2",
+    "High Street TV 3",
+    "NTD TV (New Tang Dynasty TV)",
+    "Sony SAB",
+    "Sony Max UK",
+    "TV Warehouse",
+    "Best Direct",
+    "NDTV 24x7",
+    "Faith Channel",
+    "SonLife Broadcasting Network",
+    "MATV National",
+    "Channel S",
+    "HUM News",
+    "Hum Europe",
+    "Deen TV"
+   ],
+   "fta_count": 31,
+   "channels": [
+    {
+     "name": "Sony Channel UK",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "High Street TV 2",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sony Max 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "High Street TV 3",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTD TV (New Tang Dynasty TV)",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sony SAB",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sony Max UK",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Warehouse",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Best Direct",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDTV 24x7",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Faith Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SonLife Broadcasting Network",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MATV National",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Gemporia HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Channel S",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HUM News",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Hum Europe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deen TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Capital XTRA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio X",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Capital",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Gold Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Classic FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LBC News",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Smooth",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heart Dance",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Virgin Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heart 90s",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Panjab Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BFBS Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LBC",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heart",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heart 80s",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Times Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "talkSPORT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11567.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1817.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11582.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1832.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "TNTSports2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNTSports4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports Box Office HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "50662",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "50663",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNTSports3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "50682",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "50683",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports Box Office 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11597.0,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1847.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "TNT Sports 6",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 7",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 8",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 9",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 10",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BT Sport Mosaic 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TNT Sports 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11612.0,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1862.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11626.6,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1876.6000000000004,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Film4 Ireland",
+    "Channel 4 Ireland +1",
+    "E4 Ireland",
+    "More 4 Ireland",
+    "E4 Extra Ireland"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Racing UK HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Film4 Ireland",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Channel 4 Ireland +1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "E4 Ireland",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "More 4 Ireland",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "E4 Extra Ireland",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11628.7,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1878.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11641.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1891.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRT World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Colors HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Al Jazeera English HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11656.1,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1906.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Babes & Brazzers",
+    "TRT World",
+    "PBC UK",
+    "Madani Channel",
+    "Star Plus",
+    "Star Gold",
+    "Colors",
+    "Television X - The Fantasy Channel",
+    "TVC News"
+   ],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "Babes & Brazzers",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TRT World",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PBC UK",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Madani Channel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Star Plus",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Gold",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "B4U Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Colors",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Television X - The Fantasy Channel",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TVC News",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "B4U Movies",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11670.8,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1920.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "CNN International HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11685.5,
+   "pol": "V",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1935.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Daystar HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 8 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Sports 9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BT Sport Mosaic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sony TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sony Max HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11739.1,
+   "pol": "V",
+   "sr": 31420,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1139.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11758.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1158.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "TNT Sports Box Office 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HDTest2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11778.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1178.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11797.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1197.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11817.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1217.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11836.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1236.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11855.5,
+   "pol": "V",
+   "sr": 29900,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1255.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11875.5,
+   "pol": "H",
+   "sr": 29900,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1275.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11895.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1295.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11914.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1314.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11934.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1334.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11954.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1354.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11973.0,
+   "pol": "V",
+   "sr": 31000,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1373.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11992.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1392.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12012.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1412.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "SkySpMainEvHD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Football HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Main Events HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp F'ball HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp PL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Premier League HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Nature HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Kids HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Documentaries HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "H1Test",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12031.4,
+   "pol": "H",
+   "sr": 29500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1431.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Investigation Discovery UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Animal Planet +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Science +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Investigation Discovery +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery History +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Quest Red",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Discovery Turbo +1 UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Investigation Discovery Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Food Network",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Food Network +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Quest Red",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Quest Red +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Animal Planet",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery History",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Turbo UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Science",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoon Network",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoonito",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoon Network +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Boomerang",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Boomerang +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Food Network",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12051.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1451.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12070.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1470.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12090.2,
+   "pol": "V",
+   "sr": 29500,
+   "fec": "8/9",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1490.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.2,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "Sky Sports Cricket",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp F'ball",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Premier League",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp Golf",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Main Events",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports NFL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Crime",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp Cricket",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports News Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Golf Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp Tennis",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Comedy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Challenge Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Tennis Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Main Events",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp NFL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Witness",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky One Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky News Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SkySp PL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Atlantic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Atlantic Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky News Arabia",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Football",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ETFG",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12109.7,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1509.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sky RB",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp Mix HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp NFL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports NFL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp F1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports F1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySpCricket HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Cricket HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Mix HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Comedy HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Crime HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "STV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12129.2,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1529.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "Eden",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GOLD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Yesterday",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dave",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Watch",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Alibi",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Drama",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GOLD +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eden +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Watch +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Drama Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dave Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Drama +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dave Ja Vu",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Alibi +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Yesterday +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GOLD Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Alibi Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "W Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dave HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Alibi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12148.7,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1548.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 11,
+   "channels": [
+    {
+     "name": "Sky Sports F1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports+",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sports Mix",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Virgin Media One +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp Mix",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Documentaries",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTÉ 2 +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Comedy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Nature",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTÉ Jr",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Oireachtas TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky One",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky One",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Christmas 24",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sci-Fi",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTÉ News Now",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp+",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NatGeo Wild",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Crime Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Arts Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Documntaries Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SkySp F1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Arts",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTE One +1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Virgin Media Three",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Together",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Witness",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Challenge",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Nature",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Nature Ireland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky News",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Christmas 24+",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SNR/IRN DVB-S2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Chl Line-up",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTÉ Radio 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTÉ 2FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTÉ R na G",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTÉ Lyric fm",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12168.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1568.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "BBC One South HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Sky Witness HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Mix HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CNBC Europe HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "STV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 Midlands HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 North HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Sky Mix HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12187.4,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1587.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Sky Atlantic HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky One HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Witness HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Arts 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Crime HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney Junior HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp Tennis HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Tennis HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky One HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Liverpool FC TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BT PPV 2 ROI VCID",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BT PPV 1 ROI VCID",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12207.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1607.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "TNTUltimateUHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TNT Ultimate HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySpME UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Main Events UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12226.7,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1626.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "Sky Sports+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "NatGeo Wild HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "E4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Virgin One HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Main Events HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTÉ One HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Virgin Two HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Help and Support",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Program Your Remote",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "My Messages",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "My Account",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "My Account",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Help and Support",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Reset TV PIN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Reset your PIN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky Shop",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Get Sky Products",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pending Downgrade",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pending Cancel",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12246.2,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1646.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sky UHD 2",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "U2MON",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ultra HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky UHD 1",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ultra HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ultra HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12265.7,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1665.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "More 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Film4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Premier League HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports Main Events HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySp PL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MUTV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky One Ireland HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Discovery HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "STV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dave HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12284.9,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1684.8999999999996,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sky Modern Greats HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Drama HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Scifi/Horror HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Comedy HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney+ Cine HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Action HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Family HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Christmas HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Movies Premiere HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Batman HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Thriller HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12304.3,
+   "pol": "H",
+   "sr": 31428,
+   "fec": "1/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1704.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": -1.4,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12324.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1724.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "5221",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sports F1 UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SkySpF1 UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12344.0,
+   "pol": "H",
+   "sr": 29500,
+   "fec": "8/9",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1744.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.2,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12363.2,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1763.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Nickelodeon HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Alibi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Virgin Four HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 South & East HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Channel 4 Scotland HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RTE Two HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TG 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sci-Fi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Gold HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cúla4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12382.4,
+   "pol": "H",
+   "sr": 29500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1782.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 14,
+   "channels": [
+    {
+     "name": "Really",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX UK +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Quest Red",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Quest",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Quest HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "DMAX UK",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TLC HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TLC +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2946",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Really Ireland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Really +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cartoon Network HD UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TLC HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Quest +1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "The Learning Channel",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12402.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1802.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12421.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2E",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1821.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12441.0,
+   "pol": "V",
+   "sr": 29500,
+   "fec": "8/9",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1841.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.2,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12460.0,
+   "pol": "H",
+   "sr": 29500,
+   "fec": "8/9",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1860.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.2,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12480.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 2E",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1880.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12504.7,
+   "pol": "H",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1904.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12507.7,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1907.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12510.5,
+   "pol": "H",
+   "sr": 15000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1910.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12519.7,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1919.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12524.2,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1924.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12535.3,
+   "pol": "H",
+   "sr": 5932,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1935.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12545.0,
+   "pol": "H",
+   "sr": 9860,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1945.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12551.1,
+   "pol": "V",
+   "sr": 3254,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1951.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12551.6,
+   "pol": "V",
+   "sr": 6750,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1951.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12553.9,
+   "pol": "H",
+   "sr": 1256,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1953.8999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12567.2,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1967.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12572.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1972.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12577.1,
+   "pol": "V",
+   "sr": 12000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1977.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12586.8,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1986.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12594.8,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1994.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12598.9,
+   "pol": "V",
+   "sr": 2571,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1998.8999999999996,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12599.3,
+   "pol": "H",
+   "sr": 14250,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1999.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12610.0,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2010.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12612.6,
+   "pol": "H",
+   "sr": 7500,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2012.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12614.5,
+   "pol": "V",
+   "sr": 15000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2014.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12618.8,
+   "pol": "V",
+   "sr": 7120,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2018.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12620.6,
+   "pol": "V",
+   "sr": 5000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2020.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12625.8,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2025.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12632.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2032.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12633.0,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2033.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12637.8,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2037.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12642.2,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2042.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12645.1,
+   "pol": "V",
+   "sr": 5000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2045.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12649.0,
+   "pol": "V",
+   "sr": 265,
+   "fec": "1/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2049.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": -1.4,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12661.8,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2061.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12669.3,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2069.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12691.3,
+   "pol": "H",
+   "sr": 23000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2091.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12692.0,
+   "pol": "V",
+   "sr": 10000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 2F",
+   "beam": "U.K.",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2092.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12702.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2102.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12714.8,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2114.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12725.0,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 2F",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2125.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12732.0,
+   "pol": "V",
+   "sr": 18001,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 2G",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2132.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  }
+ ]
+}

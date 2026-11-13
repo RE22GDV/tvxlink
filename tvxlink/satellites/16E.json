@@ -1,0 +1,8768 @@
+{
+ "position": "16E",
+ "name": "Eutelsat 16D · 16°E",
+ "source": "kingofsat.net",
+ "built": "2026-11-08",
+ "transponders": [
+  {
+   "freq_mhz": 10721.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 971.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Arena Premium 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Tenis HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Premier League HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Blic TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTS Svet HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Fight",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Euronews Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Superstar 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Informer TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kazbuka",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dox TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HRT 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTRS Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hype 2 TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Toxic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Niš TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Hram",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Panonija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Action",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Nauka",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "mSAT Info",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Fox News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Zivot",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Lav Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10762.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1012.5,
+   "lnb": "18V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "CNA TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Fax News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ATV HD Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTK 1 Sat (Kosovo)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bang Bang",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Explorer shkence",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Syri Vision",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Klan Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "T",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "News 24 Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Vixen HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTV 21 M",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "T HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Supersport 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ORA News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Film Hits HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Film Aksion HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Top News",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Top Channel HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Melody.TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Film Komedi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dorcel HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dorcel TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Top Albania Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Top Gold Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "My Music Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DGA-OTT200S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DGA-Z200S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10762.5,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1012.5,
+   "lnb": "13V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10804.0,
+   "pol": "H",
+   "sr": 29950,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1054.0,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Klan Nostalgji",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Euronews Albania",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Klan HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Supersport 5 HD (Albania)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Supersport 6 HD Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Junior TV Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cufo TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "My Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Explorer natyra",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Explorer histori",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "EuroFilm",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "EuroFilm",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTSH Sport",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Film Thriller",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Film Drame",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTSH Shqip",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Klan News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Klan Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Zjarr TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "A2 CNN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Top Radio TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Film Autor HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tring Sport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tring Sport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tring Sport 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DGA-Z100S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ODS-4000H",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DGA-i100S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "OTA SMIT MSD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10804.1,
+   "pol": "V",
+   "sr": 29951,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1054.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10845.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1095.5,
+   "lnb": "18V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "RTV 21 Sat",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kohavision",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "IN TV (Albania)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "PRO 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Gold HD Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Max HD Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DigitAlb 20 Vjet",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SuperSport HD-1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SuperSport HD-2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SuperSport HD-3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SuperSport HD-4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTSH 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Scan TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arta",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MCN TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Premium Channel Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Travel Channel HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Plus TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dukagjini",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Movies Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tring Sport News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tring Sport 6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tring Sport 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10887.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1137.0,
+   "lnb": "18V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "T7",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dorcel HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "24 Kitchen",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Channel Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick toons Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Life Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "A1 Report",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Zico TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "First Channel",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ALBUK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MTV Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Playboy HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ABC News HD (Albania)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTSH Shqip",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kanal 10 Albania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Alsat-M",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Animal Planet HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Vizion Plus HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Klan Kosova HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Big Brother VIP Kosova 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Big Brother VIP Kosova 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tring Sport 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tring Sport 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10928.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1178.5,
+   "lnb": "18V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Viasat Nature CEE",
+    "Viasat Explore",
+    "Viasat History",
+    "TV 1000 Russkoe Kino"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Viasat Nature CEE",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat Explore",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat History",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat Kino Balkan HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV 1000 Russkoe Kino",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat History HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Epic Drama HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Viasat Explore HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Viasat True Crime HD Czech",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Epic Drama",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat Nature HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Viasat Explore HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Viasat History HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10955.0,
+   "pol": "H",
+   "sr": 355,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1205.0,
+   "lnb": "18V",
+   "required_cn_db": 6.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10957.9,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1207.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10958.0,
+   "pol": "V",
+   "sr": 1250,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1208.0,
+   "lnb": "13V",
+   "required_cn_db": 6.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10960.2,
+   "pol": "V",
+   "sr": 2400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1210.2000000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10961.9,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1211.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10965.0,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1215.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10965.7,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1215.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10970.2,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1220.2000000000007,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10970.3,
+   "pol": "H",
+   "sr": 400,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1220.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 2.0,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Uplink666",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10972.1,
+   "pol": "H",
+   "sr": 376,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1222.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Sky Radio TNZ",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "R10 TNZ",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10974.0,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1224.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10974.8,
+   "pol": "H",
+   "sr": 5166,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1224.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10975.8,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1225.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10976.9,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1226.8999999999996,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10977.3,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1227.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10978.0,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1228.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10978.0,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1228.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10980.5,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1230.5,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10982.7,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1232.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10986.0,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1236.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10988.7,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1238.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10996.3,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1246.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11005.4,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1255.3999999999996,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11012.3,
+   "pol": "V",
+   "sr": 4600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1262.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11013.0,
+   "pol": "V",
+   "sr": 4600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1263.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11018.83,
+   "pol": "H",
+   "sr": 14400,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1268.83,
+   "lnb": "18V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11019.0,
+   "pol": "V",
+   "sr": 4600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1269.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11025.0,
+   "pol": "V",
+   "sr": 4600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1275.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11041.0,
+   "pol": "H",
+   "sr": 2916,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1291.0,
+   "lnb": "18V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11047.1,
+   "pol": "H",
+   "sr": 2222,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1297.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11051.2,
+   "pol": "H",
+   "sr": 3200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1301.2000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11052.1,
+   "pol": "H",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1302.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11053.9,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1303.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11055.4,
+   "pol": "H",
+   "sr": 3200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1305.3999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11055.8,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1305.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 5.7,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "AMC Central Europe HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV Barrandov",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CT 1 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CT 24 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Prima Krimi",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CT 2 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Extasy 4K",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HBO HD Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ČT Art",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ČT D",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nova Sport HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prima COOL Slovakia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prima Love",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "JOJ Svet HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prima TV Slovakia HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sport 1 HD Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "AutoMotorSport HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "JOJ 24",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Antik OTA Upgrade",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11058.2,
+   "pol": "H",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1308.2000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11059.4,
+   "pol": "H",
+   "sr": 3200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1309.3999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11073.9,
+   "pol": "H",
+   "sr": 10000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1323.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11079.6,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1329.6000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11081.6,
+   "pol": "H",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1331.6000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11089.3,
+   "pol": "H",
+   "sr": 3000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1339.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11094.8,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1344.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 5.7,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Eurosport 2 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV Lux HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nova HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Markiza Klasik HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTVS 24 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Discovery Channel Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Minimax Czechia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CS Mystery",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HBO 2 HD Adria",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Extasi TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HBO 3 HD Central Europe",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Senzi TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic Wild HD Polska",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "JOJ Krimi HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney Channel Hungary & Czechia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Film +",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney Channel",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TLC Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "JOJ Cinema HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic Hungary & Czechia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nickelodeon Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTVS Sport HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Jojko",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Spektrum TV Czechia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Spektrum Home",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sport 2 HD Czechia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV Paprika",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Jim Jam",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN Czech",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11097.5,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1347.5,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11100.9,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1350.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11103.0,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1353.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11105.4,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1355.3999999999996,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11109.8,
+   "pol": "H",
+   "sr": 3750,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1359.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11127.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1377.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11131.6,
+   "pol": "H",
+   "sr": 14400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1381.6000000000004,
+   "lnb": "18V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11139.4,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1389.3999999999996,
+   "lnb": "13V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Vesti",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Thriller",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Crime & Mystery",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Romance",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Sci-Fi and Fantasy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Reality",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Premium",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Soap",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Zabava",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Pedia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Hits 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Koncert",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Folk",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pink Comedy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Horror",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Folk 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Red HD Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pink Style",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Narodna TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pink and Roll",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Hits 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Bravo Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11149.4,
+   "pol": "H",
+   "sr": 15000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1399.3999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11163.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1413.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11172.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1422.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11177.9,
+   "pol": "V",
+   "sr": 27501,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1427.8999999999996,
+   "lnb": "13V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Pink Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Extra",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Action",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Movies",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Film",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Family",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Elita Live 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Kids",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Elita Live 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Music 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Elita Live 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "City Play",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Western",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Classic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Elita Live 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Serije",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink World Cinema",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Show",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Kuvar",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Super Kids",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HA HA",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LOL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Media BH",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink BH",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink M",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pink Media Montenegro",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio Pink",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio WTF",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11181.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1431.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11185.6,
+   "pol": "H",
+   "sr": 14400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1435.6000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11190.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1440.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11209.3,
+   "pol": "H",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1459.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11216.5,
+   "pol": "H",
+   "sr": 22500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1466.5,
+   "lnb": "18V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Tippmix élő 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 5",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 6",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tippmix élő 7",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11231.3,
+   "pol": "V",
+   "sr": 42000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1481.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 6.2,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "O Kanal",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sport Klub 3 Slovenia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar TV 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTV 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Investigation Discovery Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "E! Eastern Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic HD East Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Movies Slovenia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic HD East Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HGTV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CineStar TV Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Action and Thriller",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pickbox TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT 5",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sport TV 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Prva Kick",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TLC Balkans HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pikaboo Slo/Hr",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BN TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Play radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BN Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11234.5,
+   "pol": "H",
+   "sr": 7500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1484.5,
+   "lnb": "18V",
+   "required_cn_db": 4.1,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "RTS Klasika",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Kolo",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Muzika",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Poletarac",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Trezor",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Adria TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11262.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1512.5,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "ATV Bosnia & Herzegovina",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BN 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Face TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Federalna TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hayat 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hayat Folk Box",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hayat Music Box",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hayat HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "V5",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Zona Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Mreza Most",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Galaksija 32",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV 5 Uzice",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Telemark",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Novi Pazar",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Moj Astrolog",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "K3 (Bosnia)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hayatovci",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "OBN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Minimax Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AMC Balkan",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio Stari Grad",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio BIR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio MIX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Mir Medjugorje",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bobar Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RM Hungary",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11283.3,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1533.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Filmbox+ Hits Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dizi TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dizi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dizi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "FightBOX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Filmbox+ Festival Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Filmbox+ Love & Crime Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Filmbox+ Emotion Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DocuBOX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Fastnfunbox HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "FightBOX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "EroXXX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Erox HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "360 TunemuBox",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "FashionBox",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Filmbox+ One Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "FAST&FUN Box HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Filmbox+ Love & Crime Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Filmbox+ Emotion Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Gametoon HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Filmbox+ Hits Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DocuBOX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11302.7,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1552.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11323.7,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1573.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11324.8,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1574.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Jednotka HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dvojka HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Markiza HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "J@J HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Doma HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "J@J PLUS HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dajto HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Markiza Krimi HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "JOJ Sport HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TA3 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MCM Top HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11345.25,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1595.25,
+   "lnb": "18V",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11366.3,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1616.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Arena Premium 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 1 Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 10 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Superstar TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BN HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena 1x2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Balkan Trip",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eko Vizija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Tanjug TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "K1 Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kurir TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dexy TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HRT 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTRS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Una TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Toxic Folk",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SOS Kanal Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Klasik TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Koreni",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS Drama",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dorcel TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nasa TV (Macedonia)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BN Music",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dokumentarna TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11387.0,
+   "pol": "H",
+   "sr": 32000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1637.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "SK Fight",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTS 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Alternativna TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTRS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pop Brio",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pop Kino",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV 3 Medias",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Marquee TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nova TV HD Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sitel Televizija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pikaboo",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cinemania HD Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Kanal A HD Slovenia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SK 2 SLO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Comedy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Lov i Ribolov",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nova M",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nova BH HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Channel Adria HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SK 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Channel Adria HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11401.8,
+   "pol": "V",
+   "sr": 17500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1651.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "O Kanal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ATV Bosnia & Herzegovina HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Nova BH",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BN TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "O Kanal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "OBN",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "N1 BiH",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "(T2-MI)",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11429.3,
+   "pol": "V",
+   "sr": 28330,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1679.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Arena Premium 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 8 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Adrenalin",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Agro TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BBC Earth",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena ESport",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Bloomberg BG",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Newsmax Balkans",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Superstar 2 TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Hype TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Toxic Rap",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Studio B",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Turizam Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Prva MAX",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL 2 Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Croatia World",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio AS FM",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio BG1",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio BG2",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio Beograd 202",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11471.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1721.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Prva Srpska Televizija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Prva Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Happy TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTV 1 (Vojvodina)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BHT 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Federalna TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pop TV HD Slovenia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SK 1 SLO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SK 1 HR",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Viasat Kino",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Doku TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Diva Balkans",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nova Series",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "IDJ TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SLO1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SLO2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SLO3 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Raslo Prvi",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Raslo Val 202",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Raslo Ars",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Raslo Radio Si",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11471.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1721.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Arena Sport 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kanal 1 HD Slovakia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ID Xtra HD MEA",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic Wild HD Polska",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SK Premium HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RiK HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "FunBox 4K",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Love Nature HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BBC First HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Suryoyo Sat",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "JOJ Sport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Òcko",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Investigation Discovery HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Duck TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Duck TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Movies HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cartoonito Balkans",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio POS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Osttirol",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11512.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1762.5,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "RTL Living Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Kockica",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NatGeo Wild",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Earth",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Fantasy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Disney Channel Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoonito",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoon Network Russia & South Eastern Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Epic Drama",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Life Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Crime Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Disney Junior Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Jr Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pickbox 2.",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Jugoton TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MAX Sport 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Aurora TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11512.5,
+   "pol": "V",
+   "sr": 29950,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1762.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 20,
+   "channels": [
+    {
+     "name": "TVR 3",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Moldova",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV Romania International",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Cluj",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Craiova",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Iasi",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Timisoara",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Tirgu Mures",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Sport HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TVR 1 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TVR 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TVR Info",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVR Cultural",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania Actualitati",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania Cultural",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania Muzical",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania Antena Satelor",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania International 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania International 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Romania International 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11554.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1804.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "RTS 1 HD Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTS 2 HD Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "B92",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "OBN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TVCG 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TVCG 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prva TV Crna Gora",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sport Klub Golf",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Prva World",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nova S HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Grand TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "N1 BiH",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "N1 Hrvratska",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Planet TV Slovenia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "STAR Crime Serbia HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "24 Kitchen HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "24 Kitchen HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11554.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1804.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Good Times HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney Junior Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RiK HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Toxic Folk",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Toxic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Hustler HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Hustler TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Earth HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HRT 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Fight",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Diva Balkans",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Action and Thriller",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Crime (Croatia)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 8 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CineStar TV 1 Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Passion",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Kino TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Mediaset Italia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MTV Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "GP 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HRT 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CineStar Premiere 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Premiere HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CineStar Fantasy",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "A1 HR OTA-Upgrade",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "A1 HR OTA-Upgrade",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11582.4,
+   "pol": "V",
+   "sr": 2850,
+   "fec": "7/8",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1832.3999999999996,
+   "lnb": "13V",
+   "required_cn_db": 9.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11588.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1838.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11595.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1845.5,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 12,
+   "channels": [
+    {
+     "name": "History Channel Eastern Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "M1 Gold",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Brazzers TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MAX Sport 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Extreme Sports",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HRT 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Croatian Music Channel",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Da Vinci Learning",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CGTN",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CGTN Documentary",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNN International Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "STAR Movies Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TVCG 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Passion",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Crime (Croatia)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Vivid Touch",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Private TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "STAR Channel Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HRT 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio CG.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Otvoreni.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "bravo!.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Antena Zagreb.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "R.Marija.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Happy FM.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "R. Mediaservis",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Enter ZG.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Rovinj.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11595.5,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1845.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "TV Kopernikus",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV Palma Plus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TVCG 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Alfa Sarajevo",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky News International",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Televizija 24",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MRT Sobraniski",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Alfa TV Macedonia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick toons Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar TV 1 Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Astra TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Premium 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CineStar Premiere HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SK Esports",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cinestar Premiere 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Crime & Investigation Network",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Dusk International",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "KCN Music 2",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Svet Plus",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Oto",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 2 Slovenija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SK 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Radio Kanal 77",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11603.8,
+   "pol": "V",
+   "sr": 2200,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1853.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11606.1,
+   "pol": "V",
+   "sr": 1000,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1856.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 2.0,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11608.7,
+   "pol": "V",
+   "sr": 7120,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1858.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11637.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1887.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "E! HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "History",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RiC International HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "24 Kitchen HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TravelXP HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "History",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena Sport 10 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "AXN Spin Romania",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Barely Legal",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Da Vinci Learning",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Gold TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Babes TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Reality Kings",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HBO HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HBO 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cinemax HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cinemax 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cinemax 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HBO 3 HD Central Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cinemax HD Eastern Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11637.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1887.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "HRT 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HRT 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HRT 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HRT 4 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "HRT International HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "HRT-HR1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HRT-HR2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HRT-HR3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HKR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11678.5,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1928.5,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Vivid TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "History 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pickbox TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Koper-Capodistria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena 9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nova 24 TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Viasat Nature CEE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Balkan Trip",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Vivid Red HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "24Kitchen",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Djazz.tv",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Adria Music Television HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Arena 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Blue Hustler",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hype TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Laudato TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Klasik TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL Hrvatska",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RTL 2 Croatia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Doma",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "M1.",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AMC Balkan",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Mini TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arena 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SPTV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Maria Vision",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Capodistria.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11678.5,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1928.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Arena Premium 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SK 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 1 Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HBO 2 HD Adria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Arena Sport 1 HD BIH",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Discovery HD Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Movies HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Insajder TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV Vijesti",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TV E Serbia",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Grand Nostalgija",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Brainz",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Life Serbia HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "IDJ Kids HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SciFi HD Poland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "N1 Serbia HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Star Movies HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Star Life Serbia HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11694.0,
+   "pol": "V",
+   "sr": 940,
+   "fec": "1/2",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1944.0,
+   "lnb": "13V",
+   "required_cn_db": 5.1,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11696.8,
+   "pol": "V",
+   "sr": 2915,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1946.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12508.7,
+   "pol": "H",
+   "sr": 5000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1908.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12511.6,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1911.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12512.3,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1912.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12514.7,
+   "pol": "H",
+   "sr": 15000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1914.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12520.5,
+   "pol": "H",
+   "sr": 3200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1920.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12522.6,
+   "pol": "V",
+   "sr": 10833,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1922.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 16,
+   "channels": [
+    {
+     "name": "RTSH Sat HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RTSH 24",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTSH Shqip",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTSH Muzike",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTSH Shkolle HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Radio Tirana 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana Internacional",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana Klasik",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Kukesi",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana Jazz",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Korca",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Gjirokastra",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Shkodra",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Tirana Femiije",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12526.7,
+   "pol": "H",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1926.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12527.1,
+   "pol": "H",
+   "sr": 1363,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1927.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12528.2,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1928.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12532.5,
+   "pol": "H",
+   "sr": 10000,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1932.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12537.3,
+   "pol": "V",
+   "sr": 13917,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1937.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "BTV Bulgaria",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Nova TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BNT 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BNT 2",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BNT 3",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bulgaria On Air",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12537.4,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1937.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12541.1,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1941.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12542.1,
+   "pol": "H",
+   "sr": 406,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1942.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12546.2,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1946.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12548.7,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1948.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12551.6,
+   "pol": "V",
+   "sr": 9600,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1951.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12555.2,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1955.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12557.5,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1957.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12562.3,
+   "pol": "H",
+   "sr": 3600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1962.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12562.7,
+   "pol": "H",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1962.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12567.0,
+   "pol": "H",
+   "sr": 406,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1967.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12567.7,
+   "pol": "V",
+   "sr": 16667,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1967.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Credo TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Alfa Omega TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Trinitas",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12567.8,
+   "pol": "H",
+   "sr": 406,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1967.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12571.6,
+   "pol": "H",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1971.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12589.0,
+   "pol": "V",
+   "sr": 146,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1989.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12593.1,
+   "pol": "V",
+   "sr": 2500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1993.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "DM Sat"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "DM Sat",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12593.5,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1993.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12595.5,
+   "pol": "H",
+   "sr": 9876,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1995.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12598.4,
+   "pol": "V",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1998.3999999999996,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12602.5,
+   "pol": "H",
+   "sr": 7201,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2002.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12605.2,
+   "pol": "V",
+   "sr": 7610,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2005.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12607.6,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2007.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12616.0,
+   "pol": "H",
+   "sr": 25740,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2016.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12619.5,
+   "pol": "H",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2019.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12625.1,
+   "pol": "H",
+   "sr": 17140,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "AUTO",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2025.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12628.1,
+   "pol": "V",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2028.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12629.5,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2029.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12631.2,
+   "pol": "V",
+   "sr": 9874,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2031.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12638.5,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2038.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12638.6,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2038.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12640.1,
+   "pol": "V",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2040.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12643.0,
+   "pol": "V",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2043.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12643.6,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2043.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12645.2,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2045.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 5.7,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12647.5,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2047.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12647.6,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2047.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12652.6,
+   "pol": "V",
+   "sr": 17140,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2052.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12655.2,
+   "pol": "H",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2055.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12658.6,
+   "pol": "V",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2058.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12671.1,
+   "pol": "H",
+   "sr": 2930,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2071.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12674.8,
+   "pol": "H",
+   "sr": 2929,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2074.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12676.6,
+   "pol": "H",
+   "sr": 7425,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2076.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Service 24h",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12677.1,
+   "pol": "H",
+   "sr": 2930,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2077.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12682.2,
+   "pol": "H",
+   "sr": 7425,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2082.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 76,
+   "channels": [
+    {
+     "name": "1050 Kielce SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1070 Krakow SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1100 Lodz SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1120 Opole SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1150 Torun SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1170 Gdansk SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1180 Wroclaw SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1240 Rzeszow SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1260 Szczecin SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1290 Nowy-Sacz SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1370 Stalowa-Wola SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1380 Warszawa SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1390 Biala-Podlaska SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1480 Jelenia-Gora SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1510 Trzebnica SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1530 Paprotnia SuperNova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2000 ESKA SES",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2010 Belchatow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2020 Bialystok ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2030 Bydgoszcz ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2040 Gorzow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2050 Kielce ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2060 Siedlce ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2070 Krakow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2080 Leszno ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2090 Pila ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2100 Lodz ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2110 Olsztyn ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2120 Opole ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2130 Lublin ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2140 Poznan ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2150 Torun ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2160 Tarnow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2170 Trojmiasto ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2180 Wroclaw ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2190 Zielona-Gora ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2200 Ostrow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2210 Radom ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2220 Slask ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2230 Zamosc ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2240 Rzeszow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2250 Plock ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2260 Szczecin ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2270 Koszalin ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2300 Beskidy/Zywiec ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2310 Szczecinek ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2320 Przemysl ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2330 Malopolska ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2360 Krasnik ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2380 Warszawa ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2400 Starachowice ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2420 Zary ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2430 Elblag ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2440 Ilawa ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2450 Grudziadz ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2460 Lomza ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2480 JG-Wroclaw ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2500 Ostrzeszow ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2520 Braniewo ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2540 Suwalki ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "2570 Poludnie ESKA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "3040 Gorzow VOX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "3140 Poznan VOX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "3210 Radom VOX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "3990 VOX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4000 PLUS SES",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4070 Krakow PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4100 Lodz PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4110 Olsztyn PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4130 Lublin PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4270 Koszalin PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "4340 Podhale PLUS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5380 Warszawa ERock",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5990 ERock",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "8010 Radio Rodzina",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "8020 Emaus",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12686.8,
+   "pol": "H",
+   "sr": 7425,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2086.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 4.1,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12687.1,
+   "pol": "H",
+   "sr": 406,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2087.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12688.2,
+   "pol": "H",
+   "sr": 406,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2088.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "JOE AMS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "QNL AMS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12690.4,
+   "pol": "H",
+   "sr": 2963,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2090.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Hir TV"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Hir TV",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "hirFM",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12691.0,
+   "pol": "V",
+   "sr": 8000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2091.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12693.5,
+   "pol": "H",
+   "sr": 2222,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2093.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 5.7,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "SNAI Quad Race",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Quad SOGEI",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12700.3,
+   "pol": "H",
+   "sr": 9880,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2100.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "SNAI TV Virtuali 1",
+    "SNAI TV Audio Unico"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "SNAI Virtuali Mosaic",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "VE9",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "SNAI Virtuali 2",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SNAI TV Virtuali 1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPQ C2",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "SNAI Virtuali 3",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "SNAI Virtuali 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SNAI TV Audio Unico",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12701.0,
+   "pol": "V",
+   "sr": 8000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2101.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12704.5,
+   "pol": "V",
+   "sr": 10000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2104.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12707.9,
+   "pol": "H",
+   "sr": 3615,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2107.8999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12709.3,
+   "pol": "V",
+   "sr": 2000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2109.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12712.5,
+   "pol": "H",
+   "sr": 3615,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2112.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12714.7,
+   "pol": "V",
+   "sr": 6000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2114.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12718.6,
+   "pol": "H",
+   "sr": 4938,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2118.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12718.6,
+   "pol": "H",
+   "sr": 4937,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2118.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12719.7,
+   "pol": "V",
+   "sr": 6000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2119.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12724.2,
+   "pol": "H",
+   "sr": 4100,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2124.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Teleippica 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Teleippica 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12727.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2127.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12728.1,
+   "pol": "H",
+   "sr": 2801,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2128.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 4.1,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12728.1,
+   "pol": "H",
+   "sr": 2800,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2128.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 4.1,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12730.8,
+   "pol": "H",
+   "sr": 1698,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2130.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 16,
+   "channels": [
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12734.2,
+   "pol": "H",
+   "sr": 3780,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2134.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 5.7,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12734.6,
+   "pol": "V",
+   "sr": 6000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2134.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12738.6,
+   "pol": "H",
+   "sr": 2667,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2138.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12739.6,
+   "pol": "V",
+   "sr": 2400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2139.6000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12742.7,
+   "pol": "H",
+   "sr": 1000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2142.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 4.1,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12745.3,
+   "pol": "H",
+   "sr": 2089,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Eutelsat 16D",
+   "beam": "Europe B",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2145.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 2.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  }
+ ]
+}

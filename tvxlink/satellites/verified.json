@@ -1,0 +1,13 @@
+{
+ "about": "Transponders confirmed on a real PROMAX TV EXPLORER II/II+ in Kyiv (dish of the satellite lab of KPI RTF, 50.4475 N, 30.4578 E). 'lab' — locked by students during a lab session; 'tvxlink' — locked by this program (docs/TESTING.md). Frequencies are the nearest entry of the KingOfSat database; 'screen' is what the meter displayed.",
+ "items": [
+  {"pos": "19.2E", "freq_mhz": 11156.0, "pol": "V", "sr": 22000, "name": "Canal Sur Andalucía", "screen": "11158 MHz, DVB-S, MPEG-2 SD", "seen": ["lab 2026-10-29", "tvxlink 2026-11-12"]},
+  {"pos": "19.2E", "freq_mhz": 11243.75, "pol": "H", "sr": 22000, "name": "ATV 2 Austria", "screen": "DVB-S QPSK 5/6", "seen": ["tvxlink 2026-11-12"]},
+  {"pos": "19.2E", "freq_mhz": 11670.75, "pol": "H", "sr": 22000, "name": "Sat 1 HD Austria", "screen": "DVB-S2 8PSK 2/3", "seen": ["tvxlink 2026-11-12"]},
+  {"pos": "13E", "freq_mhz": 10992.1, "pol": "V", "sr": 27500, "name": "Camera dei Deputati", "screen": "10992 MHz, DVB-S, MPEG-2 SD", "seen": ["lab 2026-10-29", "tvxlink 2026-11-12"]},
+  {"pos": "13E", "freq_mhz": 11033.6, "pol": "V", "sr": 27500, "name": "Algérie 5 (TV Coran)", "screen": "11034 MHz, DVB-S, MPEG-2 SD", "seen": ["lab 2026-10-29"]},
+  {"pos": "13E", "freq_mhz": 11137.3, "pol": "H", "sr": 27500, "name": "Daystar TV", "screen": "11139.8 MHz, DVB-S, MPEG-2 SD", "seen": ["lab 2026-10-29"]},
+  {"pos": "9E", "freq_mhz": 11957.8, "pol": "V", "sr": 27500, "name": "M1 HD", "screen": "11958 MHz, DVB-S2, MPEG-4", "seen": ["lab 2026-10-29"]},
+  {"pos": "9E", "freq_mhz": 11996.2, "pol": "V", "sr": 27500, "name": "CCTV 4", "screen": "DVB-S QPSK 3/4", "seen": ["tvxlink 2026-11-12"]}
+ ]
+}

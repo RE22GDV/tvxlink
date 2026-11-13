@@ -1,0 +1,1108 @@
+{
+ "verdict": "МОЖНА, із застереженнями",
+ "why": "основне працює, є попередження — див. рекомендації",
+ "args": {
+  "port": "auto",
+  "listen": 3.0,
+  "dl": false,
+  "tune": true,
+  "caught": 2,
+  "rf": null,
+  "lo": 9750,
+  "sr": null,
+  "fec": null,
+  "lnb": "13V",
+  "std": "DVB-S",
+  "mod": "QPSK",
+  "sat": "13E",
+  "pol": "V",
+  "samples": 10,
+  "dwell": 2.0,
+  "skip_unittests": true
+ },
+ "checks": [
+  {
+   "stage": "0 оточення",
+   "name": "Python",
+   "status": "PASS",
+   "detail": "3.13.17"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет serial",
+   "status": "PASS",
+   "detail": "3.5"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет usb",
+   "status": "PASS",
+   "detail": "1.3.1"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "пакет libusb_package",
+   "status": "PASS",
+   "detail": "1.0.30.1"
+  },
+  {
+   "stage": "0 оточення",
+   "name": "COM-порт приладу",
+   "status": "PASS",
+   "detail": "COM3 (TUSB3410 Device (COM3), USB VID:PID=0451:3410 SER=TUSB3410________ LOCATION=1-2)"
+  },
+  {
+   "stage": "1 зв’язок",
+   "name": "відкрити порт",
+   "status": "PASS",
+   "detail": "Знайдено COM-порт приладу COM3, 115200 бод"
+  },
+  {
+   "stage": "1 зв’язок",
+   "name": "XON від приладу",
+   "status": "PASS",
+   "detail": "2 шт за 3.0 с (0.67/с)"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?NA",
+   "status": "PASS",
+   "detail": "'TV EXPLORER II+'"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?VE",
+   "status": "PASS",
+   "detail": "'1.30.1090.280'"
+  },
+  {
+   "stage": "2 ідентифікація",
+   "name": "*?ID",
+   "status": "WARN",
+   "detail": "None — прилад не знає *?ID (NAK), зв’язок від цього не залежить"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?FR",
+   "status": "PASS",
+   "detail": "'FR1198995' → {'value': 1198.995} (526 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?LV",
+   "status": "PASS",
+   "detail": "'LV +0603' → {'value': 60.3, 'note': None} (1251 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?CN",
+   "status": "PASS",
+   "detail": "'CN +0058' → {'value': 5.8, 'note': None} (573 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?SA",
+   "status": "PASS",
+   "detail": "'SA7' →  (498 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?ST",
+   "status": "PASS",
+   "detail": "'ST0' →  (517 мс)"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?ME",
+   "status": "PASS",
+   "detail": "'ME<+0050' → {'value': 5.0, 'note': '<'}"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?CB",
+   "status": "WARN",
+   "detail": "'CB>+10E-2' → {'value': 0.1, 'note': '>'}"
+  },
+  {
+   "stage": "3 запити",
+   "name": "*?VB",
+   "status": "WARN",
+   "detail": "'VB>+10E-4' → {'value': 0.001, 'note': '>'}"
+  },
+  {
+   "stage": "3 запити",
+   "name": "інші запити",
+   "status": "INFO",
+   "detail": "ACK: *?NA, *?NAM, *?VE, *?VER, *?SY; NAK: *?ID, *?IDA, *?IDEXT, *?VA, *?FM, *?T, *?FI0A, *?FI14, *?FI01, *?FI04"
+  },
+  {
+   "stage": "3 запити",
+   "name": "затримка відповіді",
+   "status": "WARN",
+   "detail": "медіана 517 мс, макс 1251 мс"
+  },
+  {
+   "stage": "4 даталогер",
+   "name": "список (*?FI0A)",
+   "status": "WARN",
+   "detail": "прилад відповів NAK на '*?FI0A'"
+  },
+  {
+   "stage": "5 налаштування",
+   "name": "команди налаштування",
+   "status": "PASS",
+   "detail": "*SA3 *LB2 *FR1242100 *CR01 — 7.6 с; не знадобилися: *RA27500 *SI0"
+  },
+  {
+   "stage": "5 налаштування",
+   "name": "*?FR = задана ПЧ",
+   "status": "PASS",
+   "detail": "чекали 1242100 кГц, прилад 'FR1242105'"
+  },
+  {
+   "stage": "5 налаштування",
+   "name": "*?SA = режим",
+   "status": "PASS",
+   "detail": "'SA3'"
+  },
+  {
+   "stage": "5 захоплення",
+   "name": "*?ST відповідає",
+   "status": "PASS",
+   "detail": "коди: [6], режим *?SA = 3"
+  },
+  {
+   "stage": "5 захоплення",
+   "name": "канал захоплено (*?ST = MPEG-2 TS)",
+   "status": "PASS",
+   "detail": "5/5 замірів: «MPEG-2 TS DVB-S»"
+  },
+  {
+   "stage": "5 захоплення",
+   "name": "*?ST узгоджується з MER",
+   "status": "PASS",
+   "detail": "5/5 збігів (MER є в 5 замірах)"
+  },
+  {
+   "stage": "6 вимірювання",
+   "name": "рівень",
+   "status": "PASS",
+   "detail": "61.9…62.0 дБмкВ"
+  },
+  {
+   "stage": "6 вимірювання",
+   "name": "C/N",
+   "status": "PASS",
+   "detail": "5.8 дБ (σ 0.11)"
+  },
+  {
+   "stage": "6 вимірювання",
+   "name": "захоплення (MER є)",
+   "status": "PASS",
+   "detail": "MER 5.1 дБ"
+  },
+  {
+   "stage": "6 вимірювання",
+   "name": "BER: сирі відповіді",
+   "status": "INFO",
+   "detail": "CB ['CB +38E-3', 'CB +37E-3', 'CB +37E-3'], VB ['VB +29E-5', 'VB +29E-5', 'VB +28E-5']"
+  },
+  {
+   "stage": "7 витримка",
+   "name": "встановлення рівня після *FR",
+   "status": "PASS",
+   "detail": "0.77 с → витримка для спектра 1.0 с"
+  },
+  {
+   "stage": "8 спектр",
+   "name": "прохід 120 МГц / 4 МГц",
+   "status": "PASS",
+   "detail": "31 точок, 52.2…62.8 дБмкВ (розмах 10.6 дБ)"
+  },
+  {
+   "stage": "9 прогін",
+   "name": "прогін каналів (scan.py)",
+   "status": "PASS",
+   "detail": "LV 61.4, C/N 6.4, MER 4.8, запас -0.5 дБ — на межі"
+  },
+  {
+   "stage": "10 повернення",
+   "name": "режим і частота як до тесту",
+   "status": "PASS",
+   "detail": "*SA7 *FR1198995"
+  }
+ ],
+ "data": {
+  "ports": [
+   {
+    "device": "COM3",
+    "description": "TUSB3410 Device (COM3)",
+    "hwid": "USB VID:PID=0451:3410 SER=TUSB3410________ LOCATION=1-2",
+    "vid": "0451",
+    "pid": "3410",
+    "promax": true
+   }
+  ],
+  "listen": {
+   "seconds": 3.0,
+   "bytes": 2,
+   "xon": 2,
+   "hex": "11 11"
+  },
+  "info": {
+   "model": "TV EXPLORER II+",
+   "firmware": "1.30.1090.280",
+   "id": null
+  },
+  "queries": [
+   {
+    "cmd": "*?NA",
+    "ack": true,
+    "reply": "NATV EXPLORER II+",
+    "raw_hex": "2a 4e 41 54 56 20 45 58 50 4c 4f 52 45 52 20 49 49 2b",
+    "ms": 482,
+    "what": "ім’я моделі",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?NAM",
+    "ack": true,
+    "reply": "NATV EXPLORER II+",
+    "raw_hex": "2a 4e 41 54 56 20 45 58 50 4c 4f 52 45 52 20 49 49 2b",
+    "ms": 503,
+    "what": "ім’я (NetUpdate)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?VE",
+    "ack": true,
+    "reply": "VE1.30.1090.280",
+    "raw_hex": "2a 56 45 31 2e 33 30 2e 31 30 39 30 2e 32 38 30",
+    "ms": 517,
+    "what": "версія прошивки",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?VER",
+    "ack": true,
+    "reply": "VE1.30.1090.280",
+    "raw_hex": "2a 56 45 31 2e 33 30 2e 31 30 39 30 2e 32 38 30",
+    "ms": 496,
+    "what": "версія (RANGER)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?ID",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 523,
+    "what": "ідентифікатор"
+   },
+   {
+    "cmd": "*?IDA",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 532,
+    "what": "ID розш."
+   },
+   {
+    "cmd": "*?IDEXT",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 507,
+    "what": "ID розш."
+   },
+   {
+    "cmd": "*?SA",
+    "ack": true,
+    "reply": "SA7",
+    "raw_hex": "2a 53 41 37",
+    "ms": 498,
+    "what": "режим/стандарт (hex)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?ST",
+    "ack": true,
+    "reply": "ST0",
+    "raw_hex": "2a 53 54 30",
+    "ms": 517,
+    "what": "стан демодулятора (6 = MPEG-2 TS DVB-S, 8 = DVB-S2)",
+    "format_ok": true
+   },
+   {
+    "cmd": "*?SY",
+    "ack": true,
+    "reply": "SY00",
+    "raw_hex": "2a 53 59 30 30",
+    "ms": 528,
+    "what": "аналогова система"
+   },
+   {
+    "cmd": "*?FR",
+    "ack": true,
+    "reply": "FR1198995",
+    "raw_hex": "2a 46 52 31 31 39 38 39 39 35",
+    "ms": 526,
+    "what": "частота, кГц",
+    "format_ok": true,
+    "parsed": {
+     "value": 1198.995
+    }
+   },
+   {
+    "cmd": "*?LV",
+    "ack": true,
+    "reply": "LV +0603",
+    "raw_hex": "2a 4c 56 20 2b 30 36 30 33",
+    "ms": 1251,
+    "what": "рівень ×10",
+    "format_ok": true,
+    "parsed": {
+     "value": 60.3,
+     "note": null
+    }
+   },
+   {
+    "cmd": "*?CN",
+    "ack": true,
+    "reply": "CN +0058",
+    "raw_hex": "2a 43 4e 20 2b 30 30 35 38",
+    "ms": 573,
+    "what": "C/N ×10",
+    "format_ok": true,
+    "parsed": {
+     "value": 5.8,
+     "note": null
+    }
+   },
+   {
+    "cmd": "*?ME",
+    "ack": true,
+    "reply": "ME<+0050",
+    "raw_hex": "2a 4d 45 3c 2b 30 30 35 30",
+    "ms": 532,
+    "what": "MER ×10",
+    "format_ok": true,
+    "parsed": {
+     "value": 5.0,
+     "note": "<"
+    }
+   },
+   {
+    "cmd": "*?CB",
+    "ack": true,
+    "reply": "CB>+10E-2",
+    "raw_hex": "2a 43 42 3e 2b 31 30 45 2d 32",
+    "ms": 514,
+    "what": "CBER",
+    "parsed": {
+     "value": 0.1,
+     "note": ">"
+    }
+   },
+   {
+    "cmd": "*?VB",
+    "ack": true,
+    "reply": "VB>+10E-4",
+    "raw_hex": "2a 56 42 3e 2b 31 30 45 2d 34",
+    "ms": 517,
+    "what": "VBER",
+    "parsed": {
+     "value": 0.001,
+     "note": ">"
+    }
+   },
+   {
+    "cmd": "*?SE",
+    "error": "немає ACK/NAK на команду '*?SE'",
+    "ms": 3148,
+    "what": "SER / стан"
+   },
+   {
+    "cmd": "*?VA",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 574,
+    "what": "V/A (аналог)"
+   },
+   {
+    "cmd": "*?FM",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 522,
+    "what": "девіація FM"
+   },
+   {
+    "cmd": "*?T",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 519,
+    "what": "?"
+   },
+   {
+    "cmd": "*?FI0A",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 511,
+    "what": "даталогери: кількість"
+   },
+   {
+    "cmd": "*?FI14",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 516,
+    "what": "спектри: кількість"
+   },
+   {
+    "cmd": "*?FI01",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 519,
+    "what": "плани каналів (ефір.)"
+   },
+   {
+    "cmd": "*?FI04",
+    "ack": false,
+    "reply": "",
+    "raw_hex": "",
+    "ms": 549,
+    "what": "плани каналів (супутн.)"
+   }
+  ],
+  "before": {
+   "SA": "SA7",
+   "FR": "FR1198995"
+  },
+  "tune": {
+   "target": {
+    "rf": 10992.1,
+    "lo": 9750,
+    "sr": 27500,
+    "fec": "2/3",
+    "lnb": "13V",
+    "std": "DVB-S",
+    "mod": "QPSK",
+    "pos": "13E",
+    "pol": "V",
+    "name": "Camera Deputati"
+   },
+   "result": {
+    "sent": [
+     "*SA3",
+     "*LB2",
+     "*FR1242100",
+     "*CR01"
+    ],
+    "skipped": [
+     "*RA27500",
+     "*SI0"
+    ],
+    "if_mhz": 1242.1,
+    "locked": true,
+    "st": 6,
+    "status": "MPEG-2 TS DVB-S"
+   },
+   "total_s": 7.6
+  },
+  "lock_samples": [
+   {
+    "sa": 3,
+    "st": 6,
+    "locked": true,
+    "text": "MPEG-2 TS DVB-S",
+    "mer": 5.0
+   },
+   {
+    "sa": 3,
+    "st": 6,
+    "locked": true,
+    "text": "MPEG-2 TS DVB-S",
+    "mer": 5.1
+   },
+   {
+    "sa": 3,
+    "st": 6,
+    "locked": true,
+    "text": "MPEG-2 TS DVB-S",
+    "mer": 5.1
+   },
+   {
+    "sa": 3,
+    "st": 6,
+    "locked": true,
+    "text": "MPEG-2 TS DVB-S",
+    "mer": 5.1
+   },
+   {
+    "sa": 3,
+    "st": 6,
+    "locked": true,
+    "text": "MPEG-2 TS DVB-S",
+    "mer": 5.1
+   }
+  ],
+  "measure_series": [
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0058",
+     "value": 5.8,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0052",
+     "value": 5.2,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +38E-3",
+     "value": 0.038,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +29E-5",
+     "value": 0.00029,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0620",
+     "value": 62.0,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0060",
+     "value": 6.0,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0052",
+     "value": 5.2,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +29E-5",
+     "value": 0.00029,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0620",
+     "value": 62.0,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0060",
+     "value": 6.0,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +28E-5",
+     "value": 0.00028,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0057",
+     "value": 5.7,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0052",
+     "value": 5.2,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +27E-5",
+     "value": 0.00027,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0620",
+     "value": 62.0,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0057",
+     "value": 5.7,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +28E-5",
+     "value": 0.00028,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0058",
+     "value": 5.8,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +36E-3",
+     "value": 0.036,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +28E-5",
+     "value": 0.00028,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0057",
+     "value": 5.7,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +27E-5",
+     "value": 0.00027,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0058",
+     "value": 5.8,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +36E-3",
+     "value": 0.036,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +28E-5",
+     "value": 0.00028,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0620",
+     "value": 62.0,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0058",
+     "value": 5.8,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +29E-5",
+     "value": 0.00029,
+     "note": null
+    }
+   },
+   {
+    "FR": {
+     "raw": "FR1242105",
+     "value": 1242.105
+    },
+    "LV": {
+     "raw": "LV +0619",
+     "value": 61.9,
+     "note": null
+    },
+    "CN": {
+     "raw": "CN +0057",
+     "value": 5.7,
+     "note": null
+    },
+    "ME": {
+     "raw": "ME +0051",
+     "value": 5.1,
+     "note": null
+    },
+    "CB": {
+     "raw": "CB +37E-3",
+     "value": 0.037,
+     "note": null
+    },
+    "VB": {
+     "raw": "VB +32E-5",
+     "value": 0.00032,
+     "note": null
+    }
+   }
+  ],
+  "settle": {
+   "points": [
+    [
+     0.773,
+     62.1
+    ],
+    [
+     0.854,
+     62.0
+    ],
+    [
+     0.941,
+     62.0
+    ],
+    [
+     1.013,
+     62.0
+    ],
+    [
+     1.124,
+     62.0
+    ],
+    [
+     1.299,
+     61.9
+    ],
+    [
+     1.433,
+     62.0
+    ],
+    [
+     1.602,
+     61.9
+    ],
+    [
+     1.742,
+     61.9
+    ],
+    [
+     1.802,
+     61.9
+    ],
+    [
+     1.886,
+     61.9
+    ],
+    [
+     1.972,
+     61.9
+    ],
+    [
+     2.046,
+     61.9
+    ],
+    [
+     2.156,
+     61.9
+    ],
+    [
+     2.331,
+     61.9
+    ],
+    [
+     2.466,
+     61.9
+    ],
+    [
+     2.632,
+     61.8
+    ]
+   ],
+   "final": 61.9,
+   "t_settle": 0.773,
+   "recommended": 1.0
+  },
+  "sweep": [
+   {
+    "if_mhz": 1182.1,
+    "rf_mhz": 10932.1,
+    "level": 52.9
+   },
+   {
+    "if_mhz": 1186.1,
+    "rf_mhz": 10936.1,
+    "level": 57.3
+   },
+   {
+    "if_mhz": 1190.1,
+    "rf_mhz": 10940.1,
+    "level": 61.1
+   },
+   {
+    "if_mhz": 1194.1,
+    "rf_mhz": 10944.1,
+    "level": 61.1
+   },
+   {
+    "if_mhz": 1198.1,
+    "rf_mhz": 10948.1,
+    "level": 61.0
+   },
+   {
+    "if_mhz": 1202.1,
+    "rf_mhz": 10952.1,
+    "level": 61.4
+   },
+   {
+    "if_mhz": 1206.1,
+    "rf_mhz": 10956.1,
+    "level": 61.4
+   },
+   {
+    "if_mhz": 1210.1,
+    "rf_mhz": 10960.1,
+    "level": 58.8
+   },
+   {
+    "if_mhz": 1214.1,
+    "rf_mhz": 10964.1,
+    "level": 56.0
+   },
+   {
+    "if_mhz": 1218.1,
+    "rf_mhz": 10968.1,
+    "level": 52.2
+   },
+   {
+    "if_mhz": 1222.1,
+    "rf_mhz": 10972.1,
+    "level": 52.5
+   },
+   {
+    "if_mhz": 1226.1,
+    "rf_mhz": 10976.1,
+    "level": 55.5
+   },
+   {
+    "if_mhz": 1230.1,
+    "rf_mhz": 10980.1,
+    "level": 58.6
+   },
+   {
+    "if_mhz": 1234.1,
+    "rf_mhz": 10984.1,
+    "level": 59.3
+   },
+   {
+    "if_mhz": 1238.1,
+    "rf_mhz": 10988.1,
+    "level": 59.8
+   },
+   {
+    "if_mhz": 1242.1,
+    "rf_mhz": 10992.1,
+    "level": 60.4
+   },
+   {
+    "if_mhz": 1246.1,
+    "rf_mhz": 10996.1,
+    "level": 61.0
+   },
+   {
+    "if_mhz": 1250.1,
+    "rf_mhz": 11000.1,
+    "level": 60.7
+   },
+   {
+    "if_mhz": 1254.1,
+    "rf_mhz": 11004.1,
+    "level": 57.5
+   },
+   {
+    "if_mhz": 1258.1,
+    "rf_mhz": 11008.1,
+    "level": 54.9
+   },
+   {
+    "if_mhz": 1262.1,
+    "rf_mhz": 11012.1,
+    "level": 54.2
+   },
+   {
+    "if_mhz": 1266.1,
+    "rf_mhz": 11016.1,
+    "level": 54.3
+   },
+   {
+    "if_mhz": 1270.1,
+    "rf_mhz": 11020.1,
+    "level": 58.0
+   },
+   {
+    "if_mhz": 1274.1,
+    "rf_mhz": 11024.1,
+    "level": 61.1
+   },
+   {
+    "if_mhz": 1278.1,
+    "rf_mhz": 11028.1,
+    "level": 61.5
+   },
+   {
+    "if_mhz": 1282.1,
+    "rf_mhz": 11032.1,
+    "level": 62.2
+   },
+   {
+    "if_mhz": 1286.1,
+    "rf_mhz": 11036.1,
+    "level": 62.8
+   },
+   {
+    "if_mhz": 1290.1,
+    "rf_mhz": 11040.1,
+    "level": 62.8
+   },
+   {
+    "if_mhz": 1294.1,
+    "rf_mhz": 11044.1,
+    "level": 62.0
+   },
+   {
+    "if_mhz": 1298.1,
+    "rf_mhz": 11048.1,
+    "level": 58.4
+   },
+   {
+    "if_mhz": 1302.1,
+    "rf_mhz": 11052.1,
+    "level": 54.6
+   }
+  ]
+ },
+ "notes": [
+  "Ціль налаштування: {'rf': 10992.1, 'lo': 9750, 'sr': 27500, 'fec': '2/3', 'lnb': '13V', 'std': 'DVB-S', 'mod': 'QPSK', 'pos': '13E', 'pol': 'V', 'name': 'Camera Deputati'}",
+  "Живлення LNB після тесту лишилося як під час налаштування (запиту поточного *LB у приладу немає)."
+ ],
+ "recommendations": [
+  "Формат BER (*?CB, *?VB) у програмі не підтверджено: порівняти відповіді вище з екраном приладу й за потреби виправити гілку CB/VB у parse_measure().",
+  "Витримка спектра: поставити 1.0 с (поле «витримка» на вкладці «Спектр», типово 0,15)."
+ ],
+ "time": "2026-11-12T10:43:38"
+}

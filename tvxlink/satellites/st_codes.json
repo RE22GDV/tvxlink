@@ -1,0 +1,23 @@
+{
+ "about": "Screen texts for *?ST codes (the demodulator status line at the bottom of the meter screen), per *SA mode. The 'locked' codes come from RM-404 (DVB-S 6, DVB-S2 8) and were verified on a TV EXPLORER II+ 1.30 on 2026-11-12, as was SA3/ST0 = 'No signal received'. Intermediate codes are not decoded in the PROMAX software; the texts themselves are listed in the user manual (5.2.11.7) in lock order as screen_messages. When a new code is seen, ask what the meter screen says and add it to labels: {\"<SA>\": {\"<ST>\": \"screen text\"}}. tvxlink-selftest (stage 5) collects the codes it sees.",
+ "screen_messages": {
+  "DVB-S/S2": [
+   ["No signal received", "no signal detected"],
+   ["Signal received", "a signal is present but not demodulated"],
+   ["Carrier recovered", "carrier recovered, nothing decoded yet"],
+   ["Viterbi synchronized", "Viterbi in sync but too many uncorrectable errors, BER not measured"],
+   ["MPEG-2 TS", "channel locked, BER shown"]
+  ],
+  "DVB-T/C": [
+   ["No signal received", "no signal detected"],
+   ["Timing recovered", "symbol timing recovered"],
+   ["AFC in lock", "AFC locked, signal parameters unknown"],
+   ["TPS in lock", "TPS signalling received"],
+   ["MPEG-2 TS", "channel locked, BER shown"]
+  ]
+ },
+ "labels": {
+  "3": {"0": "No signal received", "6": "MPEG-2 TS DVB-S"},
+  "7": {"8": "MPEG-2 TS DVB-S2"}
+ }
+}

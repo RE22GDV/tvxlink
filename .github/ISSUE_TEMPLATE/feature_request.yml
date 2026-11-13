@@ -1,0 +1,14 @@
+name: Feature request
+description: An idea for TVXLink
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why — the measurement or lab task behind it

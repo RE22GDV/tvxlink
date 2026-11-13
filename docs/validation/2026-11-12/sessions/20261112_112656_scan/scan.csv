@@ -1,0 +1,2 @@
+﻿Позиція;Частота, МГц;Пол.;SR;Стандарт;Модуляція;FEC;ПЧ, МГц;Рівень, дБмкВ;C/N;MER;CBER;VBER;Статус приладу;Код *?ST;Захоплення за, с;Поріг C/N;Запас;Підсумок;Канали
+16E;10928.5;H;30000;DVB-S2;8PSK;3/5;1178.5;58.7;-0.5;5.0;CB>+10E-2;VB>+10E-4;немає захоплення (код 0);0;;6.5;-7.0;немає захоплення;Viasat Nature CEE, Viasat Explore, Viasat History, Viasat Kino Balkan HD, TV 1000 Russkoe Kino, Viasat History HD, Epic Drama HD, Viasat Explore HD

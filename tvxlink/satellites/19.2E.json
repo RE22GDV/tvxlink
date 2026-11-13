@@ -1,0 +1,9408 @@
+{
+ "position": "19.2E",
+ "name": "Astra 1KR/1L/1M/1N · 19,2°E",
+ "source": "kingofsat.net",
+ "built": "2026-11-08",
+ "transponders": [
+  {
+   "freq_mhz": 10714.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 964.25,
+   "lnb": "18V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10729.0,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 979.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "La 1 UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "La 2",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal 24 Horas",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Clan TVE",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Teledeporte",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Trece",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dkiss",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "A Punt HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ETB 1 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TPA Asturias HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal Sur Andalucia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10743.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 993.75,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10758.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1008.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Movistar Plus+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "LaLiga TV Hypermotion",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN LaLiga 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Liga Campeones 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Liga Campeones 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Mezzo Live HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar LaLiga 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Vamos 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Descarga Cisco",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10773.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1023.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "Anixe HD Serie",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "QVC HD Germany",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "HSE24 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Shop LC HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Welt HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "WELT HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10788.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1038.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Movistar Baloncesto",
+    "DAZN LaLiga 2",
+    "Multideporte",
+    "DAZN Baloncesto 3",
+    "Movistar Romance",
+    "Nick Junior Spain",
+    "Mezzo",
+    "LaLiga TV Bar 3",
+    "Movistar Deportes 6",
+    "Movistar LaLiga 2",
+    "La Sexta",
+    "Movistar Liga Campeones 3",
+    "Multideporte",
+    "DAZN 1 Spain",
+    "Eurosport 2 Spain",
+    "TEST F1"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Movistar Baloncesto",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN LaLiga 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Multideporte",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN Baloncesto 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Romance",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Junior Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Mezzo",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Bar 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 6",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar LaLiga 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "La Sexta",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Multideporte",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN 1 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eurosport 2 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST F1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10802.7,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1052.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Disney Channel HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HSE24 Extra HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "123.live",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deluxe Music HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "QVC 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Sport 1 HD (Germany)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Disney Channel HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Music HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10817.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1067.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "LaLiga TV Bar HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "1“ Federacion HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "#Vamos HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Accion HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "M+ VAMOSHD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Drama HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar+ Originales HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar LaLiga 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar LaLiga HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10832.3,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1082.2999999999993,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "RTL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Vox HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "n-tv HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTL 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTLup HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "VOXup HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10847.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1097.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "TEST RA",
+    "PORTADA",
+    "Bajo Demanda",
+    "GUÍA",
+    "TEST TP58",
+    "PORTADA",
+    "",
+    "",
+    "",
+    "GUÍA FÁCIL"
+   ],
+   "fta_count": 11,
+   "channels": [
+    {
+     "name": "TEST RA",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PORTADA",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bajo Demanda",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GUÍA",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TEST TP58",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PORTADA",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GUÍA FÁCIL",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TEST RA ESP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10876.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1126.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Movistar Golf",
+    "Baby TV",
+    "Playboy TV",
+    "Telecinco",
+    "National Geographic Spain",
+    "#Vamos Bar",
+    "Movistar Deportes 1",
+    "Calle 13",
+    "Cuatro",
+    "LaLiga TV Bar 1",
+    "BBC Top Gear",
+    "SyFy Universal Spain",
+    "Movistar LaLiga",
+    "TEST TXP60"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Movistar Golf",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Playboy TV",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Telecinco",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "#Vamos Bar",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Calle 13",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cuatro",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Bar 1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Top Gear",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SyFy Universal Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar LaLiga",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST TXP60",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10891.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1141.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 25,
+   "channels": [
+    {
+     "name": "rbb Brandenburg HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "rbb Berlin HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "MDR Sachsen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "MDR S-Anhalt HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "MDR Thüringen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "hr-fernsehen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "hr1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "hr2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "hr3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "hr4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DASDING vom hr",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "hr INFO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR SACHSEN DD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR S-ANHALT MD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR THÜR Mitte-W",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR KULTUR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR JUMP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR SPUTNIK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MDR AKTUELL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "rbb24 Inforadio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "radio3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Antenne Brbg.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "rbb 88.8",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "radioeins",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Fritz",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10906.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1156.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "DAZN F1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Deportes 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar+ Indie HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DAZN LaLiga HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 Spain HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Baloncesto HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Comedia HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Estrenos HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10920.8,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "7/8",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1170.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 9.5,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Schlager Deluxe",
+    "HGTV Germany"
+   ],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Schlager Deluxe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HGTV Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10935.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1185.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Movistar Liga Campeones 11",
+    "Movistar Liga Campeones 12",
+    "Movistar Liga Campeones 7",
+    "Movistar Liga Campeones 8",
+    "LaLiga TV Hypermotion",
+    "DAZN Baloncesto 1",
+    "Movistar Liga Campeones 6",
+    "LaLiga TV Hypermotion 3",
+    "Movistar Liga Campeones 13",
+    "Movistar Liga Campeones 9",
+    "Movistar Baloncesto 4",
+    "Movistar Liga Campeones 10",
+    "LaLiga TV Bar 4",
+    "LaLiga TV Hypermotion 2"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Movistar Liga Campeones 11",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 12",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 7",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 8",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Hypermotion",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN Baloncesto 1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 6",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Hypermotion 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 13",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 9",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Baloncesto 4",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 10",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Bar 4",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Hypermotion 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10964.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1214.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "TLC HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": ".",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Handystar TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "HSE Trend HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "QVC Style HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TLC Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10979.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1229.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Factoria de Ficcion",
+    "Movistar LaLiga 3",
+    "DAZN 3 Spain",
+    "Movistar Deportes 4",
+    "DAZN 4 Spain",
+    "BBC Series",
+    "Movistar Deportes 3",
+    "Movistar Liga Campeones 2",
+    "Movistar Liga Campeones 5",
+    "Movistar Clasicos",
+    "DreamWorks",
+    "Movistar Deportes 5",
+    "Movistar Baloncesto 5",
+    "Movistar Liga Campeones 4"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Factoria de Ficcion",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar LaLiga 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN 3 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 4",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN 4 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Series",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 5",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Clasicos",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DreamWorks",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 5",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Baloncesto 5",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones 4",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 10993.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1243.75,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "UHD1 by ASTRA / HD+",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTL UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pro7Sat.1 UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11008.5,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1258.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Antena 3",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Neox",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nova",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Atreseries",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "La Sexta",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Mega (Spain)",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Telecinco",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "FDF Telecinco",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Boing Spain",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cuatro",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Divinity",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Energy",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Be Mad",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Real Madrid TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DVB-I",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVB-I Images",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11038.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1288.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Movistar Estrenos",
+    "Clan TVE",
+    "La 1",
+    "BBC Lifestyle Spain",
+    "BBC Earth Spain",
+    "LaLiga TV Bar 2",
+    "TCM Spain",
+    "Comedy Central Spain",
+    "DAZN LaLiga",
+    "Movistar Hits",
+    "Warner TV Spain",
+    "Teledeporte",
+    "BBC Food Spain",
+    "Movistar+ Indie"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Movistar Estrenos",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Clan TVE",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "La 1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Lifestyle Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Earth Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Bar 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TCM Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN LaLiga",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Hits",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Warner TV Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Teledeporte",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC Food Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar+ Indie",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11052.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1302.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 50,
+   "channels": [
+    {
+     "name": "Tagesschau 24 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "One HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ARD-alpha HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "SR Fernsehen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Radio Bremen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ARD-Test-R",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ARD-Test-1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bayern 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bayern 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BAYERN 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BR-KLASSIK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BR24",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BR Schlager",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BR-Heimat",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR 2 NDS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR Kultur",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR Info",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "N-JOY",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR 90,3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR1 Welle Nord KI",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR 1 Radio MV SN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR 1 Nieders. HAN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR Info Spezial",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR Blue",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NDR Schlager",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bremen Eins",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bremen Zwei",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bremen Vier",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bremen NEXT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SR 1 Europawelle",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SR kultur",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SR 3 Saarlandwelle",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR1 BW",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR1 RLP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR Kultur",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR4 S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR4 MZ",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DASDING vom SWR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR Aktuell",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SWR 5.1 Kultur",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1LIVE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "WDR 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "WDR 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "WDR 4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "WDR 5",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "COSMO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "1LIVE diGGi",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Die Maus",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "WDR Event",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11067.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1317.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 9,
+   "channels": [
+    {
+     "name": "Die Neue Zeit TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Telesur HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "S Neu Jerusalem",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sachsen Eins",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Anewz",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNBC Europe",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Daystar HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Telesur English",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NAIZ irratia",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11082.25,
+   "pol": "H",
+   "sr": 21997,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1332.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "RTL HD Österreich",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "VOX HD Österreich",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Super RTL HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTL 2 HD Österreich",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTL Nitro HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "n-tv Austria",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11097.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1347.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "DAZN Baloncesto 2",
+    "DAZN Moto GP",
+    "Movistar Baloncesto 2",
+    "#Vamos Bar2",
+    "Movistar Golf 2",
+    "Classica",
+    "Movistar Vamos 2",
+    "Movistar Liga Campeones",
+    "AXN Movies",
+    "1'' Federacion",
+    "Neox",
+    "Movistar Plus+"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "DAZN Baloncesto 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN Moto GP",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Baloncesto 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "#Vamos Bar2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Golf 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN 1 Bar HD",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Classica",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Vamos 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Liga Campeones",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN Movies",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN 2 Bar HD",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "1'' Federacion",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Neox",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Plus+",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST TOROS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11111.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1361.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DFB.TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eurosport 1 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "K-TV Fernsehen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11126.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1376.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "TEST 4 TXP 44",
+    "TEST 6 TXP 44",
+    "Movistar Terror",
+    "Boing Spain",
+    "Energy",
+    "Divinity",
+    "TEST 2 TXP 44",
+    "TEST 1 TXP 44",
+    "MTV Spain",
+    "Gol Play",
+    "Be Mad",
+    "Movistar LaLiga 4",
+    "Mundial Baloncesto 3",
+    "TEST 5 TXP 44"
+   ],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "TEST 4 TXP 44",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST 6 TXP 44",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Terror",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Boing Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Energy",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Divinity",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST 2 TXP 44",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST 1 TXP 44",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MTV Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Gol Play",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Be Mad",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar LaLiga 4",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Mundial Baloncesto 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TEST 5 TXP 44",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11141.25,
+   "pol": "H",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1391.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11156.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1406.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Canal Sur Andalucia",
+    "DAZN 2 Spain",
+    "LaLiga TV Bar 5",
+    "Antena 3",
+    "Eurosport 1 Spain",
+    "Nickelodeon Spain",
+    "Discovery Channel Spain & Portugal",
+    "Cosmopolitan TV",
+    "BBC History Spain",
+    "DAZN F1",
+    "#Vamos",
+    "M+ VAMOS",
+    "Movistar Cine Español",
+    "Canal 24 Horas",
+    "Movistar Deportes 2"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Canal Sur Andalucia",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DAZN 2 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LaLiga TV Bar 5",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Antena 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eurosport 1 Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel Spain & Portugal",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cosmopolitan TV",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC History Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DAZN F1",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "#Vamos",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "M+ VAMOS",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Cine Español",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal 24 Horas",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Deportes 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11170.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1420.75,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    ".1.",
+    ".2.",
+    ".3.",
+    "SES Demo"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": ".1.",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": ".2.",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": ".3.",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SES Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11185.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1435.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sport Digital Fussball HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sport 1 +",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "eSports One",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Edge Sport",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Waidwerk",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ClipMyHorse.TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11207.8,
+   "pol": "H",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1457.7999999999993,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11221.2,
+   "pol": "H",
+   "sr": 9875,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1471.2000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11229.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1479.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "BBC News HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NHK World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Al Jazeera English HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Aragon TV HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "IB Sat",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "La 7 Castillaleon",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Extremadura TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TVG 1",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11243.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1493.75,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "Lilo.TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ATV 2 Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Bibel TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Hope Channel HD Germany",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ATV HD (Austria)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTLup Austria",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Test43",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Service 13233",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Neotion CI 1.4 OTA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11258.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1508.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Movistar Liga Campeones",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Vamos 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Hits HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Caza y Pesca HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar+ Documentales HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Clasicos HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Movistar Deportes 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11273.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1523.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "ORF 2 Steiermark",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 Kärnten",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 Burgenland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 OberÖsterreich",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 Salzburg",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 Tirol",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF 2 Vorarlberg",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ORF III HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ORF Sport+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ORF 2 Europe",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Aristo.TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "R9 Österreich HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Krone TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "oe24.TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV1 OOE",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Stimmungsgarten TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Melodie TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11288.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1538.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRWAM",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "La 7 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV3 Cataluna HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TeleMadrid Sat",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Television Canaria",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CMM",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Radio Maryja",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11302.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1552.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 17,
+   "channels": [
+    {
+     "name": "ORF 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ORF 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Servus TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DF1 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ORF2N HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ORF HITRADIO OE3 VISUAL",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RIC",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF HITRADIO OE3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF OE1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF FM4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF WIEN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF NOE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF B",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF OOE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF T",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF V",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF STMK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF K",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ORF RADIO OE1 DOLBY",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Neotion OTA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11317.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1567.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Movistar Vamos 3",
+    "Nova",
+    "Canal Iberalia",
+    "Disney Channel Spain",
+    "Movistar Accion",
+    "Movistar Comedia",
+    "Movistar Drama",
+    "Star Channel Spain",
+    "Movistar+ Documentales",
+    "NatGeo Wild Spain",
+    "Aragón Sat",
+    "La 2",
+    "AXN Spain",
+    "Movistar+ Originales"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Movistar Vamos 3",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nova",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal Iberalia",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Disney Channel Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Accion",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Comedia",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar Drama",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Star Channel Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar+ Documentales",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NatGeo Wild Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Aragón Sat",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "La 2",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN Spain",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movistar+ Originales",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11347.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1597.0,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "3sat HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "KiKa HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ZDFinfo HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11361.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1611.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "ZDF HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ZDF_neo HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Dlf Kultur",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dlf",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dlf Nova",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DRadio Dok&Deb",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11376.5,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1626.5,
+   "lnb": "13V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Euronews German"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "CGTN HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CGTN Documentary",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CGTN Français HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Euronews German",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNBC Europe HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Daystar TV Español",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Telesur English",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NAIZ irratia",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11391.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1641.25,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11406.0,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Astra 1L",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1656.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11420.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1670.75,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11429.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1679.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11442.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1692.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11464.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1714.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sat 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prosieben HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Kabel 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sixx HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ProSieben MAXX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Kabel Eins Doku HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SAT.1 Gold HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Kabel eins HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "sixx HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pro7 MAXX HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Kabel 1 Doku HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SAT.1 GOLD HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11479.0,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1729.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11493.75,
+   "pol": "H",
+   "sr": 21998,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1743.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "Das Erste HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Arte HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Südwest Fernsehen Baden-Württemberg HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Sudwest Fernsehen Rheinland-Pfalz HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11501.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1751.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11508.4,
+   "pol": "V",
+   "sr": 17140,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1758.3999999999996,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11515.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1765.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11523.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1773.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "WDR HD Köln",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Aachen",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Bielefeld",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Bonn",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Dortmund",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Duisburg",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Düsseldorf",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Essen",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Münster",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Siegen",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR HD Wuppertal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WDR Mediathek (Internet)",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "arte Mediathek (Internet)",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11538.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1788.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "France 24 (en Français)"
+   ],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Arirang TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "France 24 (en Français)",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "France 24 (in English)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV5 Monde Europe HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11552.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1802.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "a.tv",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "münchen.tv HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RFO (Germany)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "a.tv HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "intv",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Lokal-TV-Portal HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Niederbayern TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TVA-OTV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Franken Plus HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "WOTSCH",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11561.0,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1811.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11567.5,
+   "pol": "V",
+   "sr": 17000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1817.5,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11574.0,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1824.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11582.25,
+   "pol": "H",
+   "sr": 21998,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1832.25,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "Bayerisches Fernsehen Süd HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Bayerisches Fernsehen Nord HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NDR Niedersachsen HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NDR Mecklenburg-Vorpommern HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NDR Hamburg HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NDR Schleswig Holstein HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Phoenix HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11588.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1838.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11599.3,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1849.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11603.75,
+   "pol": "V",
+   "sr": 2200,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1853.75,
+   "lnb": "13V",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11605.7,
+   "pol": "V",
+   "sr": 1000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1855.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11606.2,
+   "pol": "V",
+   "sr": 1000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1856.2000000000007,
+   "lnb": "13V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11620.0,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1870.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11620.5,
+   "pol": "H",
+   "sr": 5932,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1870.5,
+   "lnb": "18V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11633.0,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1883.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11641.2,
+   "pol": "H",
+   "sr": 25000,
+   "fec": "79",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 1M",
+   "beam": "Astra 1M",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1891.2000000000007,
+   "lnb": "18V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11648.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1898.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11653.5,
+   "pol": "V",
+   "sr": 3600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1903.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11657.5,
+   "pol": "V",
+   "sr": 7200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1907.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11670.75,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1920.75,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Sixx Austria",
+    "SAT.1 Gold Österreich",
+    "ProSieben MAXX Austria",
+    "Kabel 1 Doku Austria"
+   ],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Sat 1 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "ProSieben HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Puls 4 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Puls 24 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "4mediathek",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sixx Austria",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT.1 Gold Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ProSieben MAXX Austria",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kabel 1 Doku Austria",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11694.0,
+   "pol": "V",
+   "sr": 940,
+   "fec": "1/2",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1944.0,
+   "lnb": "13V",
+   "required_cn_db": 5.1,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "DLF USI2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DLFK USI2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11694.5,
+   "pol": "V",
+   "sr": 286,
+   "fec": "7/8",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1944.5,
+   "lnb": "13V",
+   "required_cn_db": 9.5,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11696.8,
+   "pol": "V",
+   "sr": 2915,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1946.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Steiermark",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kaernten",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Oberoesterreich",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Salzburg",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tirol",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Vorarlberg",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11739.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1139.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "CNN International Europe"
+   ],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "CNN International Europe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11759.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1159.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Heimatkanal",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Beate-Uhse.TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Cinema Feelgood",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Mix HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky 1 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 2 Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Austria 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Crime + Investigation Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Romance TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Humax PR-HD3000C",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pace TDC 866 NSDX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11778.7,
+   "pol": "V",
+   "sr": 29500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1178.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "CNN International Europe"
+   ],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "DW English HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TV Monaco",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cubavision Internacional",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNN International Europe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CGTN HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CGTN Documentary HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CGTN Français HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11798.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1198.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Universal HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Warner TV Serie HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga 8 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 8 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Austria 6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "STEST1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky service config",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11817.7,
+   "pol": "V",
+   "sr": 31429,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 1N",
+   "beam": "Astra 1M",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1217.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Astra 1 Service 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Astra 1 Service 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Astra 1 Service 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Astra 1 Service 4",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra 1 Service 5",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11837.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1237.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Dokusat",
+    "Astra Vision"
+   ],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Dokusat",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Volksmusik TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Vision",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11856.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1256.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "NRJ Hits",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Golf+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Bretagne",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RMC Découverte",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "beIN Sport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 3 HD France",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TFX",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TMC HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 2 UHD HDR",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11875.5,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1275.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11895.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1295.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "BFM TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Live 7",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Live 8",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Live 9",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RMC Story",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "L´Equipe TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Grand Ecran",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Aquitaine",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Live 10",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Box Office UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Live 6",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Arte HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Gulli HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11915.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1315.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Sky Crime HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport F1 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Nature HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Top Event HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Cinema Premieren HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Austria 8",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 1 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga 6",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport 6 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11934.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1334.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "MTV HD France",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV5 Monde FBS HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "France 3 Picardie",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Paris Ile-de-France",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Poitou-Charentes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Promo",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Docs",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Champagne-Ardennes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Haute-Normandie",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Alsace",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Midi-Pyrénées",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Comédie+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Mezzo",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Franche-Comté",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Bourgogne",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Alpes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Limousin",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Lorraine",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Novo 19",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Nouvelle Aquitaine",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Orléans",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Nice",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DATASYSTEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11954.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1354.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo"
+   ],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "DFB.TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11973.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1373.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Nick Jr..",
+    "Nick Junior Global",
+    "Nick.Jr.",
+    "MTV Germany",
+    "Comedy Central Germany",
+    "MTV",
+    "Comedy Central +1 Germany",
+    "Nickelodeon Germany"
+   ],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Comedy Central HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Comedy Central HD AT",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MTV HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MTV HD AT",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nick Jr..",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick Junior Global",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nick.Jr.",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MTV Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MTV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Comedy Central +1 Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11993.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1393.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Nicktoons Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Atlantic HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Cinema Blockbuster",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Documentaries HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Tennis HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "13th Street HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Golf HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Austria 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12012.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1412.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Canal+",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Cinéma(s) HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Sport HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Kids",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cine+ Frisson HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cine+ Classic HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Box Office",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ UHD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Corse Via Stella",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Foot",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DATASYSTEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12032.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1432.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Sky Krimi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Cinema Action HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "NatGeo Wild HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Warner TV Film HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Austria 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Premier League HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 4 Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 5 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Prime Sportsbar",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NDS Applikation",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BEM Service",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GFD Service",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SDMS Service 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SDMS Service 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BData3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12051.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1451.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "ProSieben Österreich",
+    "Kabel 1 Österreich",
+    "Sat 1 Österreich",
+    "Puls 4 Austria",
+    "Sat 1 Hamburg / Schleswig Holstein",
+    "SAT.1 NS/Bremen",
+    "SAT.1 RhlPf/Hessen"
+   ],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "ProSieben Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kabel 1 Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sat 1 Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Puls 4 Austria",
+     "video": "MPEG-2",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sat 1 Hamburg / Schleswig Holstein",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT.1 NS/Bremen",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT.1 RhlPf/Hessen",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12071.2,
+   "pol": "H",
+   "sr": 31428,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1471.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "PGA WF Feed A",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "PGA ANC",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MM2 SVC3",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12090.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1490.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "France 3 Provence-Alpes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eurosport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Planète+ C.I. HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Trace Urban HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Sport 360",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Auvergne",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Melody HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nickelodeon HD France",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dorcel XXX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dorcel TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Live 5",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Live 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Piwi+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RFM TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV BREIZH",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Planète+ A&E HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DATASYSTEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12110.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1510.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "Xplore",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DYN Sport Mix",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "One Terra",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deluxe Rap",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deluxe Dance by Kontor",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Just Cooking",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Just Fishing",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Höhenrausch",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Crime Time",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Serien+",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12129.0,
+   "pol": "V",
+   "sr": 29900,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1529.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12149.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1549.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    ".",
+    "Deluxe Music",
+    "TLC Austria",
+    "DMAX Austria",
+    "MediaShop - Meine Einkaufswelt"
+   ],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": ".",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deluxe Music",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TLC Austria",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX Austria",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Shop LC",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MediaShop - Meine Einkaufswelt",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ROCK ANTENNE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "sunshine live",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ANTENNE BAYERN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "OLDIE ANTENNE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12168.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1568.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "OCS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "M6 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "W9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "USHUAIA TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "LCP HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "France 3 Sat HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TF 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Languedoc Roussillon",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 4 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Rhone-Alpes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 3 Nord Pas-de-Calais",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DATASYSTEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12188.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1588.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "RTL Television",
+    "RTL Nordrhein Westfalen",
+    "RTL Bremen & Land Niedersachsen",
+    "RTL Bayern",
+    "RTL HH SH",
+    "RTL 2",
+    "TOGGO plus",
+    "Super RTL",
+    "VOX",
+    "RTL Nitro",
+    "RTLup",
+    "n-tv"
+   ],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "RTL Television",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Nordrhein Westfalen",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Bremen & Land Niedersachsen",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Bayern",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL HH SH",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL 2",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TOGGO plus",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Super RTL",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOX",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Nitro",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTLup",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "n-tv",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TOGGO Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12207.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1607.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "T18",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Paris Première HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Teletoon+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Planète+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Caen",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "France 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "LCI HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Infosport+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 3 Nantes",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CStar HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CNews HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "XXL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Foot UHD HDR",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DATASYSTEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12227.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1627.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "RTL Österreich",
+    "VOX Österreich",
+    "RTL 2 Österreich",
+    "Super RTL Österreich",
+    "VOXup",
+    "Eurosport Germany",
+    "HSE24 Extra"
+   ],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "RTL Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOX Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL 2 Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Super RTL Österreich",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOXup",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Eurosport Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HSE24 Extra",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12246.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1646.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12266.1,
+   "pol": "H",
+   "sr": 31429,
+   "fec": "4/5",
+   "system": "DVB-S2",
+   "modulation": "16APSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1666.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "SMPTE 2022-7 Dummyload",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SMPTE 2022-7 Dummyload",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SMPTE 2022-7 Dummyload",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SMPTE 2022-7 Dummyload",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MM5-SVC5",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12285.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1685.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 26,
+   "channels": [
+    {
+     "name": "Automoto La Chaine",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AB 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Animaux HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Toute l´Histoire",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Seasons HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Action HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "RTL 9",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Chasse et Pêche",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Histoire",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal J HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "6ter",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Franceinfo: HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TF1 Séries Films",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SUD RADIO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BBCW SERVICE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIO MELODY",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FRANCE MUSIQUE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FIP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FRANCE INFO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FRANCE INTER",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FRANCE CULTURE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FRANCE BLEU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RFI INTERNATIONAL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIO CLASSIQUE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EUROPE 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RIRE ET CHANSONS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TSF JAZZ",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "JAZZ RADIO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NOVA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIO FG",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CONTACT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NOSTALGIE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NRJ",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RFM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EUROPE 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CHERIE FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SKYROCK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIO NOTRE DAME",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BEUR FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12305.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1705.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "Cartoonito Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Cinema Classics HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport News HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sci-Fi Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Austria 7 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Bundesliga 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport 3 Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga 7",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport 7 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "STEST2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN Black Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Pace TDS 866 NSD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pace TDS 866 NSDX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pace TDS 865 NSDX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Pace TDS 865 NSD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Humax PR-HD3000S",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12324.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1724.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "BeIN Sport Max 4",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 5",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 6",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 7",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 8",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 9",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BeIN Sport Max 10",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cine+ Festival",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Cine+ Family",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ciné+ Emotion HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Série Club HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Vixen HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Union TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Novelas TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "La chaîne Météo HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Live 3",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MOSAIQUE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MOSAIQUE BEIN SPORTS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12344.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "91",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1744.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Eurosport 1 HD Germany & Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DMAX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DMAX HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Tele 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TELE 5 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TLC HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TLC HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HGTV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CNN International Europe",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12363.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1763.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "PASS XXL DORCEL",
+    "PASS PINK X",
+    "TOUS VOS PROGRAMMES",
+    "CANAL VOD",
+    "CANAL+SERIES"
+   ],
+   "fta_count": 44,
+   "channels": [
+    {
+     "name": "ASSOCIATION MATERIEL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "PASS XXL DORCEL",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PASS PINK X",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "AUDIO PRIMO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DATASYSTEM R9",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD R7 G5+ SAGEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MES VIDEOS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD R7 G5 PACE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIOS 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIOS 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RF",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADIOS 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD R7 G5 SAMSUNG",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DEUTSCHE GRAMMOPHON+",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TOUS VOS PROGRAMMES",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NETFLIX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD SAGEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD HUMAX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LICENCE DVL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CANAL VOD",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ESPACE CLIENT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CANAL+SERIES",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD CPRO V2 9134",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PUSH VOD COLLECTIVITES",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G9 9200",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G10 SAGEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G10 HUMAX",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD CPRO V3 9145",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G5 SAMSUNG",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G5 PACE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G5+ PACE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD G5+ SAGEM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD R7 G5+ PACE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LE X CANALVOD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DIAGNOSTIC TECHNIQUE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DONWLOAD SUISSE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "OTA REDSAT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD TNTSAT 9191",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD TNTSAT 9192",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DOWNLOAD TNTSAT 9193",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DATA SERVICE R7",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DATA SYSTEM[98]",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NUMEROTATIONS CANAL+",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DATA SERVICE R9",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "INFO TECHNIQUE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12383.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1783.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "History Channel HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DAZN 2 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DAZN 1 HD Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Warner TV Comedy HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Showcase Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Motorvision",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga 9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport 9 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sky Sport Austria 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport 10",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Bundesliga 10",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sky Sport Austria 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Jukebox",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoon Network Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AXN White Germany",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12402.7,
+   "pol": "V",
+   "sr": 29700,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1802.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "Canal+ Live 1",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "A la Une HD",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Polar+",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nicktoons France",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nick Jr HD France",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Equidia",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Mezzo Live HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Man X",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Téva HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Pink X HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal Evenement Metropole",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Live 2",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Europe 2 Pop TV",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Europe 1 TV",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RMC Sport 1 HD",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12422.1,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1822.1000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Astra Vision",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "Astra Vision",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12441.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1841.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.5,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12461.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1861.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "N24 Doku",
+    "Handystar TV",
+    "TLC Germany",
+    "Disney Channel Germany",
+    "QVC Germany"
+   ],
+   "fta_count": 9,
+   "channels": [
+    {
+     "name": "N24 Doku",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Handystar TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Telegold 2",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Anixe HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TLC Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Deutsches Musik Fernsehen",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Disney Channel Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "QVC Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Klassik Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12480.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1880.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Sonnenklar TV",
+    "Home Shopping Europe Deutschland",
+    "Handystar TV 2",
+    "Tele 5",
+    "DMAX",
+    "HSE24 Trend",
+    "Spirit TV Germany",
+    "Sport 1 Germany"
+   ],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "Sonnenklar TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Home Shopping Europe Deutschland",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Handystar TV 2",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Regio TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tele 5",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Baden TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HSE24 Trend",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Spirit TV Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sport 1 Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12515.9,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1915.8999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 5,
+   "channels": [
+    {
+     "name": "BVN - Beste van Vlaanderen en Nederland",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "AB 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Inplus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Inplus",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hustler TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Hustler TV CZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Bergblick",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Action Nederland",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Canal+ Action Nederland",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Canal+ Golf Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nostalgie",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "VRT Radio1",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "VRT Radio2",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NRJ",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Downl CAM 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "M7 Zenterio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kaon OTA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "OTA SMIT CAM 702",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12522.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1922.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12545.4,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1945.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Sat 1",
+    "ProSieben",
+    "Kabel 1",
+    "Welt",
+    "SAT 1 Gold",
+    "ProSieben MAXX",
+    "Sixx",
+    "SAT.1 Bayern",
+    "SAT.1 NRW",
+    "Kabel 1 Doku"
+   ],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "Sat 1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ProSieben",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kabel 1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Welt",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT 1 Gold",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ProSieben MAXX",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sixx",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT.1 Bayern",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAT.1 NRW",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kabel 1 Doku",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12552.2,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1952.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "QVC Germany",
+    "Bibel TV",
+    "Canal Algérie",
+    "Algerie 3",
+    "SonLife Broadcasting Network"
+   ],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "QVC Germany",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bibel TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Canal Algérie",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Algerie 3",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RMC Life",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RMC LIFE",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SonLife Broadcasting Network",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ASTRA SDT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12574.9,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1974.8999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Sonnenklar.TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Tele 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DMAX HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Juwelo HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Pearl.tv HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TELE 5 HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DMAX HD Austria",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12581.0,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1981.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12604.4,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2004.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2"
+   ],
+   "mpeg2_sd": [
+    "Bloomberg Europe",
+    "Sky News International",
+    "Heisse Dates TV",
+    "Hot Babes TV",
+    "Mobile Sex",
+    "Sex-Kontakte",
+    "Babestation24",
+    "Erotika TV",
+    "Sexy Treff TV",
+    "TeleSex TV",
+    "Astra Demo",
+    "Astra Demo",
+    "Astra Demo",
+    "Sexy Girls TV"
+   ],
+   "fta_count": 21,
+   "channels": [
+    {
+     "name": "Bloomberg Europe",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sky News International",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heisse Dates TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Hot Babes TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Mobile Sex",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sex-Kontakte",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Babestation24",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Erotika TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sexy Treff TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TeleSex TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Astra Demo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sexy Girls TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Horeb",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL RADIO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ASTRA SDT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVB-I",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVB-I Images",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SGI_1111",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SES-LCN2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12611.2,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2011.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 12,
+   "channels": [
+    {
+     "name": "ALT_Xplore",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_One Terra",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Deluxe Rock",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Deluxe Rap",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Deluxe Dance by Kontor",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Deluxe Flashback",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Just Cooking",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Just Fishing",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Deluxe Lounge",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Höhenrausch",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_Crime Time",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ALT_SERIEN+",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12633.9,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2033.8999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Shop LC",
+    "Sexy Girls TV_ALT",
+    "Heisse Dates TV_ALT",
+    "Hot Babes TV_ALT",
+    "Mobile Sex_ALT",
+    "Sex Kontakte",
+    "Babestation24 (Germany)",
+    "EROTIKA TV - NEU!_ALT",
+    "Sexy Treff TV_ALT",
+    "TeleSex TV_ALT"
+   ],
+   "fta_count": 18,
+   "channels": [
+    {
+     "name": "Telegold",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Shop LC",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sexy Girls TV_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Heisse Dates TV_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Hot Babes TV_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Mobile Sex_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sex Kontakte",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Babestation24 (Germany)",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EROTIKA TV - NEU!_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sexy Treff TV_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TeleSex TV_ALT",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ffn",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio Paloma",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio HBR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radio HCJB",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "More Than Sports TV",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "wedo movies",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RAPS",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12640.7,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2040.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "One Terra HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Xplore HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Dance by Kontor HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Flashback HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Just Cooking HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Rock HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Rap HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12663.4,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2063.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 12,
+   "channels": [
+    {
+     "name": "Service 13101",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTL Nitro Austria",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dokusat",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LT1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Shop LC",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Neuer Sender",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Genius TV Germany",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Service 13111",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "JOYN Mediathek",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "L-TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EWTN katholisches TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RADIO MARIA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12670.2,
+   "pol": "V",
+   "sr": 23500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2070.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Just Fishing HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Crime Time HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Serien+ HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Deluxe Lounge HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Höhenrausch HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12692.25,
+   "pol": "H",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2092.25,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12706.7,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Astra 1P",
+   "beam": "Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2106.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12734.75,
+   "pol": "V",
+   "sr": 22000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Astra 1N",
+   "beam": "Pan Europe",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2134.75,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  }
+ ]
+}

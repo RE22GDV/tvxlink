@@ -1,0 +1,41 @@
+[
+ {
+  "pos": "13E",
+  "freq_mhz": 10992.1,
+  "pol": "V",
+  "sr": 27500,
+  "system": "DVB-S",
+  "modulation": "QPSK",
+  "fec": "2/3",
+  "if_mhz": 1242.1000000000004,
+  "lnb": "13V",
+  "level": 61.4,
+  "cn": 6.4,
+  "mer": 4.8,
+  "cber": "CB +39E-3",
+  "vber": "VB +54E-5",
+  "cber_v": 0.039,
+  "vber_v": 0.00054,
+  "required_cn": 6.9,
+  "margin": -0.5,
+  "locked": true,
+  "st": 6,
+  "device_status": "MPEG-2 TS DVB-S",
+  "lock_s": 1.4,
+  "status": "marginal",
+  "channels": [
+   "Rai YoYo HD",
+   "Rai Radio 2 Visual",
+   "Rai Storia",
+   "Camera dei Deputati",
+   "Italiana",
+   "Rai Premium HD",
+   "tivù la guida",
+   "Rai Radio 3 Classica"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ }
+]

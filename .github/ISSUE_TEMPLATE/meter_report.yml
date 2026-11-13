@@ -1,0 +1,27 @@
+name: Real meter report
+description: Share what tvxlink-selftest found on your TV EXPLORER (helps decode new status codes and firmware differences)
+labels: [hardware]
+body:
+  - type: input
+    id: firmware
+    attributes:
+      label: Model and firmware
+      placeholder: "TV EXPLORER II+ 1.30.1090.280 (Meter tab)"
+    validations:
+      required: true
+  - type: dropdown
+    id: verdict
+    attributes:
+      label: Self-test verdict
+      options: [GO, GO with warnings, PARTIAL, NO GO]
+  - type: textarea
+    id: report
+    attributes:
+      label: report.md
+      description: Paste <data>/selftest/<time>/report.md (it contains no personal data).
+      render: markdown
+  - type: textarea
+    id: screen
+    attributes:
+      label: What the meter screen showed
+      description: Status line at the bottom (No signal received / Carrier recovered / MPEG-2 TS …) next to the *?ST code — this is how new codes get labels.

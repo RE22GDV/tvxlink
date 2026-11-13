@@ -1,0 +1,6707 @@
+{
+ "position": "42E",
+ "name": "Türksat 6A/5A/5B · 42°E",
+ "source": "kingofsat.net",
+ "built": "2026-11-08",
+ "transponders": [
+  {
+   "freq_mhz": 10930.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1180.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10954.0,
+   "pol": "V",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1204.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10956.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1206.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10958.0,
+   "pol": "V",
+   "sr": 6250,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1208.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10965.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1215.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10967.3,
+   "pol": "V",
+   "sr": 7917,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1217.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10972.28,
+   "pol": "V",
+   "sr": 4100,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1222.2800000000007,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10974.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1224.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10975.0,
+   "pol": "H",
+   "sr": 2962,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1225.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10977.0,
+   "pol": "V",
+   "sr": 2962,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1227.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10983.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1233.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10985.1,
+   "pol": "H",
+   "sr": 5000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1235.1000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 10998.1,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1248.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11007.1,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1257.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11012.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1262.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11012.0,
+   "pol": "V",
+   "sr": 34284,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1262.0,
+   "lnb": "13V",
+   "required_cn_db": 4.1,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11016.1,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1266.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11026.1,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1276.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11039.7,
+   "pol": "H",
+   "sr": 5000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1289.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 5.0,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11043.0,
+   "pol": "V",
+   "sr": 4400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1293.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11046.6,
+   "pol": "H",
+   "sr": 2680,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1296.6000000000004,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11052.0,
+   "pol": "V",
+   "sr": 4100,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1302.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11053.0,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1303.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11059.0,
+   "pol": "V",
+   "sr": 4400,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1309.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11062.0,
+   "pol": "H",
+   "sr": 4820,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1312.0,
+   "lnb": "18V",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11066.0,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1316.0,
+   "lnb": "18V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11069.1,
+   "pol": "V",
+   "sr": 4800,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1319.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11069.7,
+   "pol": "H",
+   "sr": 2500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1319.7000000000007,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11082.6,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1332.6000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11091.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1341.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11096.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1346.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11096.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1346.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11100.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1350.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11105.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1355.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11109.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1359.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11112.0,
+   "pol": "H",
+   "sr": 600,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1362.0,
+   "lnb": "18V",
+   "required_cn_db": 2.0,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11127.08,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1377.08,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11127.84,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1377.8400000000001,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11129.34,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1379.3400000000001,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11130.03,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1380.0300000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11130.8,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1380.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11133.0,
+   "pol": "V",
+   "sr": 1800,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1383.0,
+   "lnb": "13V",
+   "required_cn_db": 7.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11193.0,
+   "pol": "H",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1443.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11196.0,
+   "pol": "H",
+   "sr": 3333,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1446.0,
+   "lnb": "18V",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11225.1,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1475.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Yıldız TV"
+   ],
+   "fta_count": 9,
+   "channels": [
+    {
+     "name": "TV Net HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "GZT HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Halk TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Yıldız TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 5 Turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 100 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Meltem TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TVNET RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11264.9,
+   "pol": "H",
+   "sr": 29999,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1514.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11265.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 5B",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1515.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "BBC News HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "MCM Top HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "CBeebies HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "France 24 HD (in English)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "TV5 Monde Europe HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Euronews HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BBC Earth HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 2 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Taraftar 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ticari beIN Sports 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 4 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ticari beIN Sports 4",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CGTN HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "test_i1",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "test_i2",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "test_i3",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11304.9,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1554.8999999999996,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11305.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 5B",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1555.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "HEVC",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Yaban TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports International HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Da Vinci HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Box Office 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Digiturk 4K",
+     "video": "HEVC",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN SPORTS INTERNATIONAL TICARI",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Fenerbahçe TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "HOTTEST HITS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LOVE SONGS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "IN LOVE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "90'S HITS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "80'S HITS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "PARTY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CONCERTS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AMERICA'S CLASSICS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSICAL MUSIC",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ROCK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ENERGETIC",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSIC ROCK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NU JAZZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "JAZZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BLUES",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "REGGAE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LATIN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "OLDIES BUT GOLDIES",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MORNING COFFEE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CHILL OUT / LOUNGE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HIP HOP R&B",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "EASY LISTENING",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RELAXATION",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "INTERNATIONAL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DREAMY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MELANCHOLIC",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SMOOTH JAZZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HAPPY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "5+1 CONCERTS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BEST FM",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "GREEK SONGS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MASAL RADYO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CGTN Documentary HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11345.0,
+   "pol": "V",
+   "sr": 29750,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 5B",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1595.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 13,
+   "channels": [
+    {
+     "name": "beIN Sports Max 2 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Movies Premiere 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN H&E HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 5 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ticari beIN Sports 5 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "National Geographic HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN H&E",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "National Geographic Wild HD Polska",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Nick Junior Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Yaristayiz TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "test_i4",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DT9505R",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PID_86",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HM9504R",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HD3501",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "IRDETO-T3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sagem4KSSU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HM9506HD Replacement",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "IRDETO-T2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVBSSU test 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DT9502R",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DT 9103",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVBSSU_9104",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11385.0,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 5B",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1635.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Rai 1",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Bloomberg Europe",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CNN International HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "FTV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Mezzo",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Nickelodeon Turkey HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 1 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Al Jazeera English HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Al Jazeera Satellite Channel",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "IRDETO-T",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DVBSSU 403",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SSU_TSAT_4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11425.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1675.0,
+   "lnb": "18V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11425.1,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 5B",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1675.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 19,
+   "channels": [
+    {
+     "name": "TYT Türk",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tarim TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BI Kanal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Semerkand HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Semerkand Way",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Fenerbahçe TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cay TV (Rize)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Rehber TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cem TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ASTV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Witness Eye",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "24KZ TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Telenews",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Sunnah Al Nabawiyah TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Quran Al Kareem TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kablo Info",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SEMERKAND RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CAGRI FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11460.3,
+   "pol": "V",
+   "sr": 6800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1710.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11469.3,
+   "pol": "V",
+   "sr": 6800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1719.2999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11478.22,
+   "pol": "V",
+   "sr": 6800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1728.2199999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11487.22,
+   "pol": "V",
+   "sr": 6800,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1737.2199999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11496.0,
+   "pol": "V",
+   "sr": 6000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1746.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11503.1,
+   "pol": "V",
+   "sr": 1515,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "32APSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1753.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": null,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11506.7,
+   "pol": "V",
+   "sr": 6250,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1756.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRT Arabi HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11510.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1760.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11515.7,
+   "pol": "V",
+   "sr": 8000,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1765.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "IC YAPIMLAR",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SPOR PGM",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HABER PGM",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TRT 2",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11522.1,
+   "pol": "V",
+   "sr": 1800,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1772.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 7.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 12,
+   "channels": [
+    {
+     "name": "RADYO 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SADA EL FURAT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT WORLD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT NAGME",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT TURKU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO HABER",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "YURT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO DELAL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ANK_RAD 1.KANAL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ANK_RAD 2.KANAL",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11523.6,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1773.6000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11524.8,
+   "pol": "V",
+   "sr": 430,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1774.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "CUKUROVA 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CUKUROVA 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CUKUROVA 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11525.7,
+   "pol": "V",
+   "sr": 400,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1775.7000000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRTERZURUM1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRTERZURUM2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11526.6,
+   "pol": "V",
+   "sr": 430,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1776.6000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRT TRABZON1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT TRABZON2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11526.6,
+   "pol": "V",
+   "sr": 430,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1776.6000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TRT TRABZON1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT TRABZON2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11557.5,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1807.5,
+   "lnb": "13V",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 4,
+   "channels": [
+    {
+     "name": "PAL NOSTALJI",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PAL STATION",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ERKAM RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "AKRA FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11587.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1837.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11589.74,
+   "pol": "V",
+   "sr": 3333,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1839.7399999999998,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11595.1,
+   "pol": "V",
+   "sr": 4100,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1845.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11598.1,
+   "pol": "V",
+   "sr": 6200,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1848.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11607.2,
+   "pol": "V",
+   "sr": 4600,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1857.2000000000007,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11624.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1874.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11646.1,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1896.1000000000004,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11655.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1905.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11663.0,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1913.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11666.8,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1916.7999999999993,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11674.0,
+   "pol": "V",
+   "sr": 10000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1924.0,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11678.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1928.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11687.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1937.5,
+   "lnb": "13V",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11690.0,
+   "pol": "V",
+   "sr": 2500,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "low",
+   "lo_mhz": 9750,
+   "if_mhz": 1940.0,
+   "lnb": "13V",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11727.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1127.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Moskva 24"
+   ],
+   "fta_count": 21,
+   "channels": [
+    {
+     "name": "RTR Planeta",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Rossiya 24",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTV Styl",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTV Pravo",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTV Serial",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTV Mir",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Domashniy International",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Izvestia",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ren TV International",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "STS International",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Peretz International",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "5 Kanal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TNT international",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TNT Myzicalni",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Umka",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Start Epic",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Start Air",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Start World",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Unknown Russia",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Moskva 24",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RTVi Middle-East",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11747.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1147.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11760.7,
+   "pol": "H",
+   "sr": 16514,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1160.7000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11767.0,
+   "pol": "V",
+   "sr": 15000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1167.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "HEVC"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "TRT 4K",
+     "video": "HEVC",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11789.3,
+   "pol": "H",
+   "sr": 20000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1189.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": [
+    {
+     "name": "Investigation Discovery HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Epic Drama",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sinema Aksiyon 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Perviy Kanal",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SİNEMA AİLE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sinema Aile 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sinema Komedi HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sinema Komedi 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sinema1001 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sinema 1001 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sinemax TV Yerli",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11794.3,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1194.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "TRT Çocuk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT 1 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Spor HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Belgesel HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Müzik HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Çocuk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TEST TONE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11807.5,
+   "pol": "H",
+   "sr": 10000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1207.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11821.5,
+   "pol": "V",
+   "sr": 952,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1221.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11822.0,
+   "pol": "H",
+   "sr": 14166,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1222.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11822.1,
+   "pol": "V",
+   "sr": 952,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1222.1000000000004,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11825.5,
+   "pol": "V",
+   "sr": 4444,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1225.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Turkmeneli HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11833.5,
+   "pol": "V",
+   "sr": 7500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1233.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "ATV Avrupa",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "A Haber",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "A News HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11845.0,
+   "pol": "V",
+   "sr": 10833,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1245.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Show Türk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Habertürk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Bloomberg HT HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "HT Spor HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Showmax HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Kanal 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11853.3,
+   "pol": "H",
+   "sr": 25000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1253.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Habitat TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tivibu Tanitim HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Tivibu Spor",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11862.0,
+   "pol": "H",
+   "sr": 16666,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1262.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11862.0,
+   "pol": "V",
+   "sr": 16666,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1262.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "24 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "360 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TV 4 HD Turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "ALEM FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LIG RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "24 RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TEKKOR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11880.0,
+   "pol": "H",
+   "sr": 20000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1280.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 11886.8,
+   "pol": "V",
+   "sr": 10833,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1286.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "Now HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TIFB",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11901.3,
+   "pol": "V",
+   "sr": 12500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1301.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 2,
+   "channels": [
+    {
+     "name": "TV 8 Turkey HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TV 8.5 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11957.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1357.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "TRT 1",
+    "TRT Müzik"
+   ],
+   "fta_count": 25,
+   "channels": [
+    {
+     "name": "TRT 1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Haber HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Avaz HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT 3 Spor",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Müzik",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Spor 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "RADYO 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO GAP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Radyo Haber",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Kurdi Radyo",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOT WORLD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TSR TURKCE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Meteorolojinin Sesi",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOT WEST",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT NAGME",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Memleketim FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT TURKU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "INTERCOM",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "VOT EAST",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Antalya Radyosu",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cukurova Radyosu",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Erzurum Radyosu",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Trabzon Radyosu",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11977.2,
+   "pol": "H",
+   "sr": 27499,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1377.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 8,
+   "channels": [
+    {
+     "name": "SHOW RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO VİVA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "METRO FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SUPER FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "JOYTURK FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VIRGIN RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "JOY FM TÜRKİYE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "iKANALDTrigger",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 11996.3,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1396.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 23,
+   "channels": [
+    {
+     "name": "Beyaz TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Bengü Türk TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Akit TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "KRT TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Kon TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 3 (Afyon)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Altaş TV Ordu",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 52 (Ordu)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Köy TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TMB",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Bir TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Dost TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV Den",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 264",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV Kayseri",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 32",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 42",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Egemax TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Freedom",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ekin Turk",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RIBAT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12015.4,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1415.3999999999996,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "DMAX Turkey",
+    "TLC Turkey"
+   ],
+   "fta_count": 11,
+   "channels": [
+    {
+     "name": "Star TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "NTV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TEST 1",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TEST 2",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX HD Turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TLC Turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DMAX Turkey",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TLC Turkey",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NTV RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KRAL FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KRAL POP",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "INTERCOMM",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12034.5,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1434.5,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 15,
+   "channels": [
+    {
+     "name": "CNN Türk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Euro D",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 8 Turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Rumeli TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Anadolu Dernek TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Haber Global HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO D",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNN TÜRK RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SLOWTÜRK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Radyo mars",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RD SEYMEN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "45'lik",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kalp FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12054.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1454.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12073.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1473.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 1,
+   "channels": [
+    {
+     "name": "beIN Sports Max 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Movies Premiere HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Series 1 Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "beIN Series 2 Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "beIN Movies Stars HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Movies Türk HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Iz HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Gurme HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Iz HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 1 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Taraftar HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ticari beIN Sports 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "beIN Sports 3 HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Taraftar 3",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Ticari beIN Sports 3 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "SSU TEST3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12092.3,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1492.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "TRT 1",
+    "TRT Haber",
+    "TRT Türk",
+    "TRT Çocuk",
+    "TRT Arabi",
+    "TRT Spor",
+    "TRT Kurdi",
+    "TRT Belgesel"
+   ],
+   "fta_count": 20,
+   "channels": [
+    {
+     "name": "TRT 1",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Haber",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Türk",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Müzik",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Çocuk",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Avaz HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Arabi HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Arabi",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Spor",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Kurdi",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Genç HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Çocuk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Belgesel",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOT EAST",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOT WEST",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DIS YAY ORTA DALGA ARAPCA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT VOT 1",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Kurdi Radyo",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VOT WORLD",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TSR TURKCE",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "INTERCOM",
+     "video": "radio/data",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12111.3,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1511.2999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 12,
+   "channels": [
+    {
+     "name": "Flash Haber HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Ülke TV HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Adana Koza TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 7 Avrupa HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Zarok TV Kurmanci",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sercem TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Euro Star",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Edessa TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SZC",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Guneydogu TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO 7",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12130.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1530.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12149.7,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1549.7000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "TGRT Haber",
+    "Kanal B",
+    "TRT Eba TV",
+    "BRT 3",
+    "Gonca TV",
+    "Al Quran Al Kareem TV",
+    "Al Sunnah Al Nabawiyah TV",
+    "Al Hadath",
+    "Al Zahra"
+   ],
+   "fta_count": 18,
+   "channels": [
+    {
+     "name": "TGRT",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TGRT Haber",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal B",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Eba TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BRT 3",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Gonca TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Quran Al Kareem TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Sunnah Al Nabawiyah TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Hadath",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Al Zahra",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BRT RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BAYRAK FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PAL NOSTALJI",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PAL STATION",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ERKAM RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "AKRA FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TINT",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS TEST",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12169.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 6A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1569.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12188.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1588.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 15,
+   "channels": [
+    {
+     "name": "iTVGAMETEST",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Discovery Channel HD Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dream TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Smart Spor HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Viasat History",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Filmscreen",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BBC News",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Fashion TV Türkiye",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NATURE ESCAPE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movie Classic",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Movie Türk",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Baby TV",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Investigation Discovery HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "DiziSmart Max",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DocuScreen",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cartoonito Turkey",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NATURE ESCAPE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Cosmosports",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Da Vinci Learning",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "2000'ler",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "'90'lar",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "'80'ler",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Soho '70s",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "'60'lar",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DANCEFLOOR FILLERS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSIC MASTERS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CHILLOUT",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SMOOTH JAZZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "COOL JAZZ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "JAZZ CLASSICS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSICAL ORCHESTRAL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSICAL GREATS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TÜRKÇE POP",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DEEP BLUES",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HOT COUNTRY UK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "RIDDIM",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HIP HOP",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TRANCE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "LATINO TROPICAL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "GROOVE (DISCO & FUNK)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "THE CHILL LOUNGE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "FOLK ROOTS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ROCK'N ROLL",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ROCK ANTHEMS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSIC ROCK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "SILK (LOVE SONGS)",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CHANSONS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TÜRKÇE MÜZİK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TÜRK SANAT MÜZİĞİ",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TURKISH SILK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HOUSE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "ROMANCE LATINO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "NICE & COZY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "EASY LISTENING",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "CLASSICAL CALM",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "JAZZ LATINO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "JAZZ NOW",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MEDITERRANEAN MUSIC",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "GREATEST HITS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "HIT LIST",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "URBAN BEATS",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "DANCE CLUBBIN'",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "MAXIMUM PARTY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "AROUND THE WORLD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BROADWAY",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "OPERA",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "BAROQUE",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "POPCORN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TANGO",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TÜRKÇE POP",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "TURKISH SILK",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Azoomee",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Sporsmart 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU Targeting112",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 2 (SD 306)",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 4 (HD)",
+     "video": "radio/data",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "EPG DU QAM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 6",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 7",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 8",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 9",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 10",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 12",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 13",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 14",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "EPG DU 15",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12207.3,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1607.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12226.4,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1626.3999999999996,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 10,
+   "channels": [
+    {
+     "name": "TRT 1 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Haber HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Spor HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT World HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Belgesel HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Çocuk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Kurdi HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Müzik HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Türk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT World Radio",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12245.6,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1645.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 7,
+   "channels": [
+    {
+     "name": "Kanal D HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "CNN Türk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Teve 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 1 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Eurosport 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Dream Turk",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ucankus TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Cosmo EN",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "Çocuk Smart HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "T.A.Y TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CNN International HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Love Nature HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "BBC Earth HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Sporsmart 2 HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Insight TV HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Yeni Kocaeli TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    },
+    {
+     "name": "",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12264.8,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1664.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 35,
+   "channels": [
+    {
+     "name": "Sun RTV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal V",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tivi6",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 26",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GRT TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Aksu TV K.Maraş",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ES TV (Turkey)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "CIFTCI TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "ER TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Mercan TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal Firat",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BRTV Anadolu",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 41",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "MK TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Can TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 23",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 15",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Sat7 Türk",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VTV (Malatya)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "VAN65",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "İkra",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 58",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 3 (Turkey)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 12",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "On4 TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "POWER FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "POWERTURK FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FENOMEN TURK",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO FENOMEN",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PRD 3",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SEYR FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KAFA RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PRD 7",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PRD 2",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "PRD 4",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12303.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1703.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12310.5,
+   "pol": "H",
+   "sr": 15000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1710.5,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12329.0,
+   "pol": "H",
+   "sr": 6666,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1729.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12336.0,
+   "pol": "H",
+   "sr": 5520,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1736.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12344.8,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1744.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Ekotürk HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Ekol TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Agro TV turkey",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Tek Rumeli",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Van TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12346.0,
+   "pol": "H",
+   "sr": 9600,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1746.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12356.0,
+   "pol": "H",
+   "sr": 7100,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1756.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12379.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "Turkey",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1779.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "0 Sifir TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "beIN Sports Haber HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "beIN SPORTS HABER",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12379.8,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1779.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Halk TV"
+   ],
+   "fta_count": 17,
+   "channels": [
+    {
+     "name": "TGRT Haber HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Diyanet HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "TRT Belgesel HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Halk TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SToon TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "POLIS RADYOSU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DIYANET RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KUR AN RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RISALET RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KUPE FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BEST FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KARADENIZ FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BAYRAM FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RD 2000 FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TGRT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "SAHIL GUVENLIK RADYO",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12422.0,
+   "pol": "H",
+   "sr": 30000,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1822.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "Türksat Promo",
+    "TRT Diyanet"
+   ],
+   "fta_count": 6,
+   "channels": [
+    {
+     "name": "Türksat Promo",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kablo Info",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Diyanet",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TRT Avaz HD",
+     "video": "MPEG-4",
+     "fta": false,
+     "hd": true
+    },
+    {
+     "name": "Ayaz TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "POLIS RADYOSU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12422.8,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1822.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-2",
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [
+    "FM TV"
+   ],
+   "fta_count": 15,
+   "channels": [
+    {
+     "name": "TH Türk Haber",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal Urfa",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Guneydogu TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kardelen TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Lalegul TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Line TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Meltem TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "HRT TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "FM TV",
+     "video": "MPEG-2",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ulusal Kanal",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kadirga TV (Trabzon)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "GRT TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RADYO SPOR",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LALEGUL FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12457.8,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1857.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12457.8,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1857.7999999999993,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 23,
+   "channels": [
+    {
+     "name": "Karadeniz TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "BRT HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "BRT 2 HD",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "KTV (Kibris)",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ilke TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal T",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 Turk TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal Avrupa",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TV 2020",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Ada TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Genc TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kanal 33",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Kudus TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "On4 TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Luys TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "Turksat HD Promo",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": true
+    },
+    {
+     "name": "Pati TV",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 TURK FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 FM.",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "KIBRIS FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "DIYALOG FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12539.0,
+   "pol": "V",
+   "sr": 3900,
+   "fec": "3/4",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Türksat 4A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1939.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12543.2,
+   "pol": "V",
+   "sr": 68571,
+   "fec": "3/5",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1943.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 3.2,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12559.0,
+   "pol": "V",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1959.0,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 6.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12570.8,
+   "pol": "H",
+   "sr": 3300,
+   "fec": "5/6",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1970.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 10.3,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12574.6,
+   "pol": "H",
+   "sr": 2480,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1974.6000000000004,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12576.3,
+   "pol": "H",
+   "sr": 5000,
+   "fec": "3/4",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1976.2999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12577.8,
+   "pol": "H",
+   "sr": 2500,
+   "fec": "5/6",
+   "system": "DVB-S",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 1977.7999999999993,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 8.9,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12601.0,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2001.0,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12623.2,
+   "pol": "V",
+   "sr": 68571,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 6A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2023.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 2.0,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12685.2,
+   "pol": "H",
+   "sr": 27500,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2085.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [
+    "MPEG-4"
+   ],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "Freedom",
+     "video": "MPEG-4",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "RIBAT FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12685.2,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2085.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "RADYO 7",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "LALEGUL FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "TKGS DATA",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  },
+  {
+   "freq_mhz": 12729.2,
+   "pol": "H",
+   "sr": 34286,
+   "fec": "1/2",
+   "system": "DVB-S2",
+   "modulation": "QPSK",
+   "satellite": "Turksat 3A",
+   "beam": "East",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2129.2000000000007,
+   "lnb": "18V+22kHz",
+   "required_cn_db": 2.0,
+   "supported": false,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 0,
+   "channels": []
+  },
+  {
+   "freq_mhz": 12729.2,
+   "pol": "V",
+   "sr": 30000,
+   "fec": "2/3",
+   "system": "DVB-S2",
+   "modulation": "8PSK",
+   "satellite": "Turksat 3A",
+   "beam": "West",
+   "band": "high",
+   "lo_mhz": 10600,
+   "if_mhz": 2129.2000000000007,
+   "lnb": "13V+22kHz",
+   "required_cn_db": 7.6,
+   "supported": true,
+   "video": [],
+   "mpeg2_sd": [],
+   "fta_count": 3,
+   "channels": [
+    {
+     "name": "NR1 TURK FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 FM",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    },
+    {
+     "name": "NR1 OPET RADYOSU",
+     "video": "radio/data",
+     "fta": true,
+     "hd": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,55 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        python: ["3.9", "3.13"]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Unit tests (protocol, parsing, tuning, scans, lab, i18n, UI) against the simulator
+        env:
+          PYTHONUTF8: "1"
+        run: python -m unittest discover -s tests -t . -v
+      - name: Command-line tools work end to end in demo mode
+        env:
+          PYTHONUTF8: "1"
+        run: |
+          python -m tvxlink.cli.tvx --port demo --lang en ident
+          python -m tvxlink.cli.tvx --port demo --json tune 10992.1 --sr 27500 --fec 2/3 --dwell 0
+          python -m tvxlink.cli.selftest --port demo --lang en --skip-unittests --listen 1.2 --tune --verified 3 --sat 13E --dwell 0 --samples 3
+      - name: Package builds
+        run: |
+          python -m pip install build
+          python -m build --wheel
+
+  vendor:
+    # The TI driver / firmware are not in the repository: check that the official PROMAX
+    # package still downloads and unpacks to exactly the pinned files.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and verify the TUSB3410 driver and firmware
+        env:
+          TVXLINK_STATE: ${{ runner.temp }}/tvxlink
+        run: |
+          python -m tvxlink.vendor
+          python -m tvxlink.vendor --check

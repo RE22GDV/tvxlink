@@ -1,0 +1,1622 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TVXLink</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%230b6bcb'/%3E%3Cpath d='M18 40a20 20 0 0 1 28-28' stroke='white' stroke-width='5' fill='none'/%3E%3Cpath d='M26 40a12 12 0 0 1 16-16' stroke='white' stroke-width='5' fill='none'/%3E%3Ccircle cx='38' cy='26' r='4' fill='white'/%3E%3C/svg%3E">
+<style>
+:root{--bg:#f4f5f7;--card:#fff;--fg:#1c1f24;--mut:#6b7280;--line:#e3e5e8;--acc:#0b6bcb;--ok:#14804a;--warn:#b26a00;--bad:#c62828;--grid:#e9ebee;--trace:#0b6bcb;--mono:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root{--bg:#15171a;--card:#1e2125;--fg:#e8eaed;--mut:#9aa0a6;--line:#2e3237;--acc:#5aa9ff;--ok:#4cc38a;--warn:#f0b13c;--bad:#ff6b6b;--grid:#2a2e33;--trace:#5aa9ff}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{display:flex;align-items:center;flex-wrap:wrap;gap:8px 12px;padding:12px 20px;border-bottom:1px solid var(--line);background:var(--card);position:sticky;top:0;z-index:5}
+header h1{font-size:16px;margin:0;font-weight:650;white-space:nowrap;display:flex;align-items:center;gap:8px}
+header h1 small{font-weight:400;color:var(--mut);font-size:12px}
+#state{white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--bad);flex:none}
+.dot.on{background:var(--ok)} .dot.demo{background:var(--warn)}
+nav{display:flex;gap:4px;flex-wrap:wrap;padding:8px 20px 0;max-width:1400px;margin:0 auto}
+nav button{border-radius:8px 8px 0 0;border-bottom:none}
+nav button.on{background:var(--acc);border-color:var(--acc);color:#fff}
+main{padding:14px 20px 30px;max-width:1400px;margin:0 auto}
+.tab{display:none;gap:14px;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+.tab.on{display:grid}
+@media (max-width:860px){.tab{grid-template-columns:1fr} main,nav{padding-left:16px;padding-right:16px}}
+section{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0}
+section h2{font-size:13px;text-transform:uppercase;letter-spacing:.04em;color:var(--mut);margin:0 0 10px}
+.wide{grid-column:1/-1}
+button{font:inherit;padding:6px 12px;border-radius:7px;border:1px solid var(--line);background:var(--card);color:var(--fg);cursor:pointer}
+button.pri{background:var(--acc);border-color:var(--acc);color:#fff}
+button.chip{border-radius:999px;padding:4px 12px}
+button.chip.on{background:var(--fg);color:var(--card);border-color:var(--fg)}
+button:disabled{opacity:.45;cursor:default}
+input[type=text],input[type=number],select{font:inherit;padding:5px 8px;border-radius:7px;border:1px solid var(--line);background:var(--bg);color:var(--fg)}
+input[type=number]{width:90px}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.row+.row{margin-top:8px}
+label.f{display:flex;gap:6px;align-items:center;color:var(--mut);white-space:nowrap}
+dl{display:grid;grid-template-columns:auto 1fr;gap:4px 14px;margin:0}
+dt{color:var(--mut)}dd{margin:0;font-family:var(--mono)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px;margin-top:10px}
+.tile{border:1px solid var(--line);border-radius:8px;padding:10px}
+.tile .l{color:var(--mut);font-size:12px}.tile .v{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}
+.tile .r{font-family:var(--mono);font-size:11px;color:var(--mut);word-break:break-all}
+pre{font-family:var(--mono);font-size:12px;background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px;height:300px;overflow:auto;margin:0;white-space:pre-wrap;word-break:break-all}
+.err{color:var(--bad)}.mut{color:var(--mut)}.okc{color:var(--ok)}.warnc{color:var(--warn)}
+.note{margin:8px 0 0;font-size:12px;color:var(--mut)}
+#reply{font-family:var(--mono);margin-top:8px;min-height:1.4em}
+.tbl{overflow:auto;max-height:62vh;border:1px solid var(--line);border-radius:8px}
+table.t{border-collapse:collapse;font-size:12.5px;width:100%}
+table.t th{position:sticky;top:0;background:var(--card);z-index:1;cursor:pointer;user-select:none}
+table.t th,table.t td{border-bottom:1px solid var(--line);padding:4px 7px;text-align:left;white-space:nowrap}
+table.t td.num{font-family:var(--mono);text-align:right}
+table.t td.ch{white-space:normal;min-width:220px;max-width:420px;color:var(--mut)}
+table.t td.ch b{color:var(--fg);font-weight:500}
+#foundTable th{white-space:normal;vertical-align:bottom}
+#pairTable td,#pairTable th{white-space:normal}
+#pairTable td.num{min-width:110px}
+#pairTable td.ch{min-width:140px;max-width:240px}
+#pairTable select{max-width:220px}
+#pairTable .pairbtns{margin-top:4px}
+#pairTable .pairgo{margin:1px 0;padding:3px 7px}
+#foundTable td.ch{min-width:180px}
+#foundTable td:nth-last-child(3){white-space:normal;min-width:70px}
+table.t tr.na td{opacity:.45}
+.st{padding:1px 8px;border-radius:999px;font-size:12px;white-space:nowrap}
+.st.good{background:color-mix(in srgb,var(--ok) 18%,transparent);color:var(--ok)}
+.st.edge{background:color-mix(in srgb,var(--warn) 20%,transparent);color:var(--warn)}
+.st.bad{background:color-mix(in srgb,var(--bad) 16%,transparent);color:var(--bad)}
+.st.none{background:var(--grid);color:var(--mut)}
+.prog{height:6px;background:var(--grid);border-radius:4px;overflow:hidden;flex:1;min-width:120px}
+.prog i{display:block;height:100%;background:var(--acc);width:0}
+svg text{fill:var(--mut);font-size:11px;font-family:-apple-system,"Segoe UI",sans-serif}
+#chartBox{position:relative}
+.radio{display:flex;gap:16px;align-items:center;flex-wrap:wrap;margin-top:12px;padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.dial .rf{font:600 30px/1.1 var(--mono);font-variant-numeric:tabular-nums;color:var(--acc)}
+.readout{display:flex;gap:14px;align-items:center;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.readout b{font:600 18px var(--mono)}
+#tip{position:absolute;pointer-events:none;background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font-size:12px;display:none;box-shadow:0 2px 8px rgba(0,0,0,.15);white-space:pre}
+.big{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+@media (max-width:860px){.big{grid-template-columns:1fr}}
+.meter{border:1px solid var(--line);border-radius:10px;padding:14px}
+.lockbar{display:flex;align-items:center;gap:12px;padding:10px 14px;border-radius:10px;border:1px solid var(--line);font-weight:600;font-size:18px}
+.lockbar.good{background:color-mix(in srgb,var(--ok) 16%,transparent);color:var(--ok);border-color:color-mix(in srgb,var(--ok) 40%,transparent)}
+.lockbar.bad{background:color-mix(in srgb,var(--bad) 12%,transparent);color:var(--bad);border-color:color-mix(in srgb,var(--bad) 35%,transparent)}
+.lockbar small{font-weight:400;font-size:12px;color:var(--mut)}
+.meter .l{color:var(--mut);font-size:13px}
+.meter .v{font-size:56px;font-weight:650;font-variant-numeric:tabular-nums;line-height:1.1}
+.meter .p{color:var(--mut);font-size:13px;font-variant-numeric:tabular-nums}
+.bar{height:14px;background:var(--grid);border-radius:7px;overflow:hidden;margin-top:8px;position:relative}
+.bar i{display:block;height:100%;background:var(--acc);width:0;transition:width .15s}
+.bar b{position:absolute;top:-2px;bottom:-2px;width:2px;background:var(--fg)}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px;margin-top:10px}
+footer{max-width:1400px;margin:0 auto;padding:0 20px 24px;color:var(--mut);font-size:12px}
+footer a{color:var(--mut)}
+</style>
+</head>
+<body>
+<header>
+  <span id="dot" class="dot"></span>
+  <h1>📡 TVXLink <small id="ver"></small></h1>
+  <span id="state" class="mut" data-i18n="ui.state.off"></span>
+  <span style="flex:1"></span>
+  <select id="portSel" data-i18n-title="ui.port.title"><option value="" data-i18n="ui.port.auto"></option></select>
+  <button id="bConnect" class="pri" data-i18n="ui.connect"></button>
+  <button id="bDemo" data-i18n="ui.demo"></button>
+  <button id="bDisconnect" disabled data-i18n="ui.disconnect"></button>
+  <button id="bData" data-i18n="ui.data" data-i18n-title="ui.data.title"></button>
+  <select id="langSel" title="Мова / Language"><option value="uk">UA</option><option value="en">EN</option></select>
+</header>
+<nav id="tabs">
+  <button data-t="dev" class="on" data-i18n="ui.tab.dev"></button>
+  <button data-t="ch" data-i18n="ui.tab.ch"></button>
+  <button data-t="sp" data-i18n="ui.tab.sp"></button>
+  <button data-t="aim" data-i18n="ui.tab.aim"></button>
+  <button data-t="lab" data-i18n="ui.tab.lab"></button>
+  <button data-t="found" data-i18n="ui.tab.found"></button>
+  <button data-t="dl" data-i18n="ui.tab.dl"></button>
+  <button data-t="log" data-i18n="ui.tab.log"></button>
+</nav>
+<main>
+
+<!-- ============ DEVICE ============ -->
+<div class="tab on" id="t-dev">
+  <section>
+    <h2 data-i18n="ui.dev.title"></h2>
+    <dl>
+      <dt data-i18n="ui.dev.model"></dt><dd id="iModel">—</dd>
+      <dt data-i18n="ui.dev.fw"></dt><dd id="iFw">—</dd>
+      <dt>ID</dt><dd id="iId">—</dd>
+    </dl>
+    <p id="connErr" class="err"></p>
+    <button id="bUsb" data-i18n="ui.dev.usb"></button>
+    <pre id="usb" style="height:auto;max-height:160px;display:none;margin-top:8px"></pre>
+  </section>
+  <section>
+    <h2 data-i18n="ui.tune.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.tune.rf"></span> <input id="tRf" type="number" step="0.01"></label>
+      <label class="f">LO <input id="tLo" type="number" value="9750"></label>
+      <span class="mut"><span data-i18n="ui.tune.if"></span> <b id="tIf">—</b></span>
+    </div>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.tune.sr"></span> <input id="tSr" type="number"></label>
+      <label class="f"><span data-i18n="ui.tune.std"></span> <select id="tStd"><option>DVB-S</option><option>DVB-S2</option></select></label>
+      <label class="f" id="tModL" style="display:none"><span data-i18n="ui.tune.mod"></span> <select id="tMod"><option>QPSK</option><option>8PSK</option></select></label>
+      <label class="f">FEC <select id="tFec"></select></label>
+    </div>
+    <div class="row">
+      <label class="f">LNB <select id="tLnb"><option>13V</option><option>13V+22kHz</option><option>18V</option><option>18V+22kHz</option><option value="external" data-i18n="ui.tune.lnb_ext"></option></select></label>
+      <label class="f"><input id="tInv" type="checkbox"> <span data-i18n="ui.tune.inv"></span></label>
+    </div>
+    <div class="row">
+      <button id="bGoLab" data-i18n="ui.tune.golab" data-i18n-title="ui.tune.golab.title"></button>
+      <button id="bTune" class="pri" disabled data-i18n="ui.tune.go"></button>
+    </div>
+    <p id="tuneMsg" class="mut" style="margin:8px 0 0;font-family:var(--mono);font-size:12px"></p>
+  </section>
+  <section class="wide">
+    <h2 data-i18n="ui.meas.title"></h2>
+    <div class="row">
+      <button id="bOnce" disabled data-i18n="ui.meas.once"></button>
+      <button id="bPoll" disabled data-i18n="ui.meas.poll"></button>
+      <label class="f"><span data-i18n="ui.period"></span> <input id="period" type="number" value="1" min="0.3" step="0.1" style="width:70px"></label>
+      <button id="bRec" disabled data-i18n="ui.meas.rec"></button>
+      <span id="recPath" class="mut"></span>
+    </div>
+    <div id="mLock" class="lockbar" style="margin-top:10px;display:none"></div>
+    <div id="tiles" class="tiles"></div>
+  </section>
+</div>
+
+<!-- ============ CHANNELS ============ -->
+<div class="tab" id="t-ch">
+  <section class="wide">
+    <h2 data-i18n="ui.ver.title"></h2>
+    <div id="verified" class="row"></div>
+  </section>
+  <section class="wide">
+    <h2 data-i18n="ui.ch.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.sat"></span> <select id="cSat"></select></label>
+      <span id="cSrc" class="mut"></span>
+      <span style="flex:1"></span>
+      <button id="bSatUpd" data-i18n="ui.ch.update" data-i18n-title="ui.ch.update.title"></button>
+    </div>
+    <div id="satUpd" class="row mut" style="display:none;font-size:12.5px"></div>
+    <div class="row">
+      <span class="mut" data-i18n="ui.ch.quick"></span>
+      <button class="chip" data-q="qpsk-m2">QPSK + MPEG-2</button>
+      <button class="chip" data-q="8psk-m2sd">8PSK + MPEG-2 SD</button>
+      <button class="chip" data-q="verified" data-i18n="ui.ch.q.verified"></button>
+      <button class="chip" data-q="all" data-i18n="ui.ch.q.all"></button>
+    </div>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.col.system"></span> <select id="fSys"><option value="" data-i18n="ui.any"></option><option>DVB-S</option><option>DVB-S2</option></select></label>
+      <label class="f"><span data-i18n="ui.col.modulation"></span> <select id="fMod"><option value="" data-i18n="ui.any"></option><option>QPSK</option><option>8PSK</option><option>16APSK</option><option>32APSK</option></select></label>
+      <label class="f"><span data-i18n="ui.col.video"></span> <select id="fVid"><option value="" data-i18n="ui.any"></option><option>MPEG-2</option><option>MPEG-4</option><option>HEVC</option></select></label>
+      <label class="f"><input id="fSd" type="checkbox"> <span data-i18n="ui.ch.f.sd"></span></label>
+      <label class="f"><span data-i18n="ui.col.pol"></span> <select id="fPol"><option value="">H+V</option><option>H</option><option>V</option></select></label>
+      <label class="f"><span data-i18n="ui.ch.f.band"></span> <select id="fBand"><option value="" data-i18n="ui.ch.f.band_all"></option><option value="low" data-i18n="ui.band.low_short"></option><option value="high" data-i18n="ui.band.high_short"></option></select></label>
+      <label class="f"><input id="fFta" type="checkbox"> <span data-i18n="ui.ch.f.fta"></span></label>
+      <label class="f"><input id="fSup" type="checkbox" checked> <span data-i18n="ui.ch.f.sup"></span></label>
+      <label class="f"><input id="fCh" type="checkbox" checked> <span data-i18n="ui.ch.f.ch"></span></label>
+      <label class="f" data-i18n-title="ui.ch.f.uk.title"><input id="fUk" type="checkbox" checked> <span data-i18n="ui.ch.f.uk"></span></label>
+      <label class="f" data-i18n-title="ui.ch.f.lock.title"><input id="fLock" type="checkbox"> <span data-i18n="ui.ch.f.lock"></span></label>
+      <input id="fTxt" type="text" data-i18n-ph="ui.search" style="width:170px">
+    </div>
+    <div class="row">
+      <button id="bSelAll" data-i18n="ui.ch.selall"></button>
+      <button id="bSelNone" data-i18n="ui.ch.selnone"></button>
+      <label class="f"><span data-i18n="ui.dwell"></span> <input id="dwell" type="number" value="2" min="0.5" step="0.5" style="width:60px"></label>
+      <button id="bScan" class="pri" disabled></button>
+      <button id="bStop" disabled data-i18n="ui.stop"></button>
+      <div class="prog"><i id="scanBar"></i></div>
+      <span id="scanMsg" class="mut"></span>
+    </div>
+    <div id="best" class="row" style="margin-top:10px"></div>
+    <div class="tbl" style="margin-top:10px"><table class="t" id="cTable"></table></div>
+    <p class="note" data-i18n="ui.ch.note"></p>
+  </section>
+</div>
+
+<!-- ============ SPECTRUM ============ -->
+<div class="tab" id="t-sp">
+  <section class="wide">
+    <h2 data-i18n="ui.sp.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.sp.sat"></span> <select id="sSat"></select></label>
+      <label class="f"><span data-i18n="ui.pol"></span> <select id="sPol"><option>V</option><option>H</option></select></label>
+      <label class="f"><span data-i18n="ui.ch.f.band"></span> <select id="sBand"><option value="low" data-i18n="ui.band.low"></option><option value="high" data-i18n="ui.band.high"></option></select></label>
+      <span style="flex:1"></span>
+      <label class="f"><span data-i18n="ui.sp.saved"></span> <select id="sSaved" style="max-width:240px"></select></label>
+      <button id="bSpOpen" data-i18n="ui.open"></button>
+    </div>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.sp.center"></span> <input id="sCenter" type="number" value="11200" step="1"></label>
+      <label class="f"><span data-i18n="ui.sp.span"></span> <input id="sSpan" type="number" value="1000" step="10"></label>
+      <label class="f"><span data-i18n="ui.sp.step"></span> <input id="sStep" type="number" value="4" step="0.5" min="0.5"></label>
+      <label class="f" data-i18n-title="ui.sp.settle.title"><span data-i18n="ui.dwell"></span> <input id="sSettle" type="number" value="1" step="0.05" style="width:70px"></label>
+      <button id="bFull" data-i18n="ui.sp.full"></button>
+      <button id="bSweep" class="pri" disabled data-i18n="ui.sp.go"></button>
+      <button id="bSweepStop" disabled data-i18n="ui.stop"></button>
+      <div class="prog"><i id="sweepBar"></i></div>
+    </div>
+    <div class="row">
+      <span id="sweepMsg" class="mut"></span><span style="flex:1"></span>
+      <button id="bCheck" class="pri" disabled data-i18n="ui.sp.check" data-i18n-title="ui.sp.check.title"></button>
+      <label class="f"><input id="sAutoCheck" type="checkbox"> <span data-i18n="ui.sp.autocheck"></span></label>
+      <button id="bSvg" data-i18n="ui.sp.svg"></button>
+      <button id="bReport" data-i18n="ui.sp.report"></button>
+    </div>
+    <div class="radio">
+      <div class="dial">
+        <div class="mut" style="font-size:12px" data-i18n="ui.sp.tuned"></div>
+        <div id="rFreq" class="rf">—</div>
+        <div id="rTp" class="mut" style="font-size:12px;min-height:1.3em"></div>
+      </div>
+      <div class="row" style="flex:1;min-width:260px">
+        <button id="rPrev" data-i18n="ui.sp.prev" data-i18n-title="ui.sp.prev.title"></button>
+        <button id="rDown" data-i18n-title="ui.sp.down.title">◀</button>
+        <label class="f"><span data-i18n="ui.sp.stepr"></span> <select id="rStep"><option>0.5</option><option selected>1</option><option>2</option><option>5</option><option>10</option></select> <span data-i18n="ui.mhz"></span></label>
+        <button id="rUp" data-i18n-title="ui.sp.up.title">▶</button>
+        <button id="rNext" data-i18n="ui.sp.next" data-i18n-title="ui.sp.next.title"></button>
+        <button id="rSeekDown" data-i18n-title="ui.sp.seek.title"></button>
+        <button id="rSeekUp" class="pri" data-i18n-title="ui.sp.seek.title"></button>
+        <label class="f" data-i18n-title="ui.sp.wait.title"><span data-i18n="ui.wait"></span> <input id="rSeekDwell" type="number" value="3" min="1" step="0.5" style="width:56px"> <span data-i18n="ui.s"></span></label>
+        <label class="f"><input id="rSnap" type="checkbox" checked> <span data-i18n="ui.sp.snap"></span></label>
+        <label class="f"><input id="rCh" type="checkbox" checked> <span data-i18n="ui.ch.f.ch"></span></label>
+      </div>
+      <div class="readout">
+        <label class="f"><input id="rLive" type="checkbox" checked> <span data-i18n="ui.sp.live"></span></label>
+        <span>LV <b id="rLV">—</b></span><span>C/N <b id="rCN">—</b></span><span>MER <b id="rME">—</b></span>
+        <span id="rLock" class="st none" data-i18n="ui.nodata"></span>
+      </div>
+    </div>
+    <div id="chartBox" style="margin-top:10px"><svg id="chart" width="100%" height="420" tabindex="0" style="outline:none;cursor:crosshair"></svg><div id="tip"></div></div>
+    <p class="note" data-i18n-html="ui.sp.note"></p>
+  </section>
+</div>
+
+<!-- ============ AIMING ============ -->
+<div class="tab" id="t-aim">
+  <section class="wide">
+    <h2 data-i18n="ui.aim.title"></h2>
+    <div class="row">
+      <span class="mut"><span data-i18n="ui.channel"></span> <b id="aimTarget"></b></span>
+      <span style="flex:1"></span>
+      <label class="f"><span data-i18n="ui.period"></span> <input id="aimPeriod" type="number" value="0.4" step="0.1" min="0.2" style="width:70px"></label>
+      <label class="f"><input id="aimBeep" type="checkbox"> <span data-i18n="ui.aim.beep"></span></label>
+      <button id="bAimReset" data-i18n="ui.aim.reset"></button>
+      <button id="bAim" class="pri" disabled data-i18n="ui.start"></button>
+    </div>
+    <div id="aLock" class="lockbar" style="margin-top:12px" data-i18n="ui.lock.nodata"></div>
+    <div class="big" style="margin-top:12px">
+      <div class="meter"><div class="l" data-i18n="meas.level"></div><div class="v" id="aLV">—</div><div class="p" id="aLVp"></div><div class="bar"><i id="aLVb"></i><b id="aLVk"></b></div></div>
+      <div class="meter"><div class="l" data-i18n="meas.cn"></div><div class="v" id="aCN">—</div><div class="p" id="aCNp"></div><div class="bar"><i id="aCNb"></i><b id="aCNk"></b></div></div>
+      <div class="meter"><div class="l" data-i18n="meas.mer"></div><div class="v" id="aME">—</div><div class="p" id="aMEp"></div><div class="bar"><i id="aMEb"></i><b id="aMEk"></b></div></div>
+    </div>
+    <svg id="aimTrend" width="100%" height="170" style="margin-top:12px"></svg>
+    <p class="note" data-i18n="ui.aim.note"></p>
+  </section>
+  <section class="wide">
+    <h2 data-i18n="ui.geo.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.geo.lat"></span> <input id="gLat" type="text" value="50°26′51,15″ N" style="width:150px"></label>
+      <label class="f"><span data-i18n="ui.geo.lon"></span> <input id="gLon" type="text" value="30°27′28,12″ E" style="width:150px"></label>
+      <label class="f" data-i18n-title="ui.geo.decl.title"><span data-i18n="ui.geo.decl"></span> <input id="gDecl" type="text" data-i18n-ph="ui.geo.decl.ph" style="width:90px"></label>
+      <button id="bGeoLab" data-i18n="ui.geo.lab"></button>
+      <span id="gMsg" class="mut" style="font-family:var(--mono);font-size:12px"></span>
+    </div>
+    <div class="tbl" style="margin-top:10px"><table class="t" id="geoTable"></table></div>
+    <p class="note" data-i18n="ui.geo.note"></p>
+  </section>
+</div>
+
+<!-- ============ LAB ============ -->
+<div class="tab" id="t-lab">
+  <section class="wide">
+    <h2 data-i18n="ui.rec.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.sat"></span> <select id="kSat"></select></label>
+      <span class="mut" style="font-size:12px" data-i18n="ui.rec.note"></span>
+    </div>
+    <div class="cards">
+      <div><div class="mut" style="font-weight:600;margin-bottom:6px" data-i18n="ui.rec.qpsk"></div><div id="kQ"></div></div>
+      <div><div class="mut" style="font-weight:600;margin-bottom:6px" data-i18n="ui.rec.psk8"></div><div id="k8"></div></div>
+    </div>
+  </section>
+  <section class="wide">
+    <h2 data-i18n="ui.prot.title"></h2>
+    <div class="row"><span class="mut"><span data-i18n="ui.channel"></span> <b id="labCh"></b></span></div>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.prot.kind"></span> <select id="labKind"></select></label>
+      <input id="labNote" type="text" data-i18n-ph="ui.prot.note.ph" style="flex:1;min-width:200px">
+      <label class="f" data-i18n-title="ui.prot.n.title"><span data-i18n="ui.prot.n"></span> <input id="labN" type="number" value="5" min="1" max="20" style="width:60px"></label>
+      <button id="bLabRec" class="pri needconn" disabled data-i18n="ui.prot.rec"></button>
+      <span id="labMsg" class="mut"></span>
+    </div>
+    <div class="tbl" style="margin-top:10px;max-height:42vh"><table class="t" id="labTable"></table></div>
+    <div class="row" style="margin-top:12px">
+      <b data-i18n="ui.jr.title"></b><span class="mut" style="font-size:12px" data-i18n="ui.jr.hint"></span>
+    </div>
+    <div class="row">
+      <input id="jText" type="text" data-i18n-ph="ui.jr.ph" style="flex:1;min-width:220px">
+      <button id="bNote" data-i18n="ui.jr.add"></button>
+    </div>
+    <div id="journal" class="mut" style="margin-top:6px;font-size:12.5px;max-height:180px;overflow:auto;font-family:var(--mono)"></div>
+    <p class="note"><span data-i18n="ui.prot.note1"></span> <code id="labCsv"></code>. <span data-i18n="ui.prot.note2"></span></p>
+  </section>
+
+  <section class="wide">
+    <h2 data-i18n="ui.edge.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.period"></span> <input id="edgeInt" type="number" value="1" min="0.3" step="0.1" style="width:60px"></label>
+      <button id="bEdge" class="pri needconn" disabled data-i18n="ui.start"></button>
+      <button id="bEdgeNow" class="needconn" disabled data-i18n="ui.edge.now" data-i18n-title="ui.edge.now.title"></button>
+      <span id="edgeMsg" class="mut"></span>
+    </div>
+    <div id="eLock" class="lockbar" style="margin-top:10px" data-i18n="ui.lock.nodata"></div>
+    <div class="readout" style="margin-top:10px">
+      <span>C/N <b id="eCN">—</b></span><span>MER <b id="eME">—</b></span><span>CBER <b id="eCB">—</b></span><span><span id="ePostN">VBER</span> <b id="eVB">—</b></span>
+    </div>
+    <svg id="edgeChart" width="100%" height="200" style="margin-top:8px"></svg>
+    <div id="edgeBox" class="row" style="margin-top:6px"></div>
+    <p class="note" data-i18n-html="ui.edge.note"></p>
+  </section>
+
+  <section>
+    <h2 data-i18n="ui.ber.title"></h2>
+    <div class="row">
+      <label class="f" data-i18n-title="ui.ber.bn.title">Bn/Rs <input id="bnRs" type="number" value="1.4" step="0.05" min="1" style="width:70px"></label>
+      <label class="f"><input id="thQ" type="checkbox" checked> QPSK</label>
+      <label class="f"><input id="th8" type="checkbox" checked> 8PSK</label>
+      <label class="f"><input id="thEdge" type="checkbox" checked> <span data-i18n="ui.ber.edgepts"></span></label>
+    </div>
+    <svg id="berChart" width="100%" height="330" style="margin-top:8px"></svg>
+    <div class="row">
+      <label class="f">C/N <input id="calcCn" type="number" value="10" step="0.1" style="width:80px"> <span data-i18n="ui.db"></span></label>
+      <span id="calcOut" class="mut" style="font-family:var(--mono);font-size:12px"></span>
+    </div>
+    <p class="note" data-i18n="ui.ber.note"></p>
+  </section>
+
+  <section>
+    <h2 data-i18n="ui.pair.title"></h2>
+    <div class="row">
+      <label class="f"><span data-i18n="ui.sat"></span> <select id="pSat"></select></label>
+      <label class="f"><input id="pCh" type="checkbox" checked> <span data-i18n="ui.pair.ch"></span></label>
+      <label class="f"><input id="pSd" type="checkbox"> <span data-i18n="ui.pair.sd"></span></label>
+      <label class="f"><span data-i18n="ui.wait"></span> <input id="pDwell" type="number" value="3" min="1" step="0.5" style="width:56px"> <span data-i18n="ui.s"></span></label>
+    </div>
+    <div class="tbl" style="margin-top:8px;max-height:330px"><table class="t" id="pairTable"></table></div>
+    <div id="pairRes" style="margin-top:10px"></div>
+    <p class="note" data-i18n-html="ui.pair.note"></p>
+  </section>
+</div>
+
+<!-- ============ FOUND ============ -->
+<div class="tab" id="t-found">
+  <section class="wide">
+    <h2 data-i18n="ui.found.title"></h2>
+    <div class="row">
+      <span id="fCount" class="mut"></span>
+      <label class="f"><span data-i18n="ui.sat"></span> <select id="fSat"></select></label>
+      <input id="fFind" type="text" data-i18n-ph="ui.search" style="width:170px">
+      <span style="flex:1"></span>
+      <span id="fCsv" class="mut" style="font-size:12px"></span>
+    </div>
+    <div class="tbl" style="margin-top:10px"><table class="t" id="foundTable"></table></div>
+    <p class="note" data-i18n-html="ui.found.note"></p>
+  </section>
+</div>
+
+<!-- ============ DATALOGGER ============ -->
+<div class="tab" id="t-dl">
+  <section class="wide">
+    <h2 data-i18n="ui.dl.title"></h2>
+    <div class="row">
+      <button id="bDlList" disabled data-i18n="ui.dl.list"></button>
+      <span class="mut" data-i18n="ui.dl.local"></span>
+      <select id="dlLocal" style="min-width:180px"></select>
+      <button id="bDlOpen" data-i18n="ui.open"></button>
+      <span id="dlInfo" class="mut"></span>
+    </div>
+    <div id="dlRemote" class="row" style="margin-top:8px"></div>
+    <div id="dlView" style="margin-top:10px;overflow-x:auto"></div>
+  </section>
+</div>
+
+<!-- ============ LOG ============ -->
+<div class="tab" id="t-log">
+  <section>
+    <h2 data-i18n="ui.con.title"></h2>
+    <div class="row">
+      <input id="cmd" type="text" placeholder="*?NA" style="flex:1;min-width:160px">
+      <button id="bSend" disabled data-i18n="ui.con.send"></button>
+    </div>
+    <label class="f" style="margin-top:8px"><input id="expert" type="checkbox"> <span data-i18n="ui.con.expert"></span></label>
+    <div id="reply" class="mut"></div>
+  </section>
+  <section>
+    <h2 data-i18n="ui.log.title"></h2>
+    <pre id="log"></pre>
+  </section>
+</div>
+</main>
+<footer><span data-i18n="ui.footer"></span> · <a href="https://github.com/RE22GDV/tvxlink" target="_blank" rel="noopener">GitHub</a></footer>
+
+<script>
+const $ = id => document.getElementById(id);
+const el = (tag, text, cls) => { const e = document.createElement(tag); if (text != null) e.textContent = text; if (cls) e.className = cls; return e; };
+const NS = 'http://www.w3.org/2000/svg';
+const sv = (tag, attrs, text) => { const e = document.createElementNS(NS, tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (text != null) e.textContent = text; return e; };
+let connected = false, demo = false;
+
+async function api(path, body){
+  const r = await fetch(path, body === undefined ? {} : {method:'POST', headers:{'Content-Type':'application/json'}, body:JSON.stringify(body)});
+  const j = await r.json();
+  if (!r.ok) throw new Error(j.error || r.status);
+  return j;
+}
+
+/* ---------- languages ---------- */
+let I18N = {}, LANG = 'uk';
+function T(k, v){
+  let s = I18N[k]; if (s == null) s = k;
+  return v ? s.replace(/\{(\w+)\}/g, (m, n) => v[n] != null ? v[n] : m) : s;
+}
+const TT = (prefix, code) => { const k = prefix + code; return I18N[k] != null ? I18N[k] : (code ?? ''); };   // translate a code, show it as is if unknown
+function applyI18n(){
+  document.querySelectorAll('[data-i18n]').forEach(e => e.textContent = T(e.dataset.i18n));
+  document.querySelectorAll('[data-i18n-html]').forEach(e => e.innerHTML = T(e.dataset.i18nHtml));
+  document.querySelectorAll('[data-i18n-title]').forEach(e => e.title = T(e.dataset.i18nTitle));
+  document.querySelectorAll('[data-i18n-ph]').forEach(e => e.placeholder = T(e.dataset.i18nPh));
+  document.documentElement.lang = LANG;
+}
+async function setLang(lang, save){
+  const j = await api('/api/i18n?lang=' + lang);
+  I18N = j.dict; LANG = j.lang; $('langSel').value = LANG;
+  try { localStorage.setItem('lang', LANG); } catch(e){}
+  if (save) api('/api/lang', {lang:LANG}).catch(() => {});
+  applyI18n(); rerenderAll();
+}
+$('langSel').onchange = () => setLang($('langSel').value, true);
+function rerenderAll(){
+  setConnected(connected, lastInfo, demo);
+  if (!$('aimTarget').textContent) $('aimTarget').textContent = T('ui.aim.current');
+  fillLabKinds(true); updScanBtn(); seekBtns(seeking ? seekDir : 0);
+  if (sats.length){ fillSatSelects(); renderVerified(); }
+  if (sat){ showSrc(); renderTable(); renderBest(); drawChart(); showTuned(tpAt(tunedF)); }
+  drawTrend(); aimPeaks(); renderLab(); loadJournal(); drawEdge(); renderEdgeBox(); calcBer(); drawBer();
+  renderPairs(); renderRec(); loadGeo(); renderFound(); refreshSaved(); loadPorts();
+  if (lastDl) renderDl(lastDl);
+}
+
+/* ---------- tabs ---------- */
+document.querySelectorAll('#tabs button').forEach(b => b.onclick = () => {
+  document.querySelectorAll('#tabs button').forEach(x => x.classList.toggle('on', x === b));
+  document.querySelectorAll('.tab').forEach(t => t.classList.toggle('on', t.id === 't-' + b.dataset.t));
+  try { localStorage.setItem('tab', b.dataset.t); } catch(e){}
+  if (b.dataset.t === 'sp'){ drawChart(); refreshSaved(); }
+  if (b.dataset.t === 'found') loadFound();
+  if (b.dataset.t === 'lab'){ loadLab(); loadJournal(); loadRec(); if (!pairsData.length) loadPairs(); }
+  if (b.dataset.t === 'aim'){ loadGeo(); drawTrend(); }
+});
+
+/* ---------- connection ---------- */
+const NEED_CONN = ['bSend','bOnce','bPoll','bRec','bDlList','bTune','bScan','bSweep','bAim','rSeekUp','rSeekDown','bCheck'];
+let lastInfo = {};
+function setConnected(on, info, isDemo){
+  connected = on; demo = !!isDemo; lastInfo = info || {};
+  $('dot').className = 'dot' + (on ? (demo ? ' demo' : ' on') : '');
+  $('state').textContent = on ? (demo ? T('ui.state.demo') : T('ui.state.on')) : T('ui.state.off');
+  $('bConnect').disabled = on; $('bDemo').disabled = on; $('portSel').disabled = on; $('bDisconnect').disabled = !on;
+  NEED_CONN.forEach(b => $(b).disabled = !on);
+  document.querySelectorAll('.needconn').forEach(b => b.disabled = !on);
+  updScanBtn();
+  $('iModel').textContent = lastInfo.model || '—'; $('iFw').textContent = lastInfo.firmware || '—'; $('iId').textContent = lastInfo.id || '—';
+  if (!on){ stopPoll(); stopAim(); }
+}
+async function connect(isDemo){
+  $('connErr').textContent = ''; $('state').textContent = T('ui.state.connecting');
+  try { const j = await api('/api/connect', {demo:isDemo, port:$('portSel').value}); setConnected(true, j.info, j.demo); if (j.demo && sat){ await loadSat(sat.position); renderTable(); } }
+  catch(e){ $('connErr').textContent = e.message; setConnected(false); }
+}
+$('bConnect').onclick = () => connect(false);
+async function loadPorts(){
+  try {
+    const j = await api('/api/ports'), keep = $('portSel').value;
+    $('portSel').innerHTML = '';
+    const add = (v, t) => { const o = el('option', t); o.value = v; $('portSel').appendChild(o); };
+    add('', T('ui.port.auto'));
+    j.ports.forEach(p => add(p.device, `${p.device} — ${p.description}${p.promax ? ' ★' : ''}`));
+    add('usb', T('ui.port.usb'));
+    $('portSel').value = [...$('portSel').options].some(o => o.value === keep) ? keep : '';
+  } catch(e){}
+}
+$('portSel').onfocus = loadPorts;
+$('bDemo').onclick = () => connect(true);
+$('bDisconnect').onclick = async () => { await api('/api/disconnect', {}); setConnected(false); recording = false; $('bRec').textContent = T('ui.meas.rec'); $('recPath').textContent = ''; };
+$('bData').onclick = () => api('/api/open-data', {});
+$('bUsb').onclick = async () => {
+  const j = await api('/api/usb'); $('usb').style.display = 'block';
+  $('usb').textContent = j.devices.map(d => `${d.vid}:${d.pid}  ${d.name}`).join('\n') || T('ui.dev.nousb');
+};
+
+/* ---------- tuning ---------- */
+const FEC = {'DVB-S':['1/2','2/3','3/4','5/6','7/8'], 'DVB-S2':['1/4','1/3','2/5','1/2','3/5','2/3','3/4','4/5','5/6','6/7','7/8','8/9','9/10']};
+function fillFec(){
+  const keep = $('tFec').value; $('tFec').innerHTML = '';
+  FEC[$('tStd').value].forEach(f => $('tFec').appendChild(el('option', f)));
+  if (FEC[$('tStd').value].includes(keep)) $('tFec').value = keep;
+  $('tModL').style.display = $('tStd').value === 'DVB-S2' ? '' : 'none';
+}
+function updIf(){ const f = $('tRf').value - $('tLo').value; $('tIf').textContent = $('tRf').value ? f.toFixed(2) + ' ' + T('ui.mhz') : '—'; }
+$('tStd').onchange = fillFec; $('tRf').oninput = updIf; $('tLo').oninput = updIf; fillFec();
+function fillTune(tp){
+  $('tRf').value = tp.freq_mhz; $('tLo').value = tp.lo_mhz; $('tSr').value = tp.sr; $('tLnb').value = tp.lnb;
+  $('tStd').value = tp.system; fillFec(); $('tFec').value = tp.fec; if (tp.system === 'DVB-S2') $('tMod').value = tp.modulation; updIf();
+}
+$('bGoLab').onclick = () => document.querySelector('#tabs button[data-t="lab"]').click();
+function tuneText(j){
+  return `${j.locked ? '✔' : '✘'} ${j.status} · ${T('ui.tune.if')} ${j.if_mhz} ${T('ui.mhz')} · ${j.sent.join(' ') || T('ui.tune.unchanged')}` +
+         (j.skipped && j.skipped.length ? ` · ${T('ui.tune.skipped')}: ${j.skipped.join(' ')}` : '');
+}
+async function tune(p){
+  p.pos = p.pos || sat?.position;
+  $('tuneMsg').className = 'mut'; $('tuneMsg').textContent = T('ui.tune.busy');
+  try {
+    const j = await api('/api/tune', p);
+    $('tuneMsg').className = j.locked ? 'okc' : 'mut'; $('tuneMsg').textContent = tuneText(j);
+    lockState = j.locked; showTuned(tpAt(tunedF ?? +p.rf_mhz)); return j;
+  }
+  catch(e){ $('tuneMsg').className = 'err'; $('tuneMsg').textContent = e.message; return null; }
+}
+const tpTarget = (pos, t) => `${pos} ${(+t.freq_mhz).toFixed(2)} ${t.pol}, SR ${t.sr}, ${t.system} ${t.modulation} ${t.fec}`;
+$('bTune').onclick = async () => {
+  $('bTune').disabled = true;
+  await tune({rf_mhz:$('tRf').value, lo_mhz:$('tLo').value, sr:$('tSr').value, fec:$('tFec').value, lnb:$('tLnb').value,
+              standard:$('tStd').value, modulation:$('tMod').value, inversion:$('tInv').checked});
+  $('aimTarget').textContent = `${$('tRf').value} ${T('ui.mhz')}, SR ${$('tSr').value}, ${$('tStd').value} ${$('tFec').value}`;
+  $('bTune').disabled = !connected;
+};
+
+/* ---------- measurements ---------- */
+let polling = null, recording = false;
+function showLock(id, st){
+  const b = $(id); if (!b) return;
+  b.style.display = '';
+  if (!st){ b.className = 'lockbar'; b.textContent = T('ui.lock.nodata'); return; }
+  b.className = 'lockbar ' + (st.locked ? 'good' : st.locked === false ? 'bad' : '');
+  b.innerHTML = '';
+  b.append(st.locked ? '✔ ' : '✘ ', st.text || '');
+  b.appendChild(el('small', st.locked ? T('ui.lock.ok') : (st.st != null ? T('ui.lock.code', {st:st.st, mode:st.mode ?? ''}) : '')));
+}
+function renderTiles(m){
+  showLock('mLock', m.status);
+  $('tiles').innerHTML = '';
+  for (const v of m.values){
+    const t = el('div', null, 'tile');
+    t.appendChild(el('div', `${v.label} · ${v.cmd}`, 'l'));
+    const isBer = /\?(CB|VB)$/.test(v.cmd);
+    t.appendChild(el('div', v.value != null ? (v.note || '') + (isBer ? (+v.value).toExponential(1).replace('e', 'E') : v.value) : (v.error ? '—' : (v.note || '?')), 'v'));
+    t.appendChild(el('div', v.raw != null ? v.raw : (v.error || ''), 'r' + (v.error ? ' err' : '')));
+    $('tiles').appendChild(t);
+  }
+}
+async function measureOnce(){ try { renderTiles(await api('/api/measure', {})); } catch(e){ stopPoll(); $('recPath').textContent = e.message; } }
+function stopPoll(){ if (polling){ clearTimeout(polling); polling = null; } $('bPoll').textContent = T('ui.meas.poll'); }
+async function loop(){ await measureOnce(); if (polling) polling = setTimeout(loop, Math.max(300, $('period').value * 1000)); }
+$('bOnce').onclick = measureOnce;
+$('bPoll').onclick = () => { if (polling) stopPoll(); else { polling = true; $('bPoll').textContent = T('ui.stop'); loop(); } };
+$('bRec').onclick = async () => {
+  const j = await api('/api/record', {on:!recording});
+  recording = j.recording; $('bRec').textContent = recording ? T('ui.meas.recstop') : T('ui.meas.rec');
+  $('recPath').textContent = j.path ? (recording ? T('ui.meas.writing') : T('ui.meas.saved')) + ' ' + j.path : '';
+};
+
+/* ---------- satellites and channels ---------- */
+let sats = [], sat = null, results = {}, selected = new Set(), sortKey = 'freq_mhz', sortDir = 1, verified = [];
+const key = t => `${t.freq_mhz}|${t.pol}|${t.sr}`;
+function fillSatSelects(){
+  for (const s of ['cSat','sSat','pSat','kSat']){
+    const keep = $(s).value; $(s).innerHTML = '';
+    sats.forEach(x => { const o = el('option', `${x.pos} — ${x.name}`); o.value = x.pos; $(s).appendChild(o); });
+    if (keep) $(s).value = keep;
+  }
+}
+async function loadSats(){
+  sats = (await api('/api/sats')).sats;
+  fillSatSelects();
+  let pos = '13E'; try { pos = localStorage.getItem('sat') || pos; } catch(e){}
+  if (!sats.some(s => s.pos === pos)) pos = sats[0]?.pos;
+  ['cSat','sSat','pSat','kSat'].forEach(s => $(s).value = pos);
+  await loadSat(pos);
+  verified = (await api('/api/verified')).items; renderVerified();
+}
+function renderVerified(){
+  const box = $('verified'); box.innerHTML = '';
+  for (const c of verified){
+    const s = sats.find(x => x.pos === c.pos);
+    const card = el('div', null, 'tile'); card.style.minWidth = '230px';
+    card.appendChild(el('div', `${s ? s.name : c.pos}`, 'l'));
+    card.appendChild(el('div', c.name)).style.fontWeight = '600';
+    card.appendChild(el('div', `${c.freq_mhz} ${c.pol} · SR ${c.sr} · ${c.screen || ''}`, 'r'));
+    card.appendChild(el('div', (c.seen || []).map(x => TT('ui.ver.seen.', x.split(' ')[0]) + ' ' + (x.split(' ')[1] || '')).join(' · '), 'r'));
+    const row = el('div', null, 'row'); row.style.marginTop = '6px';
+    const show = el('button', T('ui.show')); show.onclick = async () => { await loadSat(c.pos); document.querySelector('button.chip[data-q="verified"]').click(); };
+    const msg = el('div', '', 'r'); msg.style.marginTop = '4px'; msg.style.maxWidth = '260px';
+    const go = el('button', '▶ ' + T('ui.tune.short'), 'needconn'); go.disabled = !connected;
+    go.onclick = async () => {
+      go.disabled = true; msg.className = 'mut'; msg.textContent = T('ui.tune.busy');
+      try {
+        if (sat?.position !== c.pos) await loadSat(c.pos);
+        const t = sat.transponders.find(t => t.pol === c.pol && t.sr === c.sr && Math.abs(t.freq_mhz - c.freq_mhz) < 0.6);
+        if (!t){ msg.className = 'err'; msg.textContent = T('ui.ver.missing'); return; }
+        const j = await tuneTo(t);
+        msg.className = j && j.locked ? 'okc' : 'mut';
+        msg.textContent = j ? tuneText(j) + (j.locked ? '' : ' · ' + T('ui.ver.aimhint', {pos:c.pos})) : $('tuneMsg').textContent;
+      } finally { go.disabled = !connected; }
+    };
+    row.append(show, go); card.append(row, msg); box.appendChild(card);
+  }
+}
+function showSrc(){
+  $('cSrc').textContent = T('ui.ch.src', {n:sat.transponders.length, src:sat.source, built:sat.built}) + (sat._updated ? ' ' + T('ui.ch.updated') : '');
+}
+async function loadSat(pos){
+  sat = await api('/api/sat?pos=' + encodeURIComponent(pos));
+  try { localStorage.setItem('sat', pos); } catch(e){}
+  showSrc(); $('cSat').value = pos; $('sSat').value = pos;
+  renderTable(); drawChart();
+}
+$('cSat').onchange = () => loadSat($('cSat').value);
+$('sSat').onchange = () => loadSat($('sSat').value);
+
+/* channel database update (KingOfSat, all positions) */
+async function pollSatUpd(){
+  const j = await api('/api/sats/update');
+  const box = $('satUpd'); box.style.display = '';
+  if (j.running){
+    box.textContent = T('ui.upd.running', {pos:j.pos ? j.pos + ' — ' : '', step:TT('ui.upd.', j.step), i:j.i + (j.pos ? 1 : 0), n:j.n || '…'});
+    $('bSatUpd').disabled = true; setTimeout(pollSatUpd, 700); return;
+  }
+  $('bSatUpd').disabled = false;
+  if (!j.report){ box.style.display = 'none'; return; }
+  box.innerHTML = '';
+  box.appendChild(el('b', T('ui.upd.summary', {ok:j.report.filter(r => r.ok).length, n:j.report.length})));
+  for (const r of j.report){
+    const t = r.ok ? `${r.pos}: ${r.before ?? '—'} → ${r.after}` + (r.added || r.removed || r.changed ? ` (+${r.added} / −${r.removed} / ${T('ui.upd.changed')} ${r.changed})` : ` (${T('ui.upd.same')})`)
+                   : `${r.pos}: ✘ ${r.error}`;
+    box.appendChild(el('span', t, 'st ' + (r.ok ? 'good' : 'bad')));
+  }
+  const pos = sat?.position;
+  sats = (await api('/api/sats')).sats; fillSatSelects();
+  if (pos) await loadSat(pos);
+}
+$('bSatUpd').onclick = async () => { try { await api('/api/sats/update', {}); pollSatUpd(); } catch(e){ $('satUpd').style.display = ''; $('satUpd').textContent = e.message; } };
+
+function filtered(){
+  if (!sat) return [];
+  const txt = $('fTxt').value.trim().toLowerCase();
+  const verOnly = document.querySelector('button.chip.on')?.dataset.q === 'verified';
+  return sat.transponders.filter(t =>
+    (!verOnly || t.verified) &&
+    (!$('fSys').value || t.system === $('fSys').value) &&
+    (!$('fMod').value || t.modulation === $('fMod').value) &&
+    (!$('fVid').value || t.video.includes($('fVid').value)) &&
+    (!$('fSd').checked || t.mpeg2_sd.length) &&
+    (!$('fPol').value || t.pol === $('fPol').value) &&
+    (!$('fBand').value || t.band === $('fBand').value) &&
+    (!$('fFta').checked || t.fta_count > 0) &&
+    (!$('fSup').checked || t.supported) &&
+    (!$('fCh').checked || t.channels.length) &&
+    (!$('fUk').checked || t.beam !== 'U.K.') &&
+    (!$('fLock').checked || results[key(t)]?.locked) &&
+    (!txt || t.channels.some(c => c.name.toLowerCase().includes(txt))));
+}
+['fSys','fMod','fVid','fSd','fPol','fBand','fFta','fSup','fCh','fUk','fLock'].forEach(i => $(i).onchange = () => { markChip(''); renderTable(); });
+$('fTxt').oninput = () => renderTable();
+function markChip(q){ document.querySelectorAll('button.chip').forEach(c => c.classList.toggle('on', c.dataset.q === q)); }
+document.querySelectorAll('button.chip').forEach(c => c.onclick = () => {
+  const q = c.dataset.q;
+  $('fSys').value = ''; $('fVid').value = ''; $('fSd').checked = false; $('fMod').value = ''; $('fTxt').value = '';
+  if (q === 'qpsk-m2'){ $('fMod').value = 'QPSK'; $('fVid').value = 'MPEG-2'; }
+  if (q === '8psk-m2sd'){ $('fMod').value = '8PSK'; $('fSd').checked = true; }
+  if (q === 'verified'){ $('fCh').checked = false; }
+  markChip(q); renderTable();
+});
+
+const COLS = [
+  ['', null], ['ui.col.freq', 'freq_mhz'], ['ui.col.pol', 'pol'], ['SR', 'sr'], ['ui.col.system', 'system'], ['ui.col.mod', 'modulation'], ['FEC', 'fec'],
+  ['ui.col.if', 'if_mhz'], ['LNB', 'lnb'], ['ui.col.beam', 'beam'], ['ui.col.req', 'required_cn_db'], ['ui.col.video', null],
+  ['ui.col.device', 'r.locked'], ['ui.col.level', 'r.level'], ['C/N', 'r.cn'], ['MER', 'r.mer'], ['ui.col.margin', 'r.margin'], ['ui.col.verdict', 'r.status'], ['ui.col.channels', null], ['', null]];
+const STATUS_CLASS = {excellent:'good', locked:'good', marginal:'edge', no_lock:'bad'};
+const statusCode = s => s;
+const stClass = s => STATUS_CLASS[statusCode(s)] || 'none';
+function val(t, k){ if (k.startsWith('r.')) { const r = results[key(t)]; return r ? r[k.slice(2)] : null; } return t[k]; }
+function renderTable(){
+  if (!sat) return;
+  const rows = filtered().slice().sort((a, b) => {
+    const x = val(a, sortKey), y = val(b, sortKey);
+    if (x == null && y == null) return 0; if (x == null) return 1; if (y == null) return -1;
+    return (x > y ? 1 : x < y ? -1 : 0) * sortDir;
+  });
+  const tb = $('cTable'); tb.innerHTML = '';
+  const hr = el('tr');
+  COLS.forEach(([h, k]) => { const th = el('th', (h.startsWith('ui.') ? T(h) : h) + (k && k === sortKey ? (sortDir > 0 ? ' ▲' : ' ▼') : ''));
+    if (k) th.onclick = () => { sortDir = sortKey === k ? -sortDir : (k.startsWith('r.') ? -1 : 1); sortKey = k; renderTable(); }; hr.appendChild(th); });
+  tb.appendChild(hr);
+  for (const t of rows){
+    const r = results[key(t)] || {};
+    const tr = el('tr'); if (!t.supported) tr.className = 'na';
+    const cb = el('input'); cb.type = 'checkbox'; cb.checked = selected.has(key(t)); cb.disabled = !t.supported;
+    cb.onchange = () => { cb.checked ? selected.add(key(t)) : selected.delete(key(t)); updScanBtn(); };
+    const td0 = el('td'); td0.appendChild(cb); tr.appendChild(td0);
+    tr.appendChild(el('td', (+t.freq_mhz).toFixed(2), 'num'));
+    tr.appendChild(el('td', t.pol));
+    tr.appendChild(el('td', t.sr, 'num'));
+    tr.appendChild(el('td', t.system)); tr.appendChild(el('td', t.modulation + (t.supported ? '' : ' ✕')));
+    tr.appendChild(el('td', t.fec)); tr.appendChild(el('td', (+t.if_mhz).toFixed(1), 'num')); tr.appendChild(el('td', t.lnb));
+    const bm = el('td', (t.beam === 'U.K.' ? '⚠ ' : '') + (t.beam || '')); if (t.beam === 'U.K.') bm.title = T('ui.ch.f.uk.title'); tr.appendChild(bm);
+    tr.appendChild(el('td', t.required_cn_db != null ? t.required_cn_db + ' ' + T('ui.db') : '—', 'num'));
+    tr.appendChild(el('td', t.video.join(', ') || '—'));
+    const dv = el('td');
+    if (r.device_status){ const b = el('span', (r.locked ? '✔ ' : '✘ ') + r.device_status, 'st ' + (r.locked ? 'good' : 'bad'));
+      b.title = `*?ST = ${r.st}` + (r.lock_s != null ? ' · ' + T('ui.ch.lock_s', {s:r.lock_s}) : ''); dv.appendChild(b); }
+    tr.appendChild(dv);
+    tr.appendChild(el('td', r.level != null ? r.level : '', 'num'));
+    tr.appendChild(el('td', r.cn != null ? r.cn : '', 'num'));
+    tr.appendChild(el('td', r.mer != null ? r.mer : '', 'num'));
+    tr.appendChild(el('td', r.margin != null ? (r.margin > 0 ? '+' : '') + r.margin : '', 'num'));
+    const st = el('td'); if (r.status){ st.appendChild(el('span', TT('status.', statusCode(r.status)), 'st ' + stClass(r.status))); } tr.appendChild(st);
+    const ch = el('td', null, 'ch');
+    if (t.verified) { ch.appendChild(el('b', '★ ' + t.verified.join(', ') + ' — ' + T('ui.ver.mark'))); ch.appendChild(el('br')); }
+    const sd = new Set(t.mpeg2_sd);
+    t.channels.slice(0, 12).forEach((c, i) => { if (i) ch.append(', '); ch.appendChild(sd.has(c.name) ? el('b', c.name + ' (SD)') : document.createTextNode(c.name)); });
+    if (t.channels.length > 12) ch.append(' ' + T('ui.more', {n:t.channels.length - 12}));
+    tr.appendChild(ch);
+    const tdb = el('td'); const go = el('button', '▶'); go.title = T('ui.ch.tune.title'); go.disabled = !connected || !t.supported;
+    go.onclick = () => tuneTo(t); tdb.appendChild(go); tr.appendChild(tdb);
+    tb.appendChild(tr);
+  }
+  updScanBtn();
+}
+async function tuneTo(t){
+  fillTune(t);
+  $('aimTarget').textContent = tpTarget(sat.position, t);
+  return await tune({rf_mhz:t.freq_mhz, lo_mhz:t.lo_mhz, sr:t.sr, fec:t.fec, lnb:t.lnb, standard:t.system, modulation:t.modulation});
+}
+function updScanBtn(){ $('bScan').textContent = T('ui.ch.scan', {n:selected.size}); $('bScan').disabled = !connected || !selected.size || jobRunning; }
+$('bSelAll').onclick = () => { filtered().filter(t => t.supported).forEach(t => selected.add(key(t))); renderTable(); };
+$('bSelNone').onclick = () => { selected.clear(); renderTable(); };
+
+/* ---------- jobs (scan / sweep) ---------- */
+let jobRunning = false, jobSince = 0, sweep = [], sweepLo = 9750, noiseFloor = null;
+async function pollJob(){
+  try {
+    const j = await api('/api/job?since=' + jobSince);
+    jobSince += (j.items || []).length;
+    if (j.kind === 'scan' || j.kind === 'seek'){
+      for (const it of j.items || []) results[`${it.freq_mhz}|${it.pol}|${it.sr}`] = it;
+      $('scanBar').style.width = (j.total ? 100 * j.done / j.total : 0) + '%';
+      const nl = Object.values(results).filter(r => r.locked).length;
+      $('scanMsg').textContent = j.running ? T('ui.ch.scanning', {done:j.done, total:j.total, cur:j.current, n:nl})
+                                           : (j.error ? T('ui.error') + ': ' + j.error : T('ui.ch.scanned', {done:j.done, total:j.total, n:nl, dir:j.dir}));
+      $('scanMsg').className = j.error ? 'err' : 'mut';
+      if (checking){
+        const cur = (j.current || '').split(' ');
+        checkingKey = j.running && cur.length >= 4 ? `${+cur[1]}|${cur[2]}|${+cur[3]}` : null;
+        $('sweepMsg').className = 'mut';
+        $('sweepMsg').textContent = j.running ? T('ui.sp.checking', {done:j.done, total:j.total, cur:j.current, n:nl}) : T('ui.sp.checked', {done:j.done, total:j.total, n:nl});
+        if (!j.running){ checking = false; $('bCheck').textContent = T('ui.sp.check'); }
+      }
+      renderTable(); renderBest(); drawChart();
+      if (j.kind === 'seek') seekProgress(j);
+    } else if (j.kind === 'sweep'){
+      sweep.push(...(j.items || []));
+      $('sweepBar').style.width = (j.total ? 100 * j.done / j.total : 0) + '%';
+      $('sweepMsg').textContent = j.running ? `${j.done}/${j.total} · ${j.current}` : (j.error ? T('ui.error') + ': ' + j.error : T('ui.sp.done', {dir:j.dir}));
+      $('sweepMsg').className = j.error ? 'err' : 'mut';
+      drawChart();
+      if (!j.running){ refreshSaved(); if (!j.error && $('sAutoCheck').checked) setTimeout(checkVisible, 300); }
+    }
+    jobRunning = !!j.running;
+    $('bStop').disabled = $('bSweepStop').disabled = !jobRunning;
+    $('bSweep').disabled = !connected || jobRunning; updScanBtn();
+    if (jobRunning) setTimeout(pollJob, 400);
+  } catch(e){ jobRunning = false; }
+}
+$('bScan').onclick = async () => {
+  const picks = sat.transponders.filter(t => selected.has(key(t))).map(t => ({pos:sat.position, freq_mhz:t.freq_mhz, pol:t.pol, sr:t.sr}));
+  try { await api('/api/scan', {picks, dwell:$('dwell').value}); jobSince = 0; jobRunning = true; pollJob(); }
+  catch(e){ $('scanMsg').className = 'err'; $('scanMsg').textContent = e.message; }
+};
+$('bStop').onclick = $('bSweepStop').onclick = () => api('/api/job/stop', {});
+function renderBest(){
+  const box = $('best'); box.innerHTML = '';
+  const all = Object.values(results), got = all.filter(r => r.locked);
+  if (all.length){ const c = el('b', T('ui.ch.got', {n:got.length, total:all.length})); c.style.marginRight = '8px'; box.appendChild(c); }
+  const ok = all.filter(r => r.locked && r.margin != null).sort((a, b) => b.margin - a.margin).slice(0, 6);
+  if (!ok.length) return;
+  box.appendChild(el('span', T('ui.ch.best'), 'mut'));
+  ok.forEach(r => box.appendChild(el('span', `${r.freq_mhz} ${r.pol} · ${r.modulation} · ${T('ui.col.margin').toLowerCase()} ${r.margin > 0 ? '+' : ''}${r.margin} ${T('ui.db')}`, 'st ' + stClass(r.status))));
+}
+
+/* ---------- spectrum ---------- */
+function bandLimits(){ return $('sBand').value === 'high' ? [11700, 12750, 10600] : [10700, 11700, 9750]; }
+function syncLnb(){ return ($('sPol').value === 'V' ? '13V' : '18V') + ($('sBand').value === 'high' ? '+22kHz' : ''); }
+$('bFull').onclick = () => { const [a, b] = bandLimits(); $('sCenter').value = (a + b) / 2; $('sSpan').value = b - a; drawChart(); };
+$('sBand').onchange = () => { $('bFull').onclick(); };
+$('sPol').onchange = drawChart;
+let checkingKey = null, checking = false;
+function visibleTps(){
+  if (!sat) return [];
+  const pol = $('sPol').value, band = $('sBand').value, c = +$('sCenter').value, sp = +$('sSpan').value;
+  return sat.transponders.filter(t => t.pol === pol && t.band === band && t.supported && t.freq_mhz >= c - sp / 2 && t.freq_mhz <= c + sp / 2 &&
+                                      (!$('rCh').checked || t.channels.length)).sort((a, b) => a.freq_mhz - b.freq_mhz);
+}
+async function checkVisible(){
+  if (jobRunning){ api('/api/job/stop', {}); return; }
+  const list = visibleTps();
+  if (!list.length){ $('sweepMsg').className = 'mut'; $('sweepMsg').textContent = T('ui.sp.nothing'); return; }
+  const picks = list.map(t => ({pos:sat.position, freq_mhz:t.freq_mhz, pol:t.pol, sr:t.sr}));
+  try {
+    await api('/api/scan', {picks, dwell:$('rSeekDwell').value, keep_order:true});
+    checking = true; $('bCheck').textContent = '■ ' + T('ui.sp.checkstop'); jobSince = 0; jobRunning = true; pollJob();
+  } catch(e){ $('sweepMsg').className = 'err'; $('sweepMsg').textContent = e.message; }
+}
+$('bCheck').onclick = checkVisible;
+$('bSweep').onclick = async () => {
+  const lo = bandLimits()[2]; sweepLo = lo; sweep = []; noiseFloor = null;
+  try { await api('/api/sweep', {center:$('sCenter').value, span:$('sSpan').value, step:$('sStep').value, lo, lnb:syncLnb(), settle:$('sSettle').value});
+        jobSince = 0; jobRunning = true; pollJob(); }
+  catch(e){ $('sweepMsg').className = 'err'; $('sweepMsg').textContent = e.message; }
+};
+/* saved sweeps */
+async function refreshSaved(){
+  try {
+    const j = await api('/api/sessions?kind=sweep'), keep = $('sSaved').value;
+    $('sSaved').innerHTML = '';
+    const o0 = el('option', j.sessions.length ? T('ui.sp.pick') : T('ui.sp.nosaved')); o0.value = ''; $('sSaved').appendChild(o0);
+    j.sessions.forEach(s => { const o = el('option', `${s.name.slice(0, 8)} ${s.name.slice(9, 11)}:${s.name.slice(11, 13)} · ${s.count} ${T('ui.pts')}`); o.value = s.name; $('sSaved').appendChild(o); });
+    if (keep) $('sSaved').value = keep;
+  } catch(e){}
+}
+async function openSweep(name){
+  const j = await api('/api/session?name=' + encodeURIComponent(name));
+  sweep = j.items; noiseFloor = null;
+  const f = sweep.map(p => p.rf_mhz); if (!f.length) return;
+  const a = Math.min(...f), b = Math.max(...f);
+  sweepLo = +(sweep[0].rf_mhz - sweep[0].if_mhz).toFixed(0);
+  $('sBand').value = sweepLo >= 10600 ? 'high' : 'low';
+  $('sCenter').value = ((a + b) / 2).toFixed(0); $('sSpan').value = Math.max(20, Math.ceil(b - a));
+  $('sweepMsg').className = 'mut'; $('sweepMsg').textContent = T('ui.sp.opened', {dir:j.dir});
+  drawChart();
+}
+$('bSpOpen').onclick = () => { if ($('sSaved').value) openSweep($('sSaved').value).catch(e => $('sweepMsg').textContent = e.message); };
+function quantile(a, q){ const s = a.slice().sort((x, y) => x - y); return s[Math.floor((s.length - 1) * q)]; }
+function drawChart(){
+  const svg = $('chart'); if (!svg.clientWidth) return;
+  svg.innerHTML = '';
+  const W = svg.clientWidth, H = 420, L = 46, R = 12, T0 = 14, B = 34;
+  const c = +$('sCenter').value, sp = +$('sSpan').value;
+  const x0 = c - sp / 2, x1 = c + sp / 2;
+  const lv = sweep.map(p => p.level).filter(v => v != null);
+  let y0 = lv.length ? Math.floor(Math.min(...lv) / 5) * 5 - 5 : 30, y1 = lv.length ? Math.ceil(Math.max(...lv) / 5) * 5 + 5 : 80;
+  if (y1 - y0 < 20) y1 = y0 + 20;
+  const X = f => L + (f - x0) / (x1 - x0) * (W - L - R), Y = v => T0 + (1 - (v - y0) / (y1 - y0)) * (H - T0 - B);
+  for (let v = y0; v <= y1; v += 5){ svg.appendChild(sv('line', {x1:L, x2:W - R, y1:Y(v), y2:Y(v), stroke:'var(--grid)'})); svg.appendChild(sv('text', {x:L - 6, y:Y(v) + 4, 'text-anchor':'end'}, v)); }
+  const stepX = sp > 600 ? 100 : sp > 200 ? 50 : sp > 60 ? 10 : 5;
+  for (let f = Math.ceil(x0 / stepX) * stepX; f <= x1; f += stepX){ svg.appendChild(sv('line', {x1:X(f), x2:X(f), y1:T0, y2:H - B, stroke:'var(--grid)'})); svg.appendChild(sv('text', {x:X(f), y:H - B + 16, 'text-anchor':'middle'}, f)); }
+  svg.appendChild(sv('text', {x:W - R, y:H - 4, 'text-anchor':'end'}, 'RF, ' + T('ui.mhz')));
+  svg.appendChild(sv('text', {x:L + 6, y:T0 + 12}, T('ui.dbuv')));
+  if (sat){
+    const pol = $('sPol').value, band = $('sBand').value, labels = [];
+    for (const t of sat.transponders){
+      if (t.pol !== pol || t.band !== band || t.freq_mhz < x0 || t.freq_mhz > x1) continue;
+      const bw = t.sr / 1000 * 1.35, r = results[key(t)];
+      const col = !r ? 'var(--mut)' : r.locked ? 'var(--ok)' : 'var(--bad)';
+      const xa = X(t.freq_mhz - bw / 2), w = Math.max(2, X(t.freq_mhz + bw / 2) - xa);
+      const g = sv('g', {style:'cursor:pointer'});
+      g.appendChild(sv('rect', {x:xa, y:T0, width:w, height:H - T0 - B, fill:col, 'fill-opacity': !r ? .06 : r.locked ? .30 : .10,
+                                 stroke: checkingKey === key(t) ? 'var(--acc)' : (t.mpeg2_sd.length ? 'var(--fg)' : 'none'),
+                                 'stroke-width': checkingKey === key(t) ? 3 : 1, 'stroke-dasharray': checkingKey === key(t) ? '' : '3 2'}));
+      if (r && r.locked){
+        g.appendChild(sv('rect', {x:xa, y:T0, width:w, height:6, fill:'var(--ok)'}));
+        labels.push({x:xa + w / 2, text:'✔ ' + (t.verified?.[0] || t.channels[0]?.name || `${t.freq_mhz}`)});
+      }
+      g.appendChild(sv('title', {}, `${(+t.freq_mhz).toFixed(2)} ${t.pol} · ${t.system} ${t.modulation} ${t.fec} · SR ${t.sr}` + (t.beam ? ` · ${T('ui.col.beam')} ${t.beam}` : '') +
+                       (r ? `\n${T('ui.col.device')}: ${r.device_status || ''}` + (r.cn != null ? ` · C/N ${r.cn} (${T('ui.col.req')} ${t.required_cn_db})` : '') : '\n' + T('ui.sp.unchecked')) +
+                       (t.channels.length ? '\n' + t.channels.slice(0, 6).map(c => c.name).join(', ') : '') +
+                       '\n' + (t.supported ? T('ui.sp.clicktune') : T('ui.sp.unsupported'))));
+      svg.appendChild(g);
+    }
+    for (const l of labels) svg.appendChild(sv('text', {x:l.x + 4, y:T0 + 12, transform:`rotate(90 ${l.x + 4} ${T0 + 12})`, style:'fill:var(--ok);font-weight:600;font-size:11px'}, l.text.slice(0, 28)));
+    [['var(--ok)', 'ui.sp.lg.locked'], ['var(--bad)', 'ui.sp.lg.nolock'], ['var(--mut)', 'ui.sp.lg.unchecked']].forEach(([c, k], i) => {
+      svg.appendChild(sv('rect', {x:L + 8 + i * 190, y:H - 14, width:10, height:10, fill:c, 'fill-opacity':.6}));
+      svg.appendChild(sv('text', {x:L + 22 + i * 190, y:H - 5}, T(k)));
+    });
+  }
+  const pts = sweep.filter(p => p.level != null && p.rf_mhz >= x0 && p.rf_mhz <= x1);
+  if (pts.length > 1){
+    svg.appendChild(sv('path', {d:pts.map((p, i) => (i ? 'L' : 'M') + X(p.rf_mhz).toFixed(1) + ' ' + Y(p.level).toFixed(1)).join(' '), fill:'none', stroke:'var(--trace)', 'stroke-width':1.8}));
+    noiseFloor = quantile(pts.map(p => p.level), 0.1);
+    svg.appendChild(sv('line', {x1:L, x2:W - R, y1:Y(noiseFloor), y2:Y(noiseFloor), stroke:'var(--bad)', 'stroke-dasharray':'5 4'}));
+    svg.appendChild(sv('text', {x:W - R - 4, y:Y(noiseFloor) - 4, 'text-anchor':'end'}, T('ui.sp.noise', {v:noiseFloor.toFixed(1)})));
+  }
+  if (tunedF != null && tunedF >= x0 && tunedF <= x1){
+    const col = lockState === true ? 'var(--ok)' : lockState === false ? 'var(--bad)' : 'var(--acc)';
+    svg.appendChild(sv('line', {x1:X(tunedF), x2:X(tunedF), y1:T0, y2:H - B, stroke:col, 'stroke-width':2.5}));
+    svg.appendChild(sv('path', {d:`M${X(tunedF) - 6} ${T0} L${X(tunedF) + 6} ${T0} L${X(tunedF)} ${T0 + 9} Z`, fill:col}));
+  }
+  const fAt = ev => { const rect = svg.getBoundingClientRect(); return x0 + (ev.clientX - rect.left - L) / (W - L - R) * (x1 - x0); };
+  svg.onmousemove = ev => {
+    const rect = svg.getBoundingClientRect(), f = fAt(ev), t = tpAt(f);
+    let txt = `${f.toFixed(1)} ${T('ui.mhz')}`;
+    if (pts.length){ const p = pts.reduce((a, b) => Math.abs(b.rf_mhz - f) < Math.abs(a.rf_mhz - f) ? b : a);
+      txt = `${p.rf_mhz} ${T('ui.mhz')} (${T('ui.tune.if')} ${p.if_mhz}) · ${p.level} ${T('ui.dbuv')}` + (noiseFloor != null ? ' · ' + T('ui.sp.above', {v:(p.level - noiseFloor).toFixed(1)}) : ''); }
+    if (t) txt += `\n${(+t.freq_mhz).toFixed(2)} ${t.pol} · ${t.system} ${t.modulation} ${t.fec} · SR ${t.sr}` + (t.channels.length ? ' · ' + t.channels.slice(0, 3).map(c => c.name).join(', ') : '');
+    $('tip').style.display = 'block'; $('tip').style.left = Math.min(ev.clientX - rect.left + 12, W - 260) + 'px'; $('tip').style.top = (ev.clientY - rect.top + 12) + 'px';
+    $('tip').textContent = txt + '\n' + T('ui.sp.clicktune');
+  };
+  svg.onmouseleave = () => $('tip').style.display = 'none';
+  svg.onclick = ev => { svg.focus(); radioTune(fAt(ev), {snap:true}); };
+  svg.onwheel = ev => { ev.preventDefault(); nudge(ev.deltaY < 0 ? 1 : -1, ev.shiftKey); };
+}
+
+/* ---------- radio-style tuning on the spectrum ---------- */
+let tunedF = null, lockState = null, tuneTimer = null, tuneBusy = false, pendingTune = null;
+function bwOf(t){ return t.sr / 1000 * 1.35; }
+function tpAt(f){
+  if (!sat || f == null) return null;
+  const pol = $('sPol').value, band = $('sBand').value;
+  let best = null;
+  for (const t of sat.transponders){
+    if (t.pol !== pol || t.band !== band || Math.abs(t.freq_mhz - f) > bwOf(t) / 2) continue;
+    if (!best || Math.abs(t.freq_mhz - f) < Math.abs(best.freq_mhz - f)) best = t;
+  }
+  return best;
+}
+function snapToPeak(f){
+  const win = Math.max(3 * (+$('sStep').value || 1), 8);
+  const near = sweep.filter(p => p.level != null && Math.abs(p.rf_mhz - f) <= win);
+  return near.length ? near.reduce((a, b) => b.level > a.level ? b : a).rf_mhz : f;
+}
+function showTuned(t){
+  $('rFreq').textContent = tunedF != null ? tunedF.toFixed(2) + ' ' + T('ui.mhz') + ' ' + $('sPol').value : '—';
+  $('rTp').textContent = t ? `${t.system} ${t.modulation} ${t.fec} · SR ${t.sr}` + (t.beam ? ` · ${T('ui.col.beam')} ${t.beam}` : '') + (t.supported ? '' : ' · ' + T('ui.sp.unsupported')) +
+                             (t.channels.length ? ' · ' + t.channels.slice(0, 4).map(c => c.name).join(', ') : '') + (t.verified ? ' · ★ ' + T('ui.ver.mark') : '')
+                           : (tunedF != null ? T('ui.sp.freqonly') : '');
+  drawChart();
+}
+async function radioTune(f, {snap = false} = {}){
+  const [a, b, lo] = bandLimits();
+  f = Math.min(b, Math.max(a, f));
+  if (snap && $('rSnap').checked && sweep.length) f = snapToPeak(f);
+  const t = tpAt(f);
+  if (t && snap) f = +t.freq_mhz;
+  tunedF = +f.toFixed(2); lockState = null; showTuned(t);
+  if (!connected) return;
+  if (tuneBusy){ pendingTune = [f, t]; return; }
+  tuneBusy = true;
+  try {
+    if (t && t.supported){
+      fillTune({...t, freq_mhz:+f.toFixed(2)});
+      await tune({rf_mhz:f, lo_mhz:t.lo_mhz, sr:t.sr, fec:t.fec, lnb:t.lnb, standard:t.system, modulation:t.modulation});
+      $('aimTarget').textContent = tpTarget(sat.position, t);
+    } else {
+      await api('/api/goto', {rf_mhz:f, lo_mhz:lo, lnb:syncLnb()});
+      $('tuneMsg').className = 'mut'; $('tuneMsg').textContent = T('ui.sp.goto', {f:f.toFixed(2), i:(f - lo).toFixed(2)});
+    }
+  } catch(e){ $('rTp').textContent = e.message; }
+  tuneBusy = false;
+  if (pendingTune){ const [pf] = pendingTune; pendingTune = null; radioTune(pf); }
+}
+function nudge(dir, big){
+  const step = +$('rStep').value * (big ? 10 : 1);
+  const base = tunedF ?? +$('sCenter').value;
+  tunedF = +(base + dir * step).toFixed(2); lockState = null; showTuned(tpAt(tunedF));
+  clearTimeout(tuneTimer); tuneTimer = setTimeout(() => radioTune(tunedF), 250);
+}
+function chanList(){
+  const pol = $('sPol').value, band = $('sBand').value;
+  return sat.transponders.filter(t => t.pol === pol && t.band === band && t.supported && (!$('rCh').checked || t.channels.length)).sort((x, y) => x.freq_mhz - y.freq_mhz);
+}
+function seekChannel(dir){
+  if (!sat) return;
+  const base = tunedF ?? (dir > 0 ? 0 : 1e9), list = chanList();
+  const t = dir > 0 ? list.find(t => t.freq_mhz > base + 0.5) : list.slice().reverse().find(t => t.freq_mhz < base - 0.5);
+  if (!t){ $('rTp').textContent = T('ui.sp.nomore'); return; }
+  const c = +$('sCenter').value, sp = +$('sSpan').value;
+  if (t.freq_mhz < c - sp / 2 || t.freq_mhz > c + sp / 2) $('sCenter').value = t.freq_mhz;
+  radioTune(+t.freq_mhz);
+}
+$('rUp').onclick = () => nudge(1); $('rDown').onclick = () => nudge(-1);
+$('rNext').onclick = () => seekChannel(1); $('rPrev').onclick = () => seekChannel(-1);
+let seeking = false, seekDir = 0;
+async function seekLocked(dir){
+  if (!sat || !connected) return;
+  if (seeking){ api('/api/job/stop', {}); return; }
+  const base = tunedF ?? (dir > 0 ? 0 : 1e9);
+  let list = chanList();
+  list = dir > 0 ? list.filter(t => t.freq_mhz > base + 0.5) : list.filter(t => t.freq_mhz < base - 0.5).reverse();
+  if (!list.length){ $('rTp').textContent = T('ui.sp.nomore'); return; }
+  try {
+    await api('/api/scan', {picks:list.map(t => ({pos:sat.position, freq_mhz:t.freq_mhz, pol:t.pol, sr:t.sr})), dwell:$('rSeekDwell').value, stop_on_lock:true, keep_order:true});
+    seeking = true; seekDir = dir; seekBtns(dir); jobSince = 0; jobRunning = true; pollJob();
+  } catch(e){ $('rTp').textContent = e.message; }
+}
+function seekBtns(dir){
+  $('rSeekUp').textContent = seeking && dir > 0 ? '■ ' + T('ui.stop') : T('ui.sp.seek') + ' ⏩';
+  $('rSeekDown').textContent = seeking && dir < 0 ? '■ ' + T('ui.stop') : '⏪ ' + T('ui.sp.seek');
+}
+function seekProgress(j){
+  const last = (j.items || []).slice(-1)[0];
+  if (last){
+    tunedF = +last.freq_mhz; lockState = last.locked;
+    const c = +$('sCenter').value, sp = +$('sSpan').value;
+    if (tunedF < c - sp / 2 || tunedF > c + sp / 2) $('sCenter').value = tunedF;
+    showTuned(tpAt(tunedF));
+  }
+  $('rTp').textContent = j.running ? T('ui.sp.seeking', {done:j.done, total:j.total, cur:j.current})
+    : (last && last.locked ? `✔ ${T('ui.sp.found')}: ${last.device_status} · ${last.channels.slice(0, 4).join(', ')}`
+                           : (j.error ? T('ui.error') + ': ' + j.error : T('ui.sp.seeknone', {n:j.done})));
+  if (!j.running){ seeking = false; seekBtns(0); }
+}
+$('rSeekUp').onclick = () => seekLocked(1); $('rSeekDown').onclick = () => seekLocked(-1);
+document.addEventListener('keydown', ev => {
+  if (!$('t-sp').classList.contains('on') || ['INPUT','SELECT','TEXTAREA'].includes(document.activeElement?.tagName)) return;
+  if (ev.key === 'ArrowRight' || ev.key === 'ArrowLeft'){ ev.preventDefault(); nudge(ev.key === 'ArrowRight' ? 1 : -1, ev.shiftKey); }
+  else if (ev.key === 'PageDown' || ev.key === 'PageUp'){ ev.preventDefault(); seekChannel(ev.key === 'PageDown' ? 1 : -1); }
+});
+async function liveTick(){
+  const on = $('rLive').checked && connected && !jobRunning && !tuneBusy && $('t-sp').classList.contains('on') && tunedF != null;
+  if (on){
+    try {
+      const r = await api('/api/aim', {});
+      const f = v => v != null ? v.toFixed(1) : '—';
+      $('rLV').textContent = f(r.LV?.value); $('rCN').textContent = f(r.CN?.value); $('rME').textContent = f(r.ME?.value);
+      const locked = r.status && r.status.locked != null ? r.status.locked : r.ME?.value != null;
+      if (locked !== lockState){ lockState = locked; drawChart(); }
+      $('rLock').textContent = r.status?.text || (locked ? T('ui.lock.ok') : T('status.no_lock')); $('rLock').className = 'st ' + (locked ? 'good' : 'bad');
+    } catch(e){}
+  }
+  setTimeout(liveTick, 600);
+}
+window.addEventListener('resize', () => { drawChart(); drawTrend(); drawEdge(); drawBer(); });
+['sCenter','sSpan'].forEach(i => $(i).onchange = drawChart);
+function svgText(){
+  const s = $('chart').cloneNode(true); s.setAttribute('xmlns', NS); s.setAttribute('width', $('chart').clientWidth);
+  const cs = getComputedStyle(document.documentElement);
+  return s.outerHTML.replace(/var\(--([a-z]+)\)/g, (m, n) => cs.getPropertyValue('--' + n).trim());
+}
+$('bSvg').onclick = () => {
+  const a = el('a'); a.href = URL.createObjectURL(new Blob([svgText()], {type:'image/svg+xml'})); a.download = `spectrum_${sat?.position || ''}_${$('sPol').value}_${$('sBand').value}.svg`; a.click();
+};
+$('bReport').onclick = async () => {
+  const rows = Object.values(results).sort((a, b) => (b.margin ?? -99) - (a.margin ?? -99));
+  const esc = s => String(s ?? '').replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'})[c]);
+  const head = ['ui.col.freq','ui.col.pol','SR','ui.col.system','ui.col.mod','FEC','ui.col.level','C/N','MER','ui.col.req','ui.col.margin','ui.col.verdict','ui.col.channels'].map(h => `<th>${esc(h.startsWith('ui.') ? T(h) : h)}</th>`).join('');
+  const html = `<!doctype html><meta charset="utf-8"><title>TVXLink — ${esc(T('ui.sp.report'))}</title><style>body{font:14px -apple-system,"Segoe UI",sans-serif;margin:24px}td,th{border-bottom:1px solid #ddd;padding:3px 8px;text-align:left}</style>
+<h1>${esc(T('ui.sp.report'))}: ${esc(sat?.name)}</h1><p>${new Date().toLocaleString(LANG)}${demo ? ' · ' + esc(T('ui.state.demo')) : ''} · ${esc(T('ui.pol'))} ${$('sPol').value}, ${esc($('sBand').selectedOptions[0].text)}${noiseFloor != null ? ' · ' + esc(T('ui.sp.noise', {v:noiseFloor.toFixed(1)})) : ''}</p>
+${svgText()}<h2>${esc(T('ui.ch.title'))}</h2><table><tr>${head}</tr>
+${rows.map(r => `<tr><td>${r.freq_mhz}</td><td>${r.pol}</td><td>${r.sr}</td><td>${r.system}</td><td>${r.modulation}</td><td>${r.fec}</td><td>${r.level ?? ''}</td><td>${r.cn ?? ''}</td><td>${r.mer ?? ''}</td><td>${r.required_cn}</td><td>${r.margin ?? ''}</td><td>${esc(TT('status.', statusCode(r.status)))}</td><td>${esc(r.channels.join(', '))}</td></tr>`).join('')}</table>
+<p style="color:#888">TVXLink</p>`;
+  try { const j = await api('/api/report', {html}); $('sweepMsg').className = 'mut'; $('sweepMsg').textContent = T('ui.sp.reportsaved') + ' ' + j.path; }
+  catch(e){ $('sweepMsg').className = 'err'; $('sweepMsg').textContent = e.message; }
+};
+
+/* ---------- antenna aiming ---------- */
+let aimTimer = null, peaks = {}, trend = [], audio = null, osc = null;
+const SCALE = {LV:[30, 90], CN:[0, 20], ME:[0, 20]};
+function stopAim(){ if (aimTimer){ clearTimeout(aimTimer); aimTimer = null; } $('bAim').textContent = T('ui.start'); if (osc){ osc.stop(); osc = null; } }
+$('bAimReset').onclick = () => { peaks = {}; trend = []; aimPeaks(); drawTrend(); };
+function aimPeaks(){ for (const k of ['LV','CN','ME']) $('a' + k + 'p').textContent = T('ui.aim.peak') + ' ' + (peaks[k] != null ? peaks[k].toFixed(1) : '—'); }
+function showAim(r){
+  showLock('aLock', r.status);
+  for (const k of ['LV','CN','ME']){
+    const v = r[k]?.value;
+    $('a' + k).textContent = v != null ? v.toFixed(1) : '—';
+    if (v != null && (peaks[k] == null || v > peaks[k])) peaks[k] = v;
+    const [a, b] = SCALE[k], pc = x => Math.max(0, Math.min(100, (x - a) / (b - a) * 100));
+    $('a' + k + 'b').style.width = (v != null ? pc(v) : 0) + '%';
+    $('a' + k + 'k').style.left = (peaks[k] != null ? pc(peaks[k]) : 0) + '%';
+  }
+  aimPeaks();
+}
+async function aimTick(){
+  try {
+    const r = await api('/api/aim', {});
+    showAim(r);
+    trend.push({t:Date.now(), lv:r.LV?.value, cn:r.CN?.value}); if (trend.length > 300) trend.shift();
+    drawTrend();
+    if ($('aimBeep').checked){
+      if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+      if (!osc){ osc = audio.createOscillator(); const g = audio.createGain(); g.gain.value = 0.05; osc.connect(g).connect(audio.destination); osc.start(); }
+      const cn = r.CN?.value ?? 0; osc.frequency.setTargetAtTime(220 + Math.max(0, cn) * 60, audio.currentTime, 0.05);
+    } else if (osc){ osc.stop(); osc = null; }
+  } catch(e){ $('aimTarget').textContent = e.message; }
+  if (aimTimer) aimTimer = setTimeout(aimTick, Math.max(200, $('aimPeriod').value * 1000));
+}
+$('bAim').onclick = () => { if (aimTimer) stopAim(); else { aimTimer = true; $('bAim').textContent = T('ui.stop'); aimTick(); } };
+function drawTrend(){
+  const svg = $('aimTrend'), W = svg.clientWidth, H = 170; svg.innerHTML = '';
+  if (!W) return;
+  svg.appendChild(sv('text', {x:4, y:14}, T('ui.aim.trend')));
+  if (trend.length < 2) return;
+  for (const [k, col, [a, b]] of [['lv', 'var(--trace)', SCALE.LV], ['cn', 'var(--ok)', SCALE.CN]]){
+    const pts = trend.map((p, i) => [i / (trend.length - 1) * W, p[k] == null ? null : H - 6 - (p[k] - a) / (b - a) * (H - 26)]).filter(p => p[1] != null);
+    if (pts.length > 1) svg.appendChild(sv('path', {d:pts.map((p, i) => (i ? 'L' : 'M') + p[0].toFixed(1) + ' ' + p[1].toFixed(1)).join(' '), fill:'none', stroke:col, 'stroke-width':1.8}));
+  }
+}
+
+/* ---------- lab: protocol, threshold, BER(C/N), pairs, look angles ---------- */
+const f1 = (v, d = 1) => v == null || v === '' ? '—' : (+v).toFixed(d);
+const berBound = raw => { if (raw == null) return ''; let s = String(raw).trim().replace(/^\*/, '');
+  if (/^(CB|VB|LB)/i.test(s)) s = s.slice(2); s = s.trim(); return '<>'.includes(s[0] || 'x') ? s[0] : ''; };
+const fBer = (v, raw) => v == null ? '—' : berBound(raw) + (+v).toExponential(1).replace('e', 'E');
+const postName = sys => sys === 'DVB-S2' ? 'LBER' : 'VBER';
+// a raw BER reply ('CB +89E-3', 'VB<+10E-9') → '8.9E-2', '<1.0E-8'
+const berText = raw => { const m = String(raw ?? '').match(/([<>])?\s*([+-]?\d+(?:\.\d+)?[eE][+-]?\d+)/); return m ? (m[1] || '') + (+m[2]).toExponential(1).replace('e', 'E') : (raw ?? ''); };
+const chText = c => c ? `${c.pos || '?'} ${f1(c.freq_mhz, 2)} ${c.pol || ''}, SR ${c.sr ?? '?'}, ${c.system || ''} ${c.modulation || ''} ${c.fec || ''}` : '—';
+let labRows = [], labCurrent = null, labKinds = [], theoryCache = {}, labSince = 0, edgeItems = [], edgeExtra = {}, pairItems = [], pairSel = null, pairsData = [], recData = null, lastJob = null;
+
+function fillLabKinds(force){
+  if ($('labKind').options.length && !force) return;
+  const keep = $('labKind').value; $('labKind').innerHTML = '';
+  labKinds.forEach(k => { const o = el('option', TT('kind.', k)); o.value = k; $('labKind').appendChild(o); });
+  if (keep) $('labKind').value = keep;
+}
+async function loadLab(){
+  try {
+    const j = await api('/api/lab/protocol');
+    labRows = j.rows; labCurrent = j.current; labKinds = j.kinds; $('labCsv').textContent = j.csv;
+    fillLabKinds(false);
+    renderLab(); drawBer();
+  } catch(e){ $('labMsg').className = 'err'; $('labMsg').textContent = e.message; }
+}
+function renderLab(){
+  $('labCh').textContent = labCurrent ? chText(labCurrent) + (labCurrent.channels?.length ? ' · ' + labCurrent.channels.slice(0, 3).join(', ') : '') : T('ui.prot.notuned');
+  $('ePostN').textContent = postName(labCurrent?.system);
+  const tb = $('labTable'); tb.innerHTML = '';
+  const hr = el('tr');
+  ['№','ui.col.time','ui.prot.kind','ui.channel','ui.col.device','C/N, ' + T('ui.db'),'MER, ' + T('ui.db'),'CBER','VBER / LBER','n','ui.col.note',''].forEach(h => hr.appendChild(el('th', h.startsWith('ui.') ? T(h).replace(/:$/, '') : h)));
+  tb.appendChild(hr);
+  if (!labRows.length){ const tr = el('tr'), td = el('td', T('ui.prot.empty'), 'mut'); td.colSpan = 12; tr.appendChild(td); tb.appendChild(tr); return; }
+  for (const r of labRows){
+    const tr = el('tr');
+    tr.appendChild(el('td', r.id, 'num'));
+    tr.appendChild(el('td', (r.time || '').replace('T', ' ').slice(5, 19)));
+    const k = el('td'); k.appendChild(el('b', TT('kind.', r.kind))); if (r.demo) k.append(' ', el('span', T('ui.demo.badge'), 'st edge')); tr.appendChild(k);
+    const ch = el('td', chText(r), 'ch'); ch.style.minWidth = '170px'; ch.style.color = 'var(--fg)'; ch.title = (r.channels || []).join(', '); tr.appendChild(ch);
+    const st = el('td'); st.appendChild(el('span', (r.locked === true ? '✔ ' : r.locked === false ? '✘ ' : '~ ') + (r.device_status || '—'),
+                                           'st ' + (r.locked === true ? 'good' : r.locked === false ? 'bad' : 'edge'))); tr.appendChild(st);
+    const rng = (a, b, c) => a == null ? '—' : f1(a, 1) + (b != null && c != null && b !== c ? ` (${f1(b)}…${f1(c)})` : '');
+    tr.appendChild(el('td', rng(r.cn, r.cn_min, r.cn_max), 'num'));
+    tr.appendChild(el('td', rng(r.mer, r.mer_min, r.mer_max), 'num'));
+    const ber = (v, raw) => { const td = el('td', v != null ? fBer(v, raw) : (raw ?? '—'), 'num'); td.title = T('ui.prot.raw') + ' ' + (raw ?? '—'); return td; };
+    tr.appendChild(ber(r.cber_v, r.cber));
+    const pb = ber(r.vber_v, r.vber); pb.textContent = (r.post_name || postName(r.system)) + ' ' + pb.textContent; tr.appendChild(pb);
+    tr.appendChild(el('td', r.n, 'num'));
+    const nt = el('td', r.note || '', 'ch'); nt.style.minWidth = '200px'; nt.style.maxWidth = '320px'; tr.appendChild(nt);
+    const td = el('td'), x = el('button', '✕'); x.title = T('ui.prot.hide');
+    x.onclick = async () => { if (!confirm(T('ui.prot.hide.confirm', {id:r.id, kind:TT('kind.', r.kind)}))) return; await api('/api/lab/delete', {id:r.id}); loadLab(); };
+    td.appendChild(x); tr.appendChild(td);
+    tb.appendChild(tr);
+  }
+}
+async function loadJournal(){
+  try {
+    const j = await api('/api/lab/journal'), box = $('journal'); box.innerHTML = '';
+    if (!j.items.length) box.textContent = T('ui.jr.empty');
+    j.items.slice().reverse().slice(0, 60).forEach(i => box.appendChild(el('div', `${i.time.replace('T', ' ').slice(5, 16)} ${i.channel ? '[' + i.channel + '] ' : ''}${['agent', 'claude'].includes(i.source) ? '🤖 ' : ''}${i.text}`)));
+  } catch(e){}
+}
+async function addNote(){
+  const text = $('jText').value.trim(); if (!text) return;
+  try { await api('/api/lab/note', {text}); $('jText').value = ''; loadJournal(); } catch(e){ $('journal').textContent = e.message; }
+}
+$('bNote').onclick = addNote;
+$('jText').addEventListener('keydown', e => { if (e.key === 'Enter') addNote(); });
+// AI agents write through the API: refresh while the tab is open.
+setInterval(() => { if ($('t-lab').classList.contains('on')){ loadJournal(); loadLab(); } }, 4000);
+$('bLabRec').onclick = async () => {
+  $('bLabRec').disabled = true; $('labMsg').className = 'mut'; $('labMsg').textContent = T('ui.prot.busy');
+  try {
+    const r = await api('/api/lab/record', {kind:$('labKind').value, note:$('labNote').value, n:+$('labN').value || 5});
+    $('labMsg').className = r.locked === true ? 'okc' : 'warnc';
+    $('labMsg').textContent = T('ui.prot.saved', {id:r.id, kind:TT('kind.', r.kind), cn:f1(r.cn), mer:f1(r.mer), cber:r.cber_v != null ? fBer(r.cber_v, r.cber) : r.cber ?? '—'}) +
+                              (r.locked === true ? '' : ' · ⚠ ' + T('ui.prot.partial'));
+    $('labNote').value = ''; await loadLab();
+  } catch(e){ $('labMsg').className = 'err'; $('labMsg').textContent = e.message; }
+  $('bLabRec').disabled = !connected;
+};
+
+/* threshold (EDGE) */
+async function pollLab(){
+  try {
+    const j = await api('/api/job?since=' + labSince);
+    labSince += (j.items || []).length; lastJob = j;
+    if (j.kind === 'edge'){
+      edgeItems.push(...(j.items || [])); if (edgeItems.length > 3600) edgeItems.splice(0, edgeItems.length - 3600);
+      edgeExtra = j.extra || {}; renderEdge(j);
+    } else if (j.kind === 'pair'){
+      pairItems.push(...(j.items || [])); renderPairRes(j);
+    }
+    if (j.running) setTimeout(pollLab, 500);
+    else {
+      $('bEdge').textContent = T('ui.start'); document.querySelectorAll('.pairgo').forEach(b => b.disabled = !connected);
+      if (j.kind === 'edge') $('edgeMsg').textContent = j.error ? T('ui.error') + ': ' + j.error : T('ui.edge.stopped', {n:edgeItems.length, dir:j.dir});
+    }
+  } catch(e){ $('edgeMsg').textContent = e.message; }
+}
+let edgeOn = false;
+$('bEdge').onclick = async () => {
+  if (lastJob?.kind === 'edge' && lastJob.running){ await api('/api/job/stop', {}); return; }
+  try {
+    await api('/api/lab/edge', {interval:+$('edgeInt').value || 1});
+    edgeItems = []; edgeExtra = {}; labSince = 0; lastJob = {kind:'edge', running:true};
+    $('bEdge').textContent = T('ui.stop'); $('edgeMsg').textContent = T('ui.edge.watching0'); pollLab();
+  } catch(e){ $('edgeMsg').className = 'err'; $('edgeMsg').textContent = e.message; }
+};
+async function edgeToProtocol(it, kind){
+  try {
+    const j = await api('/api/lab/add', {items:[{...it, kind, note:$('labNote').value}], source:'edge'});
+    $('edgeMsg').className = 'okc'; $('edgeMsg').textContent = T('ui.edge.saved', {id:j.rows[0].id, kind:TT('kind.', kind)}); $('labNote').value = ''; loadLab();
+  } catch(e){ $('edgeMsg').className = 'err'; $('edgeMsg').textContent = e.message; }
+}
+$('bEdgeNow').onclick = () => { const it = edgeItems[edgeItems.length - 1]; if (it) edgeToProtocol(it, $('labKind').value); else $('edgeMsg').textContent = T('ui.edge.needstart'); };
+function renderEdge(j){
+  const last = edgeItems[edgeItems.length - 1];
+  if (last){
+    showLock('eLock', {locked:last.locked, text:last.device_status, st:last.st});
+    $('eCN').textContent = f1(last.cn); $('eME').textContent = f1(last.mer);
+    $('eCB').textContent = last.cber_v != null ? fBer(last.cber_v, last.cber) : (last.cber ?? '—');
+    $('eVB').textContent = last.vber_v != null ? fBer(last.vber_v, last.vber) : (last.vber ?? '—');
+  }
+  if (j.running) $('edgeMsg').textContent = T('ui.edge.watching', {n:edgeItems.length, losses:edgeExtra.losses || 0});
+  renderEdgeBox(); drawEdge(); if ($('thEdge').checked) drawBer();
+}
+function renderEdgeBox(){
+  const box = $('edgeBox'); box.innerHTML = '';
+  const e = edgeExtra.edge;
+  if (e){
+    const s = el('span', T('ui.edge.candidate', {time:e.time.slice(11), cn:f1(e.cn), mer:f1(e.mer), cber:e.cber_v != null ? fBer(e.cber_v, e.cber) : e.cber ?? '—',
+                          post:postName(labCurrent?.system), pber:e.vber_v != null ? fBer(e.vber_v, e.vber) : e.vber ?? '—', run:e.run}), 'st good');
+    const b = el('button', '→ ' + T('ui.edge.toprot'), 'pri'); b.onclick = () => edgeToProtocol(e, 'edge');
+    box.append(s, b);
+  }
+  if (edgeExtra.min_locked_cn != null) box.appendChild(el('span', T('ui.edge.mincn', {min:f1(edgeExtra.min_locked_cn), best:f1(edgeExtra.best_cn)}), 'mut'));
+}
+function drawEdge(){
+  const svg = $('edgeChart'), W = svg.clientWidth, H = 200, L = 34, B = 18; svg.innerHTML = '';
+  const pts = edgeItems.slice(-300); if (!W || pts.length < 1) return;
+  const top = Math.max(20, ...pts.map(p => Math.max(p.cn ?? 0, p.mer ?? 0))) + 1;
+  const X = i => L + (pts.length < 2 ? 0 : i / (pts.length - 1) * (W - L - 6)), Y = v => 6 + (1 - v / top) * (H - B - 6);
+  const dx = pts.length > 1 ? (W - L - 6) / (pts.length - 1) : W - L - 6;
+  pts.forEach((p, i) => { if (!p.locked) svg.appendChild(sv('rect', {x:X(i) - dx / 2, y:6, width:Math.max(1, dx), height:H - B - 6, fill:'var(--bad)', opacity:.13})); });
+  for (let v = 0; v <= top; v += 5){ svg.appendChild(sv('line', {x1:L, x2:W - 6, y1:Y(v), y2:Y(v), stroke:'var(--grid)'})); svg.appendChild(sv('text', {x:4, y:Y(v) + 4}, v)); }
+  for (const [k, col] of [['cn', 'var(--ok)'], ['mer', 'var(--trace)']]){
+    const d = pts.map((p, i) => p[k] == null ? null : [X(i), Y(p[k])]).filter(Boolean).map((q, i) => (i ? 'L' : 'M') + q[0].toFixed(1) + ' ' + q[1].toFixed(1)).join(' ');
+    if (d) svg.appendChild(sv('path', {d, fill:'none', stroke:col, 'stroke-width':1.8}));
+  }
+  const e = edgeExtra.edge; if (e){ const i = pts.findIndex(p => p.t === e.t); if (i >= 0) svg.appendChild(sv('line', {x1:X(i), x2:X(i), y1:6, y2:H - B, stroke:'var(--warn)', 'stroke-dasharray':'4 3', 'stroke-width':1.5})); }
+  svg.appendChild(sv('text', {x:L + 4, y:H - 4}, T('ui.edge.legend')));
+}
+
+/* BER(C/N) */
+async function theory(){
+  const bn = (+$('bnRs').value || 1.4).toFixed(2);
+  if (!theoryCache[bn] || theoryCache[bn].stale) theoryCache[bn] = await api('/api/lab/theory?bn=' + bn);
+  return theoryCache[bn];
+}
+async function drawBer(){
+  const svg = $('berChart'); if (!svg.clientWidth || !$('t-lab').classList.contains('on')) return;
+  let th; try { Object.values(theoryCache).forEach(c => c.stale = true); th = await theory(); } catch(e){ return; }
+  const W = svg.clientWidth, H = 330, L = 50, R = 10, T0 = 10, B = 34, X0 = -2, X1 = 22, Y0 = -12, Y1 = 0;
+  svg.innerHTML = '';
+  const X = v => L + (v - X0) / (X1 - X0) * (W - L - R), Y = lg => T0 + (Y1 - lg) / (Y1 - Y0) * (H - T0 - B);
+  for (let v = X0; v <= X1; v += 2){ svg.appendChild(sv('line', {x1:X(v), x2:X(v), y1:T0, y2:H - B, stroke:'var(--grid)'})); svg.appendChild(sv('text', {x:X(v) - 6, y:H - B + 14}, v)); }
+  for (let lg = Y0; lg <= Y1; lg += 2){ svg.appendChild(sv('line', {x1:L, x2:W - R, y1:Y(lg), y2:Y(lg), stroke:'var(--grid)'})); svg.appendChild(sv('text', {x:4, y:Y(lg) + 4}, lg === 0 ? '1' : `1E${lg}`)); }
+  svg.appendChild(sv('text', {x:W / 2 - 30, y:H - 4}, 'C/N, ' + T('ui.db')));
+  const cols = {QPSK:'var(--acc)', '8PSK':'var(--warn)'};
+  for (const [m, on] of [['QPSK', $('thQ').checked], ['8PSK', $('th8').checked]]){
+    if (!on) continue;
+    const c = th.curves[m].filter(p => p[0] <= X1);
+    svg.appendChild(sv('path', {d:c.map((p, i) => (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(Math.log10(p[1])).toFixed(1)).join(' '), fill:'none', stroke:cols[m], 'stroke-width':2}));
+    const lp = c[Math.min(c.length - 1, Math.floor(c.length * 0.55))]; if (lp) svg.appendChild(sv('text', {x:X(lp[0]) + 6, y:Y(Math.log10(lp[1])) - 4, style:`fill:${cols[m]}`}, m + ' ' + T('ui.ber.theory')));
+  }
+  if (th.qef?.cn != null){
+    svg.appendChild(sv('line', {x1:X(th.qef.cn), x2:X(th.qef.cn), y1:T0, y2:H - B, stroke:'var(--fg)', 'stroke-dasharray':'5 4', opacity:.6}));
+    svg.appendChild(sv('text', {x:X(th.qef.cn) + 4, y:T0 + 12}, `QEF ${th.qef.system} ${th.qef.modulation} ${th.qef.fec}: C/N ${th.qef.cn} ${T('ui.db')}`));
+  }
+  const dot = (cn, v, m, hollow, r = 4, title = '', raw = null) => {
+    if (cn == null || v == null || v <= 0) return;
+    const b = berBound(raw);
+    const c = sv('circle', {cx:X(Math.max(X0, Math.min(X1, cn))), cy:Y(Math.max(Y0, Math.min(Y1, Math.log10(v)))), r,
+                           fill:hollow || b ? 'none' : cols[m] || 'var(--fg)', stroke:cols[m] || 'var(--fg)', 'stroke-width':1.6, ...(b ? {'stroke-dasharray':'2 2'} : {})});
+    if (title) c.appendChild(sv('title', {}, title + (b === '<' ? ' — ' + T('ui.ber.below') : b === '>' ? ' — ' + T('ui.ber.above') : '')));
+    svg.appendChild(c);
+  };
+  if ($('thEdge').checked) edgeItems.forEach(p => dot(p.cn, p.cber_v, labCurrent?.modulation || 'QPSK', false, 2, '', p.cber));
+  let n = 0;
+  for (const r of labRows){
+    const m = r.modulation || 'QPSK';
+    if (r.cber_v != null) n++;
+    dot(r.cn, r.cber_v, m, false, 5, `№${r.id} ${TT('kind.', r.kind)}: C/N ${f1(r.cn)}, CBER ${fBer(r.cber_v, r.cber)}`, r.cber);
+    dot(r.cn, r.vber_v, m, true, 5, `№${r.id} ${TT('kind.', r.kind)}: C/N ${f1(r.cn)}, ${r.post_name || postName(r.system)} ${fBer(r.vber_v, r.vber)} (${T('ui.ber.after')})`, r.vber);
+  }
+  svg.appendChild(sv('text', {x:L + 6, y:H - B - 6}, T('ui.ber.legend', {n})));
+}
+['bnRs','thQ','th8','thEdge'].forEach(i => $(i).onchange = drawBer);
+function erfc(x){ const z = Math.abs(x), t = 1 / (1 + 0.5 * z);
+  const r = t * Math.exp(-z * z - 1.26551223 + t * (1.00002368 + t * (0.37409196 + t * (0.09678418 + t * (-0.18628806 + t * (0.27886807 + t * (-1.13520398 + t * (1.48851587 + t * (-0.82215223 + t * 0.17087277)))))))));
+  return x >= 0 ? r : 2 - r; }
+function calcBer(){
+  const cn = +$('calcCn').value, bn = +$('bnRs').value || 1.4;
+  const out = ['QPSK', '8PSK'].map(m => {
+    const k = m === 'QPSK' ? 2 : 3, eb = cn + 10 * Math.log10(bn / k), g = Math.pow(10, eb / 10);
+    const pb = m === 'QPSK' ? 0.5 * erfc(Math.sqrt(g)) : Math.min(0.5, erfc(Math.sqrt(3 * g) * Math.sin(Math.PI / 8)) / 3);
+    return `${m}: Eb/N0 ${eb.toFixed(2)} ${T('ui.db')}, BER ${pb.toExponential(2)}`;
+  });
+  $('calcOut').textContent = out.join(' · ') + ' (' + T('ui.ber.model') + ')';
+}
+$('calcCn').oninput = calcBer; $('bnRs').addEventListener('input', calcBer);
+
+/* recommended channels */
+async function loadRec(){
+  const pos = $('kSat').value || sat?.position; if (!pos) return;
+  try { recData = await api('/api/lab/recommend?pos=' + encodeURIComponent(pos)); recData.pos = pos; } catch(e){ $('kQ').textContent = e.message; return; }
+  renderRec();
+}
+function renderRec(){
+  if (!recData) return;
+  const pos = recData.pos;
+  for (const [box, list] of [['kQ', recData.qpsk], ['k8', recData.psk8]]){
+    $(box).innerHTML = '';
+    if (!list.length) $(box).appendChild(el('div', T('ui.rec.none'), 'mut'));
+    list.forEach((t, i) => {
+      const card = el('div', null, 'tile'); card.style.marginBottom = '8px';
+      if (i === 0) card.style.borderColor = 'var(--acc)';
+      const head = el('div', null, 'row');
+      head.appendChild(el('b', `${(+t.freq_mhz).toFixed(2)} ${t.pol} · SR ${t.sr} · ${t.system} ${t.modulation} ${t.fec}`));
+      if (i === 0) head.appendChild(el('span', T('ui.rec.best'), 'st good'));
+      const go = el('button', '▶ ' + T('ui.tune.short'), 'needconn'); go.disabled = !connected;
+      go.onclick = async () => { await tune({rf_mhz:t.freq_mhz, lo_mhz:t.lo_mhz, sr:t.sr, fec:t.fec, lnb:t.lnb, standard:t.system, modulation:t.modulation, pos});
+                                 $('aimTarget').textContent = tpTarget(pos, t); loadLab(); };
+      const sp = el('span'); sp.style.flex = '1'; head.append(sp, go);
+      card.appendChild(head);
+      card.appendChild(el('div', `LNB ${t.lnb} · ${T('ui.tune.if')} ${(+t.if_mhz).toFixed(1)} ${T('ui.mhz')} · ${t.channels.slice(0, 4).join(', ')}`, 'r'));
+      card.appendChild(el('div', t.why.map(w => T('why.' + w.k, w)).join(' · '), 'mut')).style.fontSize = '12px';
+      $(box).appendChild(card);
+    });
+  }
+}
+$('kSat').onchange = () => { $('pSat').value = $('kSat').value; loadRec(); loadPairs(); };
+
+/* QPSK ↔ 8PSK pairs */
+async function loadPairs(){
+  const pos = $('pSat').value || sat?.position; if (!pos) return;
+  try { pairsData = (await api('/api/lab/pairs?pos=' + encodeURIComponent(pos))).pairs; renderPairs(); } catch(e){ $('pairRes').textContent = e.message; }
+}
+const tpLabel = t => `${f1(t.freq_mhz, 2)} ${t.pol} · ${t.sr} · ${t.system} ${t.modulation} ${t.fec}`;
+const diffText = ds => ds.map(d => T('diff.' + d.k, d)).join(', ');
+function renderPairs(){
+  const tb = $('pairTable'); tb.innerHTML = '';
+  const hr = el('tr'); ['8PSK','ui.col.channels','ui.pair.q','ui.pair.diff'].forEach(h => hr.appendChild(el('th', h.startsWith('ui.') ? T(h) : h))); tb.appendChild(hr);
+  const rows = pairsData.filter(p => (!$('pCh').checked || p.psk8.channels.length) && (!$('pSd').checked || p.psk8.mpeg2_sd.length)).slice(0, 60);
+  if (!rows.length){ const tr = el('tr'), td = el('td', T('ui.pair.none'), 'mut'); td.colSpan = 4; tr.appendChild(td); tb.appendChild(tr); }
+  for (const p of rows){
+    const tr = el('tr'), e = p.psk8;
+    tr.appendChild(el('td', tpLabel(e), 'num'));
+    const ch = el('td', null, 'ch');
+    if (e.verified) { ch.appendChild(el('b', '★ ' + e.verified.join(', '))); ch.append(' · '); }
+    ch.append(e.channels.slice(0, 4).join(', ') + (e.mpeg2_sd.length ? ` · SD: ${e.mpeg2_sd.slice(0, 2).join(', ')}` : '')); tr.appendChild(ch);
+    const sel = el('select'); p.options.forEach((o, i) => { const op = el('option', `${tpLabel(o.qpsk)} (Δf ${o.df_mhz > 0 ? '+' : ''}${o.df_mhz})`); op.value = i; sel.appendChild(op); });
+    const tdS = el('td'); tdS.appendChild(sel); tr.appendChild(tdS);
+    const tdD = el('td'), df = el('div', null, 'warnc'), req = el('div', null, 'mut');
+    const upd = () => { const o = p.options[+sel.value]; df.textContent = diffText(o.diffs) || T('ui.pair.onlymod'); df.className = o.diffs.length ? 'warnc' : 'okc';
+                        req.textContent = `${T('ui.pair.req')}: ${e.required_cn_db ?? '—'} / ${o.qpsk.required_cn_db ?? '—'} ${T('ui.db')}` + (o.d_req_cn != null ? ` (Δ ${o.d_req_cn > 0 ? '+' : ''}${o.d_req_cn})` : ''); };
+    sel.onchange = upd; upd(); tdD.append(df, req); tr.appendChild(tdD);
+    const tdb = el('div', null, 'pairbtns');
+    const tuneTp = t => tune({rf_mhz:t.freq_mhz, lo_mhz:t.lo_mhz, sr:t.sr, fec:t.fec, lnb:t.lnb, standard:t.system, modulation:t.modulation, pos:$('pSat').value}).then(loadLab);
+    const b8 = el('button', '▶ 8PSK', 'needconn pairgo'); b8.onclick = () => tuneTp(e);
+    const bq = el('button', '▶ QPSK', 'needconn pairgo'); bq.onclick = () => tuneTp(p.options[+sel.value].qpsk);
+    const m = el('button', T('ui.pair.measure'), 'pri needconn pairgo'); m.onclick = () => measurePair(e, p.options[+sel.value]);
+    [b8, bq, m].forEach(b => { b.disabled = !connected; tdb.append(b, ' '); });
+    tdS.appendChild(tdb); tb.appendChild(tr);
+  }
+}
+['pCh','pSd'].forEach(i => $(i).onchange = renderPairs);
+$('pSat').onchange = loadPairs;
+async function measurePair(e, o){
+  const pos = $('pSat').value, q = o.qpsk;
+  pairSel = {e, o, pos}; pairItems = [];
+  try {
+    await api('/api/scan', {picks:[{pos, freq_mhz:q.freq_mhz, pol:q.pol, sr:q.sr}, {pos, freq_mhz:e.freq_mhz, pol:e.pol, sr:e.sr}],
+                            dwell:+$('pDwell').value || 3, keep_order:true, kind:'pair'});
+    document.querySelectorAll('.pairgo').forEach(b => b.disabled = true);
+    labSince = 0; $('pairRes').textContent = T('ui.pair.busy'); pollLab();
+  } catch(err){ $('pairRes').innerHTML = ''; $('pairRes').appendChild(el('span', err.message, 'err')); }
+}
+function renderPairRes(j){
+  const box = $('pairRes'); box.innerHTML = '';
+  if (j.running) box.appendChild(el('div', T('ui.pair.progress', {done:j.done, total:j.total, cur:j.current}), 'mut'));
+  if (j.error) box.appendChild(el('div', T('ui.error') + ': ' + j.error, 'err'));
+  const q = pairItems.find(i => i.modulation === 'QPSK'), e = pairItems.find(i => i.modulation === '8PSK');
+  if (!q && !e) return;
+  const tb = el('table', null, 't'), add = (h, f, cls = 'num') => { const tr = el('tr'); tr.appendChild(el('th', h)); tr.appendChild(el('td', q ? f(q) : '…', cls)); tr.appendChild(el('td', e ? f(e) : '…', cls)); tb.appendChild(tr); };
+  const hr = el('tr'); ['', 'QPSK', '8PSK'].forEach(h => hr.appendChild(el('th', h))); tb.appendChild(hr);
+  add(T('ui.channel').replace(/:$/, ''), i => `${f1(i.freq_mhz, 2)} ${i.pol} · ${i.sr} · ${i.system} ${i.fec}`, '');
+  add(T('ui.col.device'), i => (i.locked ? '✔ ' : '✘ ') + (i.device_status || ''), '');
+  add('C/N, ' + T('ui.db'), i => f1(i.cn));
+  add('MER, ' + T('ui.db'), i => f1(i.mer));
+  add('CBER', i => i.cber_v != null ? fBer(i.cber_v, i.cber) : i.cber ?? '—');
+  add('VBER / LBER', i => postName(i.system) + ' ' + (i.vber_v != null ? fBer(i.vber_v, i.vber) : i.vber ?? '—'));
+  add(T('ui.pair.req1'), i => f1(i.required_cn));
+  add(T('ui.col.margin'), i => i.margin != null ? (i.margin > 0 ? '+' : '') + i.margin : '—');
+  box.appendChild(tb);
+  if (q && e && q.cn != null && e.cn != null)
+    box.appendChild(el('div', T('ui.pair.dcn', {d:(e.cn - q.cn).toFixed(1)}) + (pairSel?.o.diffs.length ? ' · ' + T('ui.pair.also') + ' ' + diffText(pairSel.o.diffs) : ''), 'mut'));
+  if (!j.running && pairItems.length){
+    const b = el('button', '→ ' + T('ui.pair.save'), 'pri');
+    b.onclick = async () => {
+      try { await api('/api/lab/add', {items:pairItems.map(i => ({...i, kind:i.modulation === '8PSK' ? '8psk' : 'qpsk'})), source:'pair', note:$('labNote').value});
+            b.textContent = '✓ ' + T('ui.saved'); b.disabled = true; loadLab(); } catch(err){ b.textContent = err.message; }
+    };
+    box.appendChild(b);
+  }
+}
+
+/* look angles */
+let geoTimer = null;
+async function loadGeo(){
+  const qs = new URLSearchParams({lat:$('gLat').value, lon:$('gLon').value, decl:$('gDecl').value});
+  try { localStorage.setItem('geo', JSON.stringify([$('gLat').value, $('gLon').value, $('gDecl').value])); } catch(e){}
+  try {
+    const j = await api('/api/lab/angles?' + qs);
+    $('gMsg').className = 'mut'; $('gMsg').textContent = `φ = ${j.lat.toFixed(6)}°, λ = ${j.lon.toFixed(6)}°`;
+    const tb = $('geoTable'); tb.innerHTML = '';
+    const hr = el('tr'); ['ui.geo.pos','ui.sat','Az, °', ...(j.decl != null ? ['ui.geo.azmag'] : []), 'El, °','ui.geo.skew','ui.geo.dist','ui.geo.delay'].forEach(h => hr.appendChild(el('th', h.startsWith('ui.') ? T(h) : h))); tb.appendChild(hr);
+    for (const r of j.rows){
+      const tr = el('tr'); if (r.pos === sat?.position) tr.style.fontWeight = '600';
+      tr.appendChild(el('td', r.pos)); tr.appendChild(el('td', r.name));
+      [r.az.toFixed(2), ...(j.decl != null ? [r.az_mag.toFixed(2)] : []), r.visible ? r.el.toFixed(2) : `${r.el.toFixed(2)} (${T('ui.geo.hidden')})`,
+       (r.skew > 0 ? '+' : '') + r.skew.toFixed(1), r.d_km.toFixed(0), r.delay_ms.toFixed(1)].forEach(v => tr.appendChild(el('td', v, 'num')));
+      tb.appendChild(tr);
+    }
+  } catch(e){ $('gMsg').className = 'err'; $('gMsg').textContent = e.message; }
+}
+try { const g = JSON.parse(localStorage.getItem('geo') || 'null'); if (g){ $('gLat').value = g[0]; $('gLon').value = g[1]; $('gDecl').value = g[2] || ''; } } catch(e){}
+['gLat','gLon','gDecl'].forEach(i => $(i).oninput = () => { clearTimeout(geoTimer); geoTimer = setTimeout(loadGeo, 400); });
+$('bGeoLab').onclick = () => { $('gLat').value = '50°26′51,15″ N'; $('gLon').value = '30°27′28,12″ E'; loadGeo(); };
+
+/* ---------- found channels ---------- */
+let foundItems = [];
+async function loadFound(){
+  try {
+    const j = await api('/api/found');
+    foundItems = j.items; $('fCsv').textContent = j.csv;
+    renderFound();
+  } catch(e){ $('fCount').textContent = e.message; }
+}
+function renderFound(){
+  const keep = $('fSat').value, poss = [...new Set(foundItems.map(i => i.pos).filter(Boolean))].sort();
+  $('fSat').innerHTML = ''; const o0 = el('option', T('ui.all')); o0.value = ''; $('fSat').appendChild(o0);
+  poss.forEach(p => $('fSat').appendChild(el('option', p)));
+  $('fSat').value = poss.includes(keep) ? keep : '';
+  const q = $('fFind').value.trim().toLowerCase(), sp = $('fSat').value;
+  const rows = foundItems.filter(i => (!sp || i.pos === sp) && (!q || (i.channels || []).some(c => c.toLowerCase().includes(q))));
+  $('fCount').textContent = T('ui.found.count', {n:foundItems.length}) + (rows.length !== foundItems.length ? ' ' + T('ui.found.shown', {n:rows.length}) : '');
+  const tb = $('foundTable'); tb.innerHTML = '';
+  const hr = el('tr');
+  ['ui.sat','ui.col.freq','ui.col.pol','SR','ui.col.system','ui.col.mod','FEC','ui.col.device','ui.found.seen','ui.found.times','ui.found.bestcn','ui.found.bestmer','CBER','VBER','ui.found.src','ui.col.channels',''].forEach(h => hr.appendChild(el('th', h.startsWith('ui.') ? T(h) : h)));
+  tb.appendChild(hr);
+  const t2 = s => (s || '').replace('T', ' ').slice(5, 16);
+  for (const i of rows){
+    const tr = el('tr');
+    [i.pos || '?', (+i.freq_mhz).toFixed(2), i.pol, i.sr, i.system, i.modulation, i.fec].forEach((v, n) => tr.appendChild(el('td', v ?? '', n === 1 || n === 3 ? 'num' : '')));
+    const st = el('td'); st.appendChild(el('span', '✔ ' + (i.device_status || T('status.locked')), 'st good')); tr.appendChild(st);
+    const seen = el('td', null, 'num'); seen.append(t2(i.first_seen)); seen.appendChild(el('br')); seen.append(t2(i.last_seen)); tr.appendChild(seen);
+    [i.times, i.best_cn, i.best_mer].forEach(v => tr.appendChild(el('td', v ?? '', 'num')));
+    [i.cber, i.vber].forEach(v => { const td = el('td', berText(v), 'num'); td.title = v ?? ''; tr.appendChild(td); });
+    tr.appendChild(el('td', TT('src.', i.source)));
+    const ch = el('td', null, 'ch'), ver = i.verified || i.caught;
+    if (ver) { ch.appendChild(el('b', '★ ' + ver.join(', '))); ch.appendChild(el('br')); }
+    ch.append((i.channels || []).slice(0, 10).join(', ') + ((i.channels || []).length > 10 ? ' ' + T('ui.more', {n:i.channels.length - 10}) : ''));
+    tr.appendChild(ch);
+    const td = el('td'), go = el('button', '▶'); go.disabled = !connected || !i.sr || !i.fec; go.title = T('ui.found.retune');
+    go.onclick = async () => {
+      if (i.pos && sat?.position !== i.pos) await loadSat(i.pos);
+      await tune({rf_mhz:i.freq_mhz, lo_mhz:i.lo_mhz || (i.freq_mhz >= 11700 ? 10600 : 9750), sr:i.sr, fec:i.fec,
+                  lnb:i.lnb || ((i.pol === 'V' ? '13V' : '18V') + (i.freq_mhz >= 11700 ? '+22kHz' : '')),
+                  standard:i.system || 'DVB-S', modulation:i.modulation || 'QPSK', pos:i.pos});
+      loadFound();
+    };
+    td.appendChild(go); tr.appendChild(td);
+    tb.appendChild(tr);
+  }
+}
+$('fSat').onchange = renderFound; $('fFind').oninput = renderFound;
+setInterval(() => { if ($('t-found').classList.contains('on')) loadFound(); }, 3000);
+
+/* ---------- datalogger ---------- */
+let lastDl = null;
+async function loadLocal(select){
+  const j = await api('/api/dl/local');
+  $('dlLocal').innerHTML = '';
+  j.files.forEach(f => { const o = el('option', f); o.value = f; $('dlLocal').appendChild(o); });
+  if (select) $('dlLocal').value = select;
+  if (!j.files.length) $('dlInfo').textContent = T('ui.dl.none', {dir:j.dir});
+}
+function renderDl(p){
+  lastDl = p;
+  const v = $('dlView'); v.innerHTML = '';
+  $('dlInfo').textContent = `«${p.name}» ${p.header.datetime || ''} · CSV: ${p.csv}`;
+  for (const t of p.tests){
+    v.appendChild(el('h3', T('ui.dl.point', {name:t.name, units:t.units})));
+    const types = []; t.rows.forEach(r => r.measures.forEach(m => { if (!types.includes(m.label)) types.push(m.label); }));
+    const tb = el('table', null, 't'), hr = el('tr');
+    [T('ui.channel').replace(/:$/, ''), T('ui.col.freq'), T('ui.tune.std'), ...types].forEach(h => hr.appendChild(el('th', h)));
+    tb.appendChild(hr);
+    for (const r of t.rows){
+      const tr = el('tr');
+      tr.appendChild(el('td', r.channel)); tr.appendChild(el('td', r.freq_mhz.toFixed(2), 'num')); tr.appendChild(el('td', r.standard || ''));
+      for (const ty of types){ const m = r.measures.find(x => x.label === ty); tr.appendChild(el('td', m ? `${m.text} ${m.unit}`.trim() : '', 'num')); }
+      tb.appendChild(tr);
+    }
+    v.appendChild(tb);
+  }
+}
+$('bDlOpen').onclick = async () => { const f = $('dlLocal').value; if (!f) return; try { renderDl((await api('/api/dl/open', {file:f})).parsed); } catch(e){ $('dlInfo').textContent = e.message; } };
+$('bDlList').onclick = async () => {
+  const box = $('dlRemote'); box.textContent = T('ui.dl.reading');
+  try {
+    const j = await api('/api/dl/list', {}); box.innerHTML = '';
+    if (!j.files.length) box.textContent = T('ui.dl.empty');
+    j.files.forEach(f => {
+      const b = el('button', T('ui.dl.get', {name:f.name}));
+      b.onclick = async () => {
+        b.disabled = true; b.textContent = T('ui.dl.getting', {name:f.name});
+        try { const r = await api('/api/dl/download', {name:f.name}); await loadLocal(r.file); renderDl(r.parsed); b.textContent = '✓ ' + f.name; }
+        catch(e){ b.textContent = '✗ ' + f.name + ': ' + e.message; }
+        b.disabled = false;
+      };
+      box.appendChild(b);
+    });
+  } catch(e){ box.textContent = e.message; }
+};
+
+/* ---------- console and log ---------- */
+async function send(){
+  const c = $('cmd').value.trim(); if (!c) return;
+  try { const j = await api('/api/command', {cmd:c, expert:$('expert').checked}); $('reply').className = ''; $('reply').textContent = (j.ack ? 'ACK' : 'NAK') + (j.reply ? '  →  ' + j.reply : ''); }
+  catch(e){ $('reply').className = 'err'; $('reply').textContent = e.message; }
+}
+$('bSend').onclick = send;
+$('cmd').addEventListener('keydown', e => { if (e.key === 'Enter') send(); });
+async function refreshLog(){
+  try { const j = await api('/api/log'); const p = $('log'); const atEnd = p.scrollTop + p.clientHeight >= p.scrollHeight - 8;
+        p.textContent = j.lines.join('\n'); if (atEnd) p.scrollTop = p.scrollHeight; } catch(e){}
+}
+
+/* ---------- start ---------- */
+(async function init(){
+  const st = await api('/api/status');
+  $('ver').textContent = 'v' + st.version;
+  let lang = null; try { lang = localStorage.getItem('lang'); } catch(e){}
+  await setLang(lang || st.lang || (navigator.language || '').slice(0, 2) || 'uk', false);
+  setConnected(st.connected, st.info, st.demo);
+  $('aimTarget').textContent = T('ui.aim.current');
+  await loadSats(); loadLocal(); loadPorts(); $('bFull').onclick(); calcBer();
+  const j = await api('/api/job');
+  if (j.running){ if (j.kind === 'edge' || j.kind === 'pair'){ if (j.kind === 'edge') $('bEdge').textContent = T('ui.stop'); pollLab(); } else { jobRunning = true; pollJob(); } }
+  loadLab(); loadGeo(); liveTick(); setInterval(refreshLog, 1000);
+  try { const t = localStorage.getItem('tab'); if (t) document.querySelector(`#tabs button[data-t="${t}"]`)?.click(); } catch(e){}
+})();
+</script>
+</body>
+</html>

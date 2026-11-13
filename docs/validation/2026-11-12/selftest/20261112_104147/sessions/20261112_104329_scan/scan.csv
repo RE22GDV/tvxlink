@@ -1,0 +1,2 @@
+﻿Позиція;Частота, МГц;Пол.;SR;Стандарт;Модуляція;FEC;ПЧ, МГц;Рівень, дБмкВ;C/N;MER;CBER;VBER;Статус приладу;Код *?ST;Захоплення за, с;Поріг C/N;Запас;Підсумок;Канали
+13E;10992.1;V;27500;DVB-S;QPSK;2/3;1242.1000000000004;61.4;6.4;4.8;CB +39E-3;VB +54E-5;MPEG-2 TS DVB-S;6;1.4;6.9;-0.5;на межі;Rai YoYo HD, Rai Radio 2 Visual, Rai Storia, Camera dei Deputati, Italiana, Rai Premium HD, tivù la guida, Rai Radio 3 Classica

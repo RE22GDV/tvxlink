@@ -1,0 +1,76 @@
+[
+ {
+  "pos": "9E",
+  "freq_mhz": 11996.2,
+  "pol": "V",
+  "sr": 27500,
+  "system": "DVB-S",
+  "modulation": "QPSK",
+  "fec": "3/4",
+  "if_mhz": 1396.2000000000007,
+  "lnb": "13V+22kHz",
+  "level": 68.8,
+  "cn": 5.1,
+  "mer": 3.0,
+  "cber": "CB>+10E-2",
+  "vber": "VB>+10E-4",
+  "cber_v": 0.1,
+  "vber_v": 0.001,
+  "required_cn": 7.9,
+  "margin": -2.8,
+  "locked": false,
+  "st": 0,
+  "device_status": "No signal received",
+  "lock_s": null,
+  "status": "no_lock",
+  "channels": [
+   "CCTV 4",
+   "CCTV E",
+   "CCTV-R",
+   "CGTN-A",
+   "CGTN Documentary",
+   "EDM FM"
+  ],
+  "video": [
+   "MPEG-2"
+  ]
+ },
+ {
+  "pos": "9E",
+  "freq_mhz": 12034.3,
+  "pol": "V",
+  "sr": 27500,
+  "system": "DVB-S2",
+  "modulation": "8PSK",
+  "fec": "3/4",
+  "if_mhz": 1434.2999999999993,
+  "lnb": "13V+22kHz",
+  "level": 63.6,
+  "cn": 0.4,
+  "mer": 5.0,
+  "cber": "CB>+10E-2",
+  "vber": "VB>+10E-4",
+  "cber_v": 0.1,
+  "vber_v": 0.001,
+  "required_cn": 8.9,
+  "margin": -8.5,
+  "locked": false,
+  "st": 0,
+  "device_status": "немає захоплення (код 0)",
+  "lock_s": null,
+  "status": "no_lock",
+  "channels": [
+   "M6 HD",
+   "6ter",
+   "W9 Suisse HD",
+   "TV Congo",
+   "PCNE - Phoenix Chinese News & Entertainment",
+   "ORTM 1",
+   "RADIO CONGO"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ }
+]

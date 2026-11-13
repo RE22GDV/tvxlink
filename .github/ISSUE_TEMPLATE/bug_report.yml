@@ -1,0 +1,32 @@
+name: Bug report
+description: Something does not work as described
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you saw. Screenshots welcome.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: TVXLink version
+      placeholder: "1.0.0 (shown next to the logo)"
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options: [Windows 11, Windows 10, macOS, Linux]
+  - type: dropdown
+    id: meter
+    attributes:
+      label: Meter
+      options: [TV EXPLORER II+, TV EXPLORER II, demo mode (no meter)]
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: The relevant part of <data>/logs/session_*.log or of the "Log & console" tab.
+      render: text

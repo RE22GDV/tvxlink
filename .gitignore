@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Runtime (created by launcher.py in the per-user folder, but never commit a local copy)
+runtime/
+vendor/
+
+# Vendor files that must not be redistributed — tvxlink/vendor.py downloads them from PROMAX
+firmware/*.i51
+drivers/windows/TUSB3410/
+
+# Reverse-engineering inputs: PROMAX installers, unpacked programs, decompiler output,
+# raw KingOfSat pages. Only our own notes and scripts are in the repository.
+reverse/originals/
+reverse/extracted/
+reverse/decompiled/
+reverse/satellites_raw/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local notes for an AI agent on this machine
+CLAUDE.local.md

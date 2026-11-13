@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tvxlink"
+version = "1.0.0"
+description = "Open-source desktop companion for the PROMAX TV EXPLORER II / II+ satellite meter: tuning, live measurements, spectrum, antenna aiming, lab assistant, AI-agent CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Dmytro" }]
+keywords = ["promax", "tv-explorer", "satellite", "dvb-s", "dvb-s2", "spectrum", "antenna-alignment", "ber", "mer", "tusb3410"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+  "Operating System :: MacOS",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Communications",
+  "Intended Audience :: Education",
+  "Natural Language :: English",
+  "Natural Language :: Ukrainian",
+]
+dependencies = ["pyserial>=3.5", "pyusb>=1.2", "libusb-package>=1.0.26"]
+
+[project.urls]
+Homepage = "https://github.com/RE22GDV/tvxlink"
+Documentation = "https://github.com/RE22GDV/tvxlink/tree/main/docs"
+Issues = "https://github.com/RE22GDV/tvxlink/issues"
+
+[project.scripts]
+tvxlink = "tvxlink.app:main"
+tvx = "tvxlink.cli.tvx:main"
+tvxlink-selftest = "tvxlink.cli.selftest:main"
+tvxlink-lab = "tvxlink.cli.lab:main"
+tvxlink-vendor = "tvxlink.vendor:main"
+
+[tool.setuptools]
+packages = ["tvxlink", "tvxlink.cli", "tvxlink.locales", "tvxlink.satellites"]
+
+[tool.setuptools.package-data]
+tvxlink = ["ui.html"]
+"tvxlink.locales" = ["*.json"]
+"tvxlink.satellites" = ["*.json"]

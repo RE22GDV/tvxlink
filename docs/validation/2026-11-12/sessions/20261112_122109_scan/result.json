@@ -1,0 +1,80 @@
+[
+ {
+  "pos": "19.2E",
+  "freq_mhz": 11376.5,
+  "pol": "V",
+  "sr": 22000,
+  "system": "DVB-S2",
+  "modulation": "8PSK",
+  "fec": "2/3",
+  "if_mhz": 1626.5,
+  "lnb": "13V",
+  "level": 66.8,
+  "cn": 3.3,
+  "mer": 5.0,
+  "cber": "CB>+10E-2",
+  "vber": "VB>+10E-4",
+  "cber_v": 0.1,
+  "vber_v": 0.001,
+  "required_cn": 7.6,
+  "margin": -4.3,
+  "locked": false,
+  "st": 0,
+  "device_status": "немає захоплення (код 0)",
+  "lock_s": null,
+  "status": "no_lock",
+  "channels": [
+   "CGTN HD",
+   "CGTN Documentary",
+   "CGTN Français HD",
+   "Euronews German",
+   "CNBC Europe HD",
+   "Daystar TV Español",
+   "Telesur English",
+   "NAIZ irratia"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ },
+ {
+  "pos": "19.2E",
+  "freq_mhz": 11670.75,
+  "pol": "H",
+  "sr": 22000,
+  "system": "DVB-S2",
+  "modulation": "8PSK",
+  "fec": "2/3",
+  "if_mhz": 1920.75,
+  "lnb": "18V",
+  "level": 66.5,
+  "cn": 4.6,
+  "mer": 6.6,
+  "cber": "CB +81E-3",
+  "vber": "VB<+10E-9",
+  "cber_v": 0.081,
+  "vber_v": 1e-08,
+  "required_cn": 7.6,
+  "margin": -3.0,
+  "locked": true,
+  "st": 8,
+  "device_status": "MPEG-2 TS DVB-S2",
+  "lock_s": 3.6,
+  "status": "marginal",
+  "channels": [
+   "Sat 1 HD Austria",
+   "ProSieben HD Austria",
+   "Puls 4 HD Austria",
+   "Puls 24 HD",
+   "4mediathek",
+   "Sixx Austria",
+   "SAT.1 Gold Österreich",
+   "ProSieben MAXX Austria"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ }
+]

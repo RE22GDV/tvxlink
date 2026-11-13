@@ -1,0 +1,79 @@
+[
+ {
+  "pos": "19.2E",
+  "freq_mhz": 11243.75,
+  "pol": "H",
+  "sr": 22000,
+  "system": "DVB-S",
+  "modulation": "QPSK",
+  "fec": "5/6",
+  "if_mhz": 1493.75,
+  "lnb": "18V",
+  "level": 68.2,
+  "cn": 5.0,
+  "mer": 5.8,
+  "cber": "CB +26E-3",
+  "vber": "VB>+10E-4",
+  "cber_v": 0.026,
+  "vber_v": 0.001,
+  "required_cn": 8.9,
+  "margin": -3.9,
+  "locked": true,
+  "st": 6,
+  "device_status": "MPEG-2 TS DVB-S",
+  "lock_s": 5.1,
+  "status": "marginal",
+  "channels": [
+   "Lilo.TV",
+   "ATV 2 Austria",
+   "Bibel TV HD",
+   "Hope Channel HD Germany",
+   "ATV HD (Austria)",
+   "RTLup Austria",
+   "Test43",
+   "Service 13233"
+  ],
+  "video": [
+   "MPEG-4"
+  ]
+ },
+ {
+  "pos": "19.2E",
+  "freq_mhz": 11670.75,
+  "pol": "H",
+  "sr": 22000,
+  "system": "DVB-S2",
+  "modulation": "8PSK",
+  "fec": "2/3",
+  "if_mhz": 1920.75,
+  "lnb": "18V",
+  "level": 67.7,
+  "cn": 4.7,
+  "mer": 6.7,
+  "cber": "CB +89E-3",
+  "vber": "VB<+10E-9",
+  "cber_v": 0.089,
+  "vber_v": 1e-08,
+  "required_cn": 7.6,
+  "margin": -2.9,
+  "locked": true,
+  "st": 8,
+  "device_status": "MPEG-2 TS DVB-S2",
+  "lock_s": 6.7,
+  "status": "marginal",
+  "channels": [
+   "Sat 1 HD Austria",
+   "ProSieben HD Austria",
+   "Puls 4 HD Austria",
+   "Puls 24 HD",
+   "4mediathek",
+   "Sixx Austria",
+   "SAT.1 Gold Österreich",
+   "ProSieben MAXX Austria"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ }
+]

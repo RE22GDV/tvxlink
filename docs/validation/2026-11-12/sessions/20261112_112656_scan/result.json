@@ -1,0 +1,41 @@
+[
+ {
+  "pos": "16E",
+  "freq_mhz": 10928.5,
+  "pol": "H",
+  "sr": 30000,
+  "system": "DVB-S2",
+  "modulation": "8PSK",
+  "fec": "3/5",
+  "if_mhz": 1178.5,
+  "lnb": "18V",
+  "level": 58.7,
+  "cn": -0.5,
+  "mer": 5.0,
+  "cber": "CB>+10E-2",
+  "vber": "VB>+10E-4",
+  "cber_v": 0.1,
+  "vber_v": 0.001,
+  "required_cn": 6.5,
+  "margin": -7.0,
+  "locked": false,
+  "st": 0,
+  "device_status": "немає захоплення (код 0)",
+  "lock_s": null,
+  "status": "no_lock",
+  "channels": [
+   "Viasat Nature CEE",
+   "Viasat Explore",
+   "Viasat History",
+   "Viasat Kino Balkan HD",
+   "TV 1000 Russkoe Kino",
+   "Viasat History HD",
+   "Epic Drama HD",
+   "Viasat Explore HD"
+  ],
+  "video": [
+   "MPEG-2",
+   "MPEG-4"
+  ]
+ }
+]

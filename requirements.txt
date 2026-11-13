@@ -1,0 +1,4 @@
+# TVXLink runtime dependencies (installed by launcher.py on the first start)
+pyserial>=3.5          # COM port (Windows: TI TUSB3410 driver; Linux: ti_usb_3410_5052)
+pyusb>=1.2             # direct USB access (macOS)
+libusb-package>=1.0.26 # bundled libusb-1.0 library for pyusb

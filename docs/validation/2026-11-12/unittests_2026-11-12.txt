@@ -1,0 +1,53 @@
+Юніт-тести TVExplorer, 2026-11-12 21:49, Python 3.13.17
+
+python.exe : test_parse (tests.test_protocol.ParseTest.test_parse) ... ok
+At line:1 char:691
++ ... 0])"); $r = & "$env:LOCALAPPDATA\TVExplorer\venv\Scripts\python.exe"  ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_parse (tes...t_parse) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_nak (tests.test_protocol.ProtocolTest.test_nak) ... ok
+test_no_xon (tests.test_protocol.ProtocolTest.test_no_xon) ... ok
+test_query_and_order (tests.test_protocol.ProtocolTest.test_query_and_order) ... ok
+test_synthetic (tests.test_datalogger.ParseTest.test_synthetic) ... ok
+test_list_and_download (tests.test_datalogger.TransferTest.test_list_and_download) ... ok
+test_dvbs2_8psk_not_locked (tests.test_tune.TuneTest.test_dvbs2_8psk_not_locked) ... ok
+test_lock_status_codes (tests.test_tune.TuneTest.test_lock_status_codes) ... ok
+test_stops_when_locked (tests.test_tune.TuneTest.test_stops_when_locked) ... ok
+test_variant9_full (tests.test_tune.TuneTest.test_variant9_full) ... ok
+test_scan_ranks (tests.test_scan.ScanTest.test_scan_ranks) ... ok
+test_scan_uses_device_lock (tests.test_scan.ScanTest.test_scan_uses_device_lock) ... ok
+test_seek_stops_on_first_lock (tests.test_scan.ScanTest.test_seek_stops_on_first_lock) ... ok
+test_sweep (tests.test_scan.ScanTest.test_sweep) ... ok
+test_list_ports_runs (tests.test_serialport.SerialTest.test_list_ports_runs) ... ok
+test_loopback (tests.test_serialport.SerialTest.test_loopback) ... ok
+test_protocol_over_serial (tests.test_serialport.SerialTest.test_protocol_over_serial) ... ok
+test_selftest_demo (tests.test_tools.ToolsTest.test_selftest_demo) ... ok
+test_tvx_ident_query_tune (tests.test_tools.ToolsTest.test_tvx_ident_query_tune) ... ok
+test_tvx_refuses_dangerous (tests.test_tools.ToolsTest.test_tvx_refuses_dangerous) ... ok
+test_dedup_better_and_persist (tests.test_foundlog.FoundLogTest.test_dedup_better_and_persist) ... ok
+test_scan_records_locked (tests.test_foundlog.FoundLogTest.test_scan_records_locked) ... ok
+test_broken_page_keeps_old (tests.test_satdb.SatDbTest.test_broken_page_keeps_old) ... ok
+test_update_all_and_load (tests.test_satdb.SatDbTest.test_update_all_and_load) ... ok
+test_ber_bound (tests.test_lab.CalcTest.test_ber_bound) ... ok
+test_ber_theory_matches_manual (tests.test_lab.CalcTest.test_ber_theory_matches_manual) ... ok
+test_ber_value (tests.test_lab.CalcTest.test_ber_value) ... ok
+test_look_angles_match_manual (tests.test_lab.CalcTest.test_look_angles_match_manual) ... ok
+test_parse_coord (tests.test_lab.CalcTest.test_parse_coord) ... ok
+test_qef (tests.test_lab.CalcTest.test_qef) ... ok
+test_edge_finds_last_lock_before_loss (tests.test_lab.EdgeTest.test_edge_finds_last_lock_before_loss) ... ok
+test_journal (tests.test_lab.JournalTest.test_journal) ... ok
+test_no_window_says_how_to_start (tests.test_lab.LabChatTest.test_no_window_says_how_to_start) ... ok
+test_nearest_same_pol_and_band (tests.test_lab.PairsTest.test_nearest_same_pol_and_band) ... ok
+test_real_base (tests.test_lab.PairsTest.test_real_base) ... ok
+test_add_delete_persist (tests.test_lab.ProtocolTest.test_add_delete_persist) ... ok
+test_aggregate (tests.test_lab.ProtocolTest.test_aggregate) ... ok
+test_caught_first_on_13e (tests.test_lab.RecommendTest.test_caught_first_on_13e) ... ok
+test_fta_parsed (tests.test_lab.RecommendTest.test_fta_parsed) ... ok
+test_old_task_is_outdated (tests.test_lab.RecommendTest.test_old_task_is_outdated) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 66.387s
+
+OK

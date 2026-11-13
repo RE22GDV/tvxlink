@@ -1,0 +1,38 @@
+[
+ {
+  "pos": "9E",
+  "freq_mhz": 11996.2,
+  "pol": "V",
+  "sr": 27500,
+  "system": "DVB-S",
+  "modulation": "QPSK",
+  "fec": "3/4",
+  "if_mhz": 1396.2000000000007,
+  "lnb": "13V+22kHz",
+  "level": 65.9,
+  "cn": 4.0,
+  "mer": 5.9,
+  "cber": "CB +23E-3",
+  "vber": "VB +20E-5",
+  "cber_v": 0.023,
+  "vber_v": 0.0002,
+  "required_cn": 7.9,
+  "margin": -3.9,
+  "locked": true,
+  "st": 6,
+  "device_status": "MPEG-2 TS DVB-S",
+  "lock_s": 2.1,
+  "status": "marginal",
+  "channels": [
+   "CCTV 4",
+   "CCTV E",
+   "CCTV-R",
+   "CGTN-A",
+   "CGTN Documentary",
+   "EDM FM"
+  ],
+  "video": [
+   "MPEG-2"
+  ]
+ }
+]
